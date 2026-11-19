@@ -1,0 +1,11 @@
+{
+  "description.jei.debug.formatting.1": "Тестирование замен форматирования %s.",
+  "description.jei.debug.formatting.2": "Тестирование замен форматирования %s %s.",
+  "description.jei.debug.formatting.3": "%s вложено",
+  "description.jei.wooden.door.1": "Деревянные двери позволяют огородить монстрам проход в вашу постройку.\\nТестируем предложения.",
+  "description.jei.wooden.door.2": "Нажатие по двери изменяет её состояние с открытого на закрытое и наоборот.",
+  "description.jei.wooden.door.3": "Деревянные двери могут быть открыты/закрыты с помощью редстоун-схем.",
+  "jei.alias.panda.spawn.egg": "подвержена вымиранию",
+  "jei.alias.villager.spawn.egg": "ХМММ",
+  "_comment": "Настройки"
+}

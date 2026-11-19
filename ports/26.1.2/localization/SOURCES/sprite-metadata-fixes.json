@@ -1,0 +1,11 @@
+{
+  "source": "Installed Gravel GUI 1.2.4 and Powah 7.0.4-alpha",
+  "unchanged_image_pixels": true,
+  "fixed_metadata": [
+    "assets/minecraft/textures/gui/sprites/toast/tutorial.png",
+    "assets/minecraft/textures/gui/sprites/friends/toast_background.png",
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png",
+    "assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png",
+    "assets/powah/textures/item/ender_core.png"
+  ]
+}

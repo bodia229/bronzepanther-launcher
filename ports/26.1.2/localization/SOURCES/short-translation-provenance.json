@@ -1,0 +1,650 @@
+[
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.enableEffects",
+    "english": "Enable Effects",
+    "russian": "Включить эффекты"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantum armor",
+    "english": "Quantum Armor",
+    "russian": "Квантовая броня"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantum computer",
+    "english": "Quantum Computer",
+    "russian": "Квантовый компьютер"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorAttackSpeedBoost",
+    "english": "Attack Speed Boost",
+    "russian": "Прибавка к скорости атаки"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorEvasionChance",
+    "english": "Evasion Chance",
+    "russian": "Шанс уклонения"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorHpBufferHearts",
+    "english": "HP Buffer Hearts",
+    "russian": "Дополнительное здоровье в сердцах"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorLuckBoost",
+    "english": "Luck Boost",
+    "russian": "Прибавка к удаче"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxFlightSpeed",
+    "english": "Maximum Flight Speed",
+    "russian": "Максимальная скорость полёта"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxJumpHeight",
+    "english": "Maximum Jump Height",
+    "russian": "Максимальная высота прыжка"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxMagnetRange",
+    "english": "Maximum Magnet Range",
+    "russian": "Максимальный радиус магнита"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxReachBoost",
+    "english": "Maximum Reach Boost",
+    "russian": "Максимальное увеличение дальности взаимодействия"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxSprintSpeed",
+    "english": "Maximum Sprint Speed",
+    "russian": "Максимальная скорость бега"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxStepHeight",
+    "english": "Maximum Step Height",
+    "russian": "Максимальная высота подъёма без прыжка"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorMaxWalkSpeed",
+    "english": "Maximum Walk Speed",
+    "russian": "Максимальная скорость ходьбы"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorPercentageDamageAbsorption",
+    "english": "Percentage Damage Absorption",
+    "russian": "Доля поглощаемого урона"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorRegenerationPerTick",
+    "english": "Regeneration Per Tick",
+    "russian": "Восстановление здоровья за такт"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorStrengthBoost",
+    "english": "Strength Boost",
+    "russian": "Прибавка к силе"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumArmorSwimSpeedBoost",
+    "english": "Swim Speed Boost",
+    "russian": "Прибавка к скорости плавания"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumComputerDataEntanglerMultiplication",
+    "english": "Data Entangler Multiplication",
+    "russian": "Множитель запутывателя данных"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumComputerMaxMultiThreaders",
+    "english": "Maximum Multi-Threaders",
+    "russian": "Максимум многопоточных блоков"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumComputerMultiThreaderMultiplication",
+    "english": "Multi-Threader Multiplication",
+    "russian": "Множитель многопоточного блока"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.quantumComputermaxDataEntanglers",
+    "english": "Maximum Data Entanglers",
+    "russian": "Максимум запутывателей данных"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "exported_setting.advanced_ae.allowed_output_sides",
+    "english": "Allowed Sides",
+    "russian": "Разрешённые стороны"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.advanced_ae.ApplyToAll",
+    "english": "Apply to all",
+    "russian": "Применить ко всем"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.advanced_ae.QuantumCrafterTerminalShort",
+    "english": "Quantum Crafter T.",
+    "russian": "Терм. квант. сборщиков"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.advanced_ae.StyleConfig",
+    "english": "Style Config",
+    "russian": "Настройки оформления"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.CrafterTerminalSetting",
+    "english": "Quantum Crafter Terminal",
+    "russian": "Терминал квантовых сборщиков"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.FilteredImport",
+    "english": "Filtered Import",
+    "russian": "Фильтрация ввода"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.FilteredImportOff",
+    "english": "Input is unrestricted",
+    "russian": "Ввод без ограничений"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.InvalidPattern",
+    "english": "Invalid Pattern",
+    "russian": "Неверный шаблон"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.ShowCraftersCategory",
+    "english": "Display Mode",
+    "russian": "Режим отображения"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.AttackSpeedUpgrade",
+    "english": "Attack Speed",
+    "russian": "Скорость атаки"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.AutoFeedUpgrade",
+    "english": "Auto Feed",
+    "russian": "Автоматическое питание"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.AutoStockUpgrade",
+    "english": "Auto Stock",
+    "russian": "Пополнение запасов"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.JumpHeightUpgrade",
+    "english": "Jump Height",
+    "russian": "Высота прыжка"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.LavaImmunityUpgrade",
+    "english": "Lava Immunity",
+    "russian": "Защита от лавы"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.LuckBoostUpgrade",
+    "english": "Luck Boost",
+    "russian": "Прибавка к удаче"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.NightVisionUpgrade",
+    "english": "Night Vision",
+    "russian": "Ночное зрение"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.NoFlightDriftUpgrade",
+    "english": "No Flight Drift",
+    "russian": "Без инерции в полёте"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.Pick-CraftUpgrade",
+    "english": "Pick-Craft",
+    "russian": "Крафт выбранного блока"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.PortableWorkbenchUpgrade",
+    "english": "Portable Workbench",
+    "russian": "Переносной верстак"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.ReachBoostUpgrade",
+    "english": "Reach Boost",
+    "russian": "Дальность взаимодействия"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.SprintSpeedUpgrade",
+    "english": "Sprint Speed",
+    "russian": "Скорость бега"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.StepAssistUpgrade",
+    "english": "Step Assist",
+    "russian": "Подъём без прыжка"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.SwimSpeedUpgrade",
+    "english": "Swim Speed",
+    "russian": "Скорость плавания"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.WalkSpeedUpgrade",
+    "english": "Walk Speed",
+    "russian": "Скорость ходьбы"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.WaterBreathingUpgrade",
+    "english": "Water Breathing",
+    "russian": "Подводное дыхание"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "item.advanced_ae.camo_card",
+    "english": "Camo Card",
+    "russian": "Карта маскировки"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.gui.tooltip.buttonnormal",
+    "english": "Close Cosmetic Inventory",
+    "russian": "Закрыть косметический инвентарь"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.config.CosArmorToggleButton_Hidden",
+    "english": "Hide Toggle Button",
+    "russian": "Скрыть кнопку переключения"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.config.CosArmorToggleButton_Left",
+    "english": "Toggle Button X Position",
+    "russian": "Положение кнопки по X"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.config.CosArmorToggleButton_Top",
+    "english": "Toggle Button Y Position",
+    "russian": "Положение кнопки по Y"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.config.CosArmorDisableCosHatCommand",
+    "english": "Disable /coshat Command",
+    "russian": "Отключить команду /coshat"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "entity.draconicevolution.persistent_item",
+    "english": "Persistent Item",
+    "russian": "Несгораемый предмет"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "gui.draconicevolution.item_config.drop_prop_here",
+    "english": "Drop Property Here",
+    "russian": "Перетащите свойство сюда"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "item_dislocate.draconicevolution.activate",
+    "english": "Item Dislocator Activated",
+    "russian": "Перемещатель предметов включён"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "item_dislocate.draconicevolution.deactivate",
+    "english": "Item Dislocator Deactivated",
+    "russian": "Перемещатель предметов выключен"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.category.villager_trading",
+    "english": "Villager Trading",
+    "russian": "Торговля с жителями"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_foused_items",
+    "english": "Enable Items Highlight",
+    "russian": "Подсвечивать предметы"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_foused_items_animated",
+    "english": "Blink the Highlight",
+    "russian": "Мигающая подсветка"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_foused_items_foreground",
+    "english": "Highlight Whole Slot",
+    "russian": "Подсвечивать весь слот"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_foused_items_color",
+    "english": "Whole Slot Color",
+    "russian": "Цвет подсветки всего слота"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_foused_items_bg_color",
+    "english": "Background Only Color",
+    "russian": "Цвет фоновой подсветки"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.villager_trading_enable",
+    "english": "Enable Villager Trading",
+    "russian": "Включить торговлю с жителями"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.villager_trading_local_color",
+    "english": "Local Bookmarks Color",
+    "russian": "Цвет локальных закладок"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.villager_trading_global_color",
+    "english": "Global Bookmarks Color",
+    "russian": "Цвет глобальных закладок"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.continuous_crafting_method",
+    "english": "Continuous Crafting Method",
+    "russian": "Способ непрерывного крафта"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.highlight_clicking_slot",
+    "english": "Highlight Clicking Slot",
+    "russian": "Подсвечивать нажатый слот"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.fast_rename_checkbox_value",
+    "english": "§bRemember Checkbox State",
+    "russian": "§bЗапоминать состояние флажка"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.category.auto-refill.matching",
+    "english": "Items Matching",
+    "russian": "Сопоставление предметов"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.auto_refill_match_nbt",
+    "english": "Differentiate By NBT",
+    "russian": "Различать по NBT"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.auto_refill_match_nbt_type",
+    "english": "NBT Comparison Type",
+    "russian": "Способ сравнения NBT"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.stackable_threshold",
+    "english": "Stackable Threshold",
+    "russian": "Порог размера стака"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.show_locked_slots_bg_color",
+    "english": "Background Color",
+    "russian": "Цвет фона"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.gui.config.ScrollSettings",
+    "english": "Item Scrolling",
+    "russian": "Перемещение прокруткой"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.category.scroll.single",
+    "english": "Scrolling Cursor Items",
+    "russian": "Прокрутка предметов на курсоре"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.scroll_leave_last",
+    "english": "Leave One",
+    "russian": "Оставлять один"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.scroll_throw",
+    "english": "Drop/Throw",
+    "russian": "Выбрасывание"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.temp_disable",
+    "english": "Temporary Disable Scrolling",
+    "russian": "Временно отключить прокрутку"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.scroll_auto_pickup_next_for_single",
+    "english": "Auto refill cursor",
+    "russian": "Пополнять предметы на курсоре"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.global_bookmark_trade",
+    "english": "Add Global Bookmark",
+    "russian": "Добавить глобальную закладку"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.local_bookmark_trade",
+    "english": "Add Local Bookmark",
+    "russian": "Добавить локальную закладку"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.do_global_trade",
+    "english": "Do Global Trades",
+    "russian": "Выполнить глобальные сделки"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.do_local_trade",
+    "english": "Do Local Trades",
+    "russian": "Выполнить локальные сделки"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.enum.auto_refill_nbt_match_type.can_have_extra",
+    "english": "Allow Extra",
+    "russian": "Допускать лишние данные"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.enum.creative_menu_sort_order.search_tab",
+    "english": "Search Tab",
+    "russian": "Вкладка поиска"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.enum.creative_menu_sort_order.category_priority_list",
+    "english": "Priority List",
+    "russian": "Список приоритетов"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.tooltip.fast_rename",
+    "english": "Bulk Rename",
+    "russian": "Массовое переименование"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.gui.editor.name.screen.disable_fast_swipe",
+    "english": "Disable Fast Swipe",
+    "russian": "Отключить быстрое перемещение"
+  },
+  {
+    "namespace": "ok_zoomer",
+    "key": "tag.item.ok_zoomer.zoom_dependencies",
+    "english": "Zoom Dependencies",
+    "russian": "Предметы для приближения"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "advanced_ae.configuration.Miscellaneous",
+    "english": "Miscellaneous",
+    "russian": "Разное"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.Disabled",
+    "english": "Disabled",
+    "russian": "Выключено"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.Enabled",
+    "english": "Enabled",
+    "russian": "Включено"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.tooltips.advanced_ae.RegulateCategory",
+    "english": "Regulate",
+    "russian": "Регулирование"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.CamoUpgrade",
+    "english": "Camo",
+    "russian": "Маскировка"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.EvasionUpgrade",
+    "english": "Evasion",
+    "russian": "Уклонение"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.FlightUpgrade",
+    "english": "Flight",
+    "russian": "Полёт"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.MagnetUpgrade",
+    "english": "Magnet",
+    "russian": "Магнит"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.Pick-CraftUpgrade",
+    "english": "Pick-Craft",
+    "russian": "Крафт выбранного блока"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.RegenerationUpgrade",
+    "english": "Regeneration",
+    "russian": "Регенерация"
+  },
+  {
+    "namespace": "advanced_ae",
+    "key": "gui.upgrades.advanced_ae.StrengthUpgrade",
+    "english": "Strength",
+    "russian": "Сила"
+  },
+  {
+    "namespace": "armor_cosmetic",
+    "key": "cos.gui.buttonnormal",
+    "english": "Close",
+    "russian": "Закрыть"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "gui.draconicevolution.boolean_property.active",
+    "english": "Active",
+    "russian": "Включено"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "gui.draconicevolution.boolean_property.inactive",
+    "english": "Inactive",
+    "russian": "Выключено"
+  },
+  {
+    "namespace": "draconicevolution",
+    "key": "gui.draconicevolution.flow_gate.overridden",
+    "english": "Overridden",
+    "russian": "Внешнее управление"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.category.auto-refill.general",
+    "english": "General",
+    "russian": "Общие"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.config.name.scroll_spread",
+    "english": "Spread",
+    "russian": "Распределение"
+  },
+  {
+    "namespace": "inventoryprofilesnext",
+    "key": "inventoryprofiles.enum.auto_refill_nbt_match_type.exact",
+    "english": "Exact",
+    "russian": "Точное совпадение"
+  }
+]

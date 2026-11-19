@@ -1,0 +1,16 @@
+{
+  "cos.config.CosArmorGuiButton_Hidden": "Скрыть кнопку декоративной брони",
+  "cos.config.CosArmorGuiButton_Left": "Положение кнопки декоративной брони по X",
+  "cos.config.CosArmorGuiButton_Top": "Положение кнопки декоративной брони по Y",
+  "cos.config.CosArmorCreativeGuiButton_Hidden": "Скрыть кнопку декоративной брони в творческом режиме",
+  "cos.config.CosArmorCreativeGuiButton_Left": "Положение кнопки декоративной брони в творческом режиме по X",
+  "cos.config.CosArmorCreativeGuiButton_Top": "Положение кнопки декоративной брони в творческом режиме по Y",
+  "cos.config.CosArmorKeepThroughDeath": "Сохранять декоративную броню после смерти",
+  "cos.config.CosArmorDisableRecipeBook": "Отключить книгу рецептов в инвентаре декоративной брони",
+  "cos.gui.tooltip.buttonnormal": "Закрыть косметический инвентарь",
+  "cos.config.CosArmorToggleButton_Hidden": "Скрыть кнопку переключения",
+  "cos.config.CosArmorToggleButton_Left": "Положение кнопки по X",
+  "cos.config.CosArmorToggleButton_Top": "Положение кнопки по Y",
+  "cos.config.CosArmorDisableCosHatCommand": "Отключить команду /coshat",
+  "cos.gui.buttonnormal": "Закрыть"
+}

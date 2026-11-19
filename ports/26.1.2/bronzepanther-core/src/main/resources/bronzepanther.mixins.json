@@ -13,6 +13,7 @@
     "EntropyTooltipMixin",
     "ResourcePackPolicyMixin",
     "ExtendedAECreativeTabMixin",
+    "EmiRecipeListAccess",
     "JemiTagIdMixin",
     "BackpackEmiSyntheticIdMixin",
     "FtbEmiRecipeHelperMixin"

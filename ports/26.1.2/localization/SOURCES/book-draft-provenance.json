@@ -1,0 +1,1184 @@
+[
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/aae_intro-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "56bb69f46b8500d727a0e3a4e72c58d1e184ca6d58d010cd5da9abf7fed34766",
+    "adapted_sha256": "4527326d62a95d742ab63d0dacfeed3728d1f2f7ac1cea292e3ac2cc0e96046e"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/advanced_io_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2355fb7f92984234966b90b887979bfc473bae1591c0a09a93841344d74b6e6b",
+    "adapted_sha256": "b15993f08766d5ba132529cab5590f8278a410ce1a189c34fec763b13d2e9240"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/advanced_pattern_encoder.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "a7ebf1544556a088df6f894d5d7d592589dcd32796d36cebd8431aa15d333605",
+    "adapted_sha256": "e62f01a09a57216baa3cce22df4ff47605817e47c42ae1b2e528412f23a292c6"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/advanced_pattern_provider.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "f76d70d840b084da0712224aa6992eb1e41ba41724a3434e565f2192cc8b03d6",
+    "adapted_sha256": "d8d90c70a3709e970e5e23ed90e054d40a88c2db811b4ad637712fa0b24c250f"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/app_upgrade_items.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0756184c55aa17d6ae1411032eb1c025812379d4f5ac2c2cab038a7c4dc39586",
+    "adapted_sha256": "65f39096ab62721beca57e9d55d7fa410ca283836ae33165dca7a5f11c903f20"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/import_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "da67d50e97bec4aaf1c8d54c1d6c0a62269af63346ec6c7581f834decf02d765",
+    "adapted_sha256": "3ba4e1bec1bf46d63f3dca30791bedaee97bdf547040c2ddf73212f6182db443"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/quantum_armor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "58153367a0c2b49ac4fa776ceb440194503554db8c85c033a0bf8788ad6e5f0f",
+    "adapted_sha256": "0ca0b64f08082063866784fc96b81df0842be3c3989c9f704ff9ccfcd48627d7"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/quantum_computer.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "4b087df47030d7b1d5c5711d1354c05144eb360326627d87978ade2d733a5528",
+    "adapted_sha256": "df252547d3bd540e17b43bf3dcd7286ceea1ac9c381057abe09e5ca04f468a88"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/quantum_crafter.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "08c8ed2378f01fe1358008c199b9006de727b954f4b60360471211313a78bb5d",
+    "adapted_sha256": "1a996b3888afce961083bea9d98bf807521d380e2cba8a79928429fefd2739a0"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/quantum_crafter_terminal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "94bb14ca557d71f2d8f91fed928e1ef04aa88b1e44f55fe33f5ddda52ffba843",
+    "adapted_sha256": "253bde601cbcc807cd24fcaca7fbb31ecd63bcc5154b830909533a8fcfa13611"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/reaction_chamber.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6ad5a0856285b912126860f04c7256fe5536f8adbdf7fcf0e7e711a2482c40b1",
+    "adapted_sha256": "5e3f731ef7b973b75c768c67789d656032db06bf26ff54c55c53c4d546359c48"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/stock_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "876313ea4d70b7bf125b8282ce060f0bacba063d375a0c022ddebcff436c93a2",
+    "adapted_sha256": "032b18e56b69067ba46a048b4a506acb73d8dbc3d6533c8f95a69720f8c61045"
+  },
+  {
+    "path": "assets/advanced_ae/ae2guide/_ru_ru/aae_intro/throughput_monitor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ce22f1a965c1212dd52e77fdcd071aa5253757d285ed0a0aafa65ce66007e4c2",
+    "adapted_sha256": "f069617106788c777f162ae073af65dd19e2ebb0eea4d62a26b3bc1b5758f2bd"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/wireless_terminals.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ddb34351f5823b79b044506599c62d0a8f499c133c504391c48775ad42ff5aaa",
+    "adapted_sha256": "0ec561f152413ea351aafeaf4afeba204acede92d6043aed9ebc37c7069f9464"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/ae2wtlib-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "fd511448bf95e80f6700e878670a590721807c70a1d3424ea09c1b72b2d2514b",
+    "adapted_sha256": "07d98e716abf09c27d64d56d9ec39f47f90353806f9d0eb5fa7d30fdc591c6a1"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/magnet_card.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "87813a665d2a2813e923bda87d87beee93ddb42fcb477e8822887da91479e868",
+    "adapted_sha256": "9c6e03580bfcaa5f9374c14c2f41997167519f57e16c2607c0ae61af3fc08c69"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/quantum_bridge_card.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "e2305b5371f8194a3b9794c1e4bc21ce024bb4ac5d62c703b4932dff672be7c8",
+    "adapted_sha256": "b88ace4b21e965ded97084243b74a1187453544e2b787990458c382aeb91b856"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/restock.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ae0ec002353c1d7bcd22c369cd74801a5bda9fcfe14c271337298b528c9ad592",
+    "adapted_sha256": "269c16ca32dd78f3198eaece0fe80a4e5197a45590af613da3652c0fc037ca66"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/wireless_crafting_terminal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "012091a622870f6752a7ecfabecbb4919c6142c2f52660b6e94bdb516bce2c39",
+    "adapted_sha256": "294882933eef0eb7dbb5e09b2af6a4a8b30165352e463e73a8c0395ef50d9737"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/wireless_terminals.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "9a266d9fa44ad6789ea9bbb5cc701542627fd153b68d40756de3e3d1fee62933",
+    "adapted_sha256": "0ecfa6c36ce8b5f01bbda72135208b60e0b9e731a2bf6c3d28a07e43e9357895"
+  },
+  {
+    "path": "assets/ae2wtlib/ae2guide/_ru_ru/ae2wtlib/wireless_universal_terminal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5052c81d53af9eb2fed894bf0fe1502f5d930f273a26c7d3aa5b352cc164e74d",
+    "adapted_sha256": "870346f887a323928a4b49aa594a33c35a3931e0f67f62a5df32e0a3b6bf7a56"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/ae2-mechanics-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d8f87d9f37d20bebe0ce6ba17977b0eea7f536b9c79a9c98ee77395f2ca44e13",
+    "adapted_sha256": "73829912835706681ea8820e133dee87f6a749079aa51f148272f5df3e9f2b65"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/autocrafting.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "605469f040a37d4d4009e8711d9b2952acf7a3f540343169f6c2e69d8548c22b",
+    "adapted_sha256": "c9329fb786e7a046d993b24ba61e4abb50bc0c1dca70cc8be6bb107d33bd8ce0"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/bytes-and-types.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "76844ff341a8172974914b0838a0256e4eeb82f00529e60aa1f1d08a60040c53",
+    "adapted_sha256": "8d2c02b2107094142a975068dc90e7c0d92c15c95c62f265dbbe46582a0ca653"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/cable-subparts.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "449e1de0bf46bc2ebcf0a2826801d53eb196edbef1c5c2c9e9d5820349ce0c41",
+    "adapted_sha256": "9212f7d11f1d74e7575affd3a514fd6b87aeb6451c4c30188c41133f74f10bec"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/certus-growth.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "5521bfc155a8ef04b5cab04aaa522e8d6e039388908089775d1d0858a725839a",
+    "adapted_sha256": "0de15476d7470ff86fa4f1d62e4fd4460b47db0197215415c1ac21eb681145a0"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/channels.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "e3c0b2fe63b9f8dce6258fe78f89bef1ac2ebc59923596a63a0753399251d9f1",
+    "adapted_sha256": "cebdd67a985bc4aceb7cd34f3dec13f80793f8ec91e4f86b3bf5db6cdcf2f1bf"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/devices.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "a5404a187d93d6f1aa06bc5a478b41607678fa0ae1ae7e2a84b699a83e18f826",
+    "adapted_sha256": "046b90834aa5f190dec9dee0b50c3876c345d00f86d5b1daed6523671c9070ca"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/energy.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "849d64757b14ebc9e8ae81c2d3782fd62a90e8e77e3106e74e2ce8cdc02b609f",
+    "adapted_sha256": "dbc9271f99d77f47893fce5939ffc2209da10bf675dffdb8dd295868b687e15c"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/import-export-storage.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ddffd9c6a9318701d44ab5d0a2946cefc54608895dc05a8ceda8b07c07fd1fb5",
+    "adapted_sha256": "1ea9c6fa4e554ce033e90b875eae3a6f21ae9223bcccf8dd2f6df0510283479c"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/me-network-connections.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "fc45719e5fc538d9c7c142c4c12080aeaad9b931b2a298bdaf7f1467438eef84",
+    "adapted_sha256": "1a733168c7ff7261d5eea4e867a305a30585fb829ed49b2daae7b9e6187a6b33"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/meteorites.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "1339b4277da879da5caec760fc49f7935487247ce66aa60b34321f0b48b130d4",
+    "adapted_sha256": "a0b2fe3bd21011e7bb9ebf60f319689df65dfc0b87d180691a001ff7fce2bc26"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/p2p-tunnels.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "8bf7fe3cd20cbba3f2a91de4361375d290d1cf52fbc5a722102a48e9493590ac",
+    "adapted_sha256": "5822fed2139f400e3fff6a6bdcfdff25891fe71753b5534037f7ed2a0e30b8de"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/quantum-bridge.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "689ce576e965122f998b88d76120045f5e3baf228d6186549519803faaa9ddcd",
+    "adapted_sha256": "6f1cb37e0bcd389183788694a97dd26205c14d429795760ade58b9474df6d763"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/spatial-io.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2250f42c4cf93b405b2d188caed18bdd8a487e9b30852c898c342a2393248b1e",
+    "adapted_sha256": "ea5bb8aa66c3028b293f36efe884b2718ad8329e2dade77419cf5ed442c9abd6"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/ae2-mechanics/subnetworks.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "b7ac7902d66c8f7df92a57e660ca6c773209d0fec260beea898de234fbbe49df",
+    "adapted_sha256": "d6d00fd5f720d3a36edf0e6bae9b36f6fc99c68a5b455c6d8fd68544b4a86e26"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/advanced-certus-farm.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "e68340aebda1a360eb721c50cbaa5832ce363785ff36ec67b24ae7e53f01cc6a",
+    "adapted_sha256": "becb796138e3e22af8f208606e1ffb3c6fedf9801a2135817138e6494fe2e450"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/amethyst-farm.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "51ff64db187eee397608a452407e11931c3a610fdad650c1b220a5145dada21d",
+    "adapted_sha256": "ea5e875ea796a9416aa5b1261b5578a401d2d92e90b27586352af260c3add344"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/bucket-emptier.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "7be9d568da48df1dc4fb67497fc1f63ef4461e830b19ee04d8a7e5fd6ebbb6f1",
+    "adapted_sha256": "ab8dcfa9fe766499d381abda9fb406713214c7c573f55e3ee4f2eb11e0504378"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/bucket-filler.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "17dff38029179e5cf61de7e683cd9e7e387d131dad2e3059e7782a8f4e2a7dda",
+    "adapted_sha256": "9e64856251f2c35f5d446eea009c1c1c5c78ed0a995941e98efafd67137bc746"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/cell-dumper-filler.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "72321320679d45270f8a3c64192a400c8e25d4e7314a7930950ac1dd83feceee",
+    "adapted_sha256": "c4b79a20d5f7af6e498b616f7e1310722b24ce80644136b2984d6dfd08c3311d"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/charger-automation.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "45f0a3e72a45e0396ecd96073100f9fadd80d0ccef1e42c89dbb0ad1669048a9",
+    "adapted_sha256": "878723c908753b9785fdc0c578a1b263d18e926b9d686f8fb329c587a75c654a"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/example-setups-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "091f71ed733b8b3c5bd76aed80047e6cbd577e58743b0559ce49b1e4638d271f",
+    "adapted_sha256": "4bfed8daf3d49dd06b6f561bbec856dada7f7f1562b1e8fe7c1dda3399aa3bc6"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/furnace-automation.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "fd0b4c8f8ecebaebf663a9dd9d5a6ee3557025a21c1dbcf7e3bd60f3803055b4",
+    "adapted_sha256": "560a9f1fc1d0e1a0c50559cf179afe15905c3b1b2bbdec3c5aa137c30c041134"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/interface-autostocking.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5b5d5f99c79faa73012eb92e654553e9505502ec1c9892d7a8999db4ed7b5d2a",
+    "adapted_sha256": "30c1cca7a285ff76f3ea6d8c7bbd137ecd2a5bb9b6906b4a4dceb6927ed878db"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/level-emitter-autostocking.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ae61008142bf636aad97cfab52bef24114d8f3a3e18a570a2a9d49465a2c0db2",
+    "adapted_sha256": "bb4bd03a8a43ecfec94d0699871848d1bf36fc0ee8216031e647f5e313a64a73"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/main-network.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "3a92a1f9ee4b6f7f9808b757d52d5a32882d71834c53d8564486dadb414108f8",
+    "adapted_sha256": "f0639581cc74d397b37e85540e1f50dd21a147955ec907c67d01b5c6c55bf31a"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/ore-fortuner.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ae6d2dc93e0b10b1a18c1a7d6fbf09300307a76ddb78bbe361beafce746ef021",
+    "adapted_sha256": "9299fa9a99e9a57c923baceef8fe2b8b84d5af5baa3419231bf9294dc337546f"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/pipe-subnet.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "16d94753b773618474e70bf7366364484ab96222065d305971b2489918ef0d50",
+    "adapted_sha256": "d998b01a57d29f52743cfe6731b79a01f6d086c911e9fdce7279ba2be8b843c1"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/processor-automation.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "46880fb0ac16660e5edd94b9de8b3fe028cac76a09a58499f5dd1d8176876ee0",
+    "adapted_sha256": "622c1a5ee5f63b2492228d6c49d3d145949f71b9d5bbf8de3b9d1bdbe4ac6fb9"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/recursive-crafting-setup.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "23cea800573fa9f810a3c7a923d8398ce4ed29d72d753ead3757f795809792ba",
+    "adapted_sha256": "17d966ef9e980a139934326eec34c106e58376715bebd5e6a965c47ca31467cb"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/regulated-cobble-gen.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "e7b04b9fc959bbec0f82428cf03e7030abea82dcd8f918428500f980f598c5f8",
+    "adapted_sha256": "d1355aed24e298b7526a65db390a62acddd56b260801edf8c6c1ae22ac4847b8"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/semiauto-certus-farm.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "a2c0a8b9a447956b70c1f639de65d72188406855b3be647f88529b8a87ae96ae",
+    "adapted_sha256": "55cc0edd35bb1a7828f6a3c64ae6cc6337db5001693af75507897fef331c99b7"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/simple-certus-farm.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "b6e468f704987bc8b04ce26c6131176eee0fe88ac727e9f23fe6d7ce1f3b1d42",
+    "adapted_sha256": "b71bb41e85ac43a7028188038666d5f4c513f7a6d11685c7e60c97c102d34c91"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/specialized-local-storage.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "d4c968d6e05f1757abd92fe2462ba7c38d21a7612dc300124acb35372be910ab",
+    "adapted_sha256": "2a54bb690671fe61ac1ca9d00873560c5c1742a00bfe790ee82abe61f95a3730"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/storage-types.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "6220e4e1c485364408c2b38151cd2ca256142697021a72434e09a62d83fd22b6",
+    "adapted_sha256": "0e38047b6222be7f907189a147796c1ee92b73b47c63100d784ba07b26272024"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/example-setups/throw-in-water-automation.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "bf9a0160511de81f45852d46a079ba01f7709de05efea8d926381d7a8ac4b05c",
+    "adapted_sha256": "b430e9f790de60ff8a1fe9464266ee371a0c4589b789579daba4da6a74c09dbb"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/getting-started.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "83e7c0aa463b10b58165d7038d7f3802b35f1f481ef8c55cd8a0b88a200fcb34",
+    "adapted_sha256": "54eea8dff60add31936a9acdce4816e64e5758ff7ec8756aad8defa7697da514"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/index.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "6cb2f08489f96143b596fb94360ecf2725f990b29e74b100cb5e2fe20d21fc2f",
+    "adapted_sha256": "00eba3d4e8f0f255e293bd7f2c45ec608f9fe1d843f4e25009c9029f36dfe5fc"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/annihilation_plane.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "f8df1cd9f5a6579c1e16f06ee7c43e8f194110bee9083b5f91b52f49287932b3",
+    "adapted_sha256": "564de2d1215d5164275705ebfd6c2e43a0e62522c5df1ec5ea292b994ca6cbcb"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/budding_certus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "fea9a92b6aeed40a32d1c62bd5d818fbe892a27cbade62a0a6b604f6baebd97c",
+    "adapted_sha256": "d502ffc845d2f84ade52e1cd40d8ebcfc19dce8668add139c72408abb0fed569"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/cable_anchor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "bd39135185c2b7ee98ffe89f6469a9d727ad653f4f5703d16fe82b4699d30819",
+    "adapted_sha256": "7a771f1610676539f5e124be9e55474e19886d875ef11c2a54ca50900f0224bd"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/cables.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5b06f323caaeb1f274e96245dd101df1060186ab44f1782db828a030c9ca34d2",
+    "adapted_sha256": "d8a4e27e48c49a97c0e1e96304774728ea3d1789276afb849d67054466db3022"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/cell_workbench.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "5ac2ffb061cef3898df6b470b500d8709f43e9f5ffda7921b00444fc0badbe48",
+    "adapted_sha256": "b4f07bc841e5e1679fc41fe9809631527be6494267e7ab30b6ae986288966830"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/certus_quartz_crystal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "69db403f45fe1c571103fde99fabfae013b0c6f68d6abc497d5aeb8aa9e3e966",
+    "adapted_sha256": "38a21500c8e7f85f9e13990742599406fb1724a31595371dc31d321c1e0c748a"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/certus_quartz_crystal_charged.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2e620a71674848b1b03cfc179e7a25223c7aaab7f01bf952f43f442134d944a9",
+    "adapted_sha256": "8ceb7dda2d2e4133cd9b89cd15c471960b6cedd4ca4e186669349fed2c4aaef0"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/certus_quartz_dust.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "02e802ff85583754bde24d0dc5a84af4819c27d45d42dce878943d4a6f7ab4a0",
+    "adapted_sha256": "04e52ffe7c6a1302d332f5b88373b851c74dd5cfcbd39cb0df5695c77f422229"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/charged_staff.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6570b48714dea5875dc8a20e67e5a2de5fb64a19a56f7476ff0dafbd0494390d",
+    "adapted_sha256": "0360fc59a65857d05364017af9ebc519deea1f00a85615dc6a9e50ad20cf9c46"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/charger.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "1283c247d7bc717f21661ad88a8297433af3d0cdb5389349bf78b9698a93bbff",
+    "adapted_sha256": "7d049dcfed70b0d9579d0a23318944383a917fc4ebf0318ad3379ce6b0cd7c2e"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/chest.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d7aa4993ddc7a4a7ac2446afa9de59378619ff9264b7a325900546f1618a09dd",
+    "adapted_sha256": "69ef74661e99bcb4027aca8f9c728267a42fcaf3abd449f77607d4ae533bb368"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/color_applicator.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0d4b360c85202048ac3ceb2e968a96303c27920697db7e139d30b912f8ac51b4",
+    "adapted_sha256": "4bc566968dfb2e159fec82845101b04f3b9566322943249e10cee601d1b68d71"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/condenser.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "1fe5b0603299242063f353ec141e7718fc606cf280a06f3a7a9b0bbef4718ce6",
+    "adapted_sha256": "7a1448c67d1670c31dec881585ea1a81a188c660e68b8e0cb24f2452f7aee484"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/controller.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7cdad6045f13e63f2ce2052e092df3b5bc217a8c7527f770bbd07ea7a0be2170",
+    "adapted_sha256": "44c2f6752943973d2dd967b2da4cc4e89db02b1a9dc63d77615ef2fca6e87299"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/crafting_cpu_multiblock.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "b5e17bb744df91a4ee99b704bb3146fe6e532edbe02bda504f0721c4ca282d7a",
+    "adapted_sha256": "a79c2adf6f1383beb441814cac63f982eda3c5faa072006c578e7be56284d5dd"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/crank.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6b343090790c1ed1ef792818b129ab5d7b63e78e68f01b756157cbac1b643a5d",
+    "adapted_sha256": "2ac1f5a852955d43e8407f6b7950c6317a4d99aa3805edbaa4a1e45a07e50148"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/crystal_resonance_generator.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "00abb7090ae7da8abbbe3fba6cd0553cdfc739dd16032f2f51b6134222e7dd12",
+    "adapted_sha256": "3e2f4615bf7c25c17b03d2a7b2d11f8f1c55fafb7d9fc1d92d9f47d22c47ee0a"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/cutting_knives.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "323e42c588feb6ffc4d5d0b5c40f41ebbb4f98fe85771f1e085ecd6e3c7b100e",
+    "adapted_sha256": "0f3aadadea286350aee121149a8bebf47947311bda72f9dbf32eb75dc4e769af"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/decorative_certus.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "c57730b199860b6a8099934d8e83924e639f3ef69b1d97b6b85d7eb6072f0147",
+    "adapted_sha256": "b076f21d6973e2db1a549d6b0435961491ff96bde3215bb653d00f98a16700a9"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/decorative_fluix.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "ae536e3e51fa86d48e5b1f7c5d3979bf822fb138a71e8245ca5c34b9c387aa25",
+    "adapted_sha256": "2ee67846ee1ec992718b6a5a13765b4aa56fd68b9f073a9c159bf702925e4e70"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/decorative_sky_stone.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "4b3fe6b52c509710eb5bc075aa72c80d38aa373be9919b631a4a2893bbad27ea",
+    "adapted_sha256": "d4d16f3dac0eef0d71daa66220e0fcc5e842de20a5fdb175c29bc7dd544db920"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/drive.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "1ff24107b8590cdf0ff61bfe26561220aa06092347aec755ddab2dff8438ec3b",
+    "adapted_sha256": "ccaf5bf5ac467261312c8519c0218ca62aa87e3666850f0bb01b84dc55e6148d"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/ender_dust.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7403bb8d8de9873430ea5f355edd118361a1ac1638ff61dbcbb37f05278f53f3",
+    "adapted_sha256": "f94e7ff741dd5d20499517a858b1f406c03f6ec01ddc16898d9fd2d6658adb32"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/energy_acceptor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7959af9786c3cc75bab5debf41ee98bf88a1992d82aed7b986798ac0180dbfea",
+    "adapted_sha256": "979c6b2ee5e3b4984293c7e5aea26d69b960b97940091722e2359bf7a5d5f2e1"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/energy_cells.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "008304ad0ea43a3caaaacbb516ba5ea4ec39e21057073dda570a66967e1ba176",
+    "adapted_sha256": "5d16ebcdd8f68e7128bbebd71815bc1b0f303c505e6578618bec1d90d2df6ba4"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/entropy_manipulator.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "30a58a587b7e8ac66cc69d69fb2262cb23f9b5e3a68351f3d9a2bbd57ec1e4ea",
+    "adapted_sha256": "bece09e834efc3b77a988732a34e11343bfba28d79887bbbe30ee0a0f9aefb8b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "feb16798adb53907975e46ea7e3e37f9a88b0cd07dc962ff94158286e7ce4bc2",
+    "adapted_sha256": "8d424d0ae54552b9c0408943a9888aa8809c0d1c2530f5b3f7cc140e50891cbe"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/facades.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "b9f1001e73e2e5686a542a9159acb458c05359586ad5c79fb5f357db087b04c0",
+    "adapted_sha256": "1dbd21b70b0a6b3dadd294c4c14e0886efb7788735db8d693cf6b6d35e9fec69"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_block.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "9ded768f7490aa99c386e5f4ca7fec2249c6ae2723b1d94c78f3ce4a298b6f50",
+    "adapted_sha256": "3589c6f619da6a0f622e8164b99ea890f67bccf4876fbdc8912588dc89260011"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_crystal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2da9c74318554b08d6b40b3fa8dada53ea9b70beb7a5673963d2ed4fd0d43f9f",
+    "adapted_sha256": "e523c1dd866dda767061fd076306e0919ee63b025a5a524dd701f3e19de37fa3"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_dust.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "891f43d329b12f122706fac2845979fe44efd8b9bdf8aef90e55ba7e7d91a233",
+    "adapted_sha256": "2eb1d40da5488847e0a05069ebbc2b6b1ce9a1f556e1bea3f61b5cde94455a07"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_pearl.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ee5a736c96f819734d27650af441d2a52ce8db9843e697f75be732d84eef9a5e",
+    "adapted_sha256": "dc43f29c7a98e64d92f9307a2587575c5fada887b7fc11c880e5b8be3eaab71b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_researcher.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "f3b8e151759c1bdf8a6694e232ea223cea9ed956fee7d7582b0f5f33f2301336",
+    "adapted_sha256": "5384a8e1ba8995087d81dbd27b003336867747538504c800d831bfe40c657a0b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_tools.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "468e581cc3832553a93cb8d30d83896bf058213382dfb7e422279364f7df2638",
+    "adapted_sha256": "03a05959cc392c48d98743023d9496b6627ef7945471978cba4f493c68bdc231"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/fluix_upgrade_smithing_template.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "4328a0ccba8fb4134a91281baafc30b5aac4910f1f56dbc0a22ccfb7b8018c98",
+    "adapted_sha256": "21e7b434768098ee05e4e277b23f6ec8834b3e28894f9faf97fa6f2aad7de428"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/formation_annihilation_core.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "030f1f0622690d92412dd4110653cba1138d21c11384aa52fea262bb715713e0",
+    "adapted_sha256": "9f48d2d3bf93f07959274d9ea94b233db1da790c5bfa84ffa50a2b89bc166a98"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/formation_plane.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "ebbaa08055fe9b13f53824324fec04e4b6e526c3889238c3aa1722f02c62fa3a",
+    "adapted_sha256": "75ae671fe82a5785e7294e13e1dd5b3e595647a85181b780e5a11fde3c09df5c"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/growth_accelerator.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "0f4484d3678a76ad079bb03768880e9d9054f54b5ccbee58a8d2a4c0bd15fb5b",
+    "adapted_sha256": "4beceb04087727569c3c6d7a4245e3a54d978cea66c43cd8e35feb91ac4fa854"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/guide.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5cb18843da342d2f72d6fb39f071b71f55d50430a8374699b032c55e6a78479b",
+    "adapted_sha256": "d39eca1f75bc5c2232eb02ff9e9f332006d073053a78d474859668f7afdd182b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/illuminated_panels.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d6e57c87c41ac5383f64d9ca8335ee3a6c99430d6e1fc70ca2c36e5a2b81c927",
+    "adapted_sha256": "69f28ac7b98923f8e1fd1978e53631550778cc051044e09e972dab0ed9a84d0e"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/import_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5388041fdf22a459ca4787af5958a13569697f34e69c8017d6cba4bb87644408",
+    "adapted_sha256": "495fd5407dcbb95f9d6ce4827aa4525264b1fe8c54da266ee62758c448cda6e8"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/inscriber.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0d0c39ccb2b68f35dbaad452ebc7c114dae14df0b1ec65590120047f0426d6ab",
+    "adapted_sha256": "800db6e06f1354a0be21ce84498dbb1d02d149a0c579a867e3a08c20ad337b9c"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/interface.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "57bccd0c2492d36ff25d00bed96820a4c144ccb860597e1fde239dcef011de74",
+    "adapted_sha256": "acb3491ee132824bf0884f30273914f1eb39c55850974e527f859a441bc3d370"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/io_port.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "43c57843edc8720ae7400b61a5293e11a0121a58a1b0dcf6f71c9e072cf6a28d",
+    "adapted_sha256": "b36af8ef3de9327d8f3f80e8355ce7bab1b4ef86cfbfc8f5ba2c927aa7682c88"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/items-blocks-machines-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "a738d9aa098428e423500eab0f5d9f9cde35e1a92c6bd568d984b3a2475eb9e2",
+    "adapted_sha256": "85319e69163f5c727e8ad438b22bf6f7d4c356150f11ee4d8b6f23d1debd9ef4"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/level_emitter.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "1368efc539d550f8748df4d862a6a61bd761a702e6e58c813c5e9b4835e20f34",
+    "adapted_sha256": "ada3c791ae9974be7ff7e8a0f982106e73575240b1813b66683d2a9c92ad83df"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/matter_ball.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "958ae8faa577e2b1533e60bd009d94005a254db7273f3c478e9f2dc4d43b15a9",
+    "adapted_sha256": "f35c021d9556f243a5f686ac92076b4f557e6a6dae5973b5fc1b188f685f49f2"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/matter_cannon.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "c7f999390f75fcf694bdaddc4f316e601a15a6be540c7c6d550a86b1579e92e7",
+    "adapted_sha256": "18efd8816ca25cdfd9f7882ca94cd1dbe9c4dc93220dcc1e6d1813bc011afeb3"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/memory_card.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "331c4e5ca74ab4084d2fbfa743e632efde8ef4cb0ee5ccca1b9a8716c235acae",
+    "adapted_sha256": "ce037f878bba79d0147c503267959506f379848cf8656d672f264adcf0aa4f43"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/meteorite_compass.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "dfcf96a1e8716324823dea0be944448606c8a3f7d1b3415fce10b48fcc10cbdb",
+    "adapted_sha256": "0c4497677900bab85df212bc118d8740466bf964261b9edf48e8f0c4e0229222"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/molecular_assembler.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "05efa6eee1309f1af90389e5915293189340d8ff3341ddc656941de4c8168282",
+    "adapted_sha256": "006f3850ffa171461af01a5c9652d32243287f1bb3cba8ef73b8c5dbaa09bce5"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/monitors.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2019fb6994e76f73edbaa212992b24ef739793f37848d98f1d556e220ebe9881",
+    "adapted_sha256": "c63793a800dd0382192a229acb19b3842787835d75e3e5f02c027ea16a0a9c14"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/mysterious_cube.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "92dc87c38261ec124744ecec7e6c69c2ede5628327458d6d9290f820a3ad13ab",
+    "adapted_sha256": "44d2791270cbe045e4a4759cee60377992bfe472c278d58ae8e0dc86ed2d46a2"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/network_tool.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "9f3f7e2c56b4904c417f62018bbc3ad6037e79f2af197e9b9d482a52e8226b59",
+    "adapted_sha256": "e2aa58225ac3409941088a0eb61c62535daa1b248c6b3e9dd77e8f221b93c53f"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/p2p_tunnels.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "0ac8171ccf9de1a1850369205344ebcb45fda1ab2100b3c8fd032fb172cfff86",
+    "adapted_sha256": "86d32b57d64f619d2afe50f1d4c4c59a6e63e43954c767b49794105225d66344"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/paintballs.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "c4a40500d1242f16e616a35a0ed575a9eed8b9404026ff8aa8a1204186908ee7",
+    "adapted_sha256": "13f40b37246dbc60a686d9078e13403ec8e505155c270a207f799d4ee17adcd7"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/pattern_provider.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "412449b55929bd70e07df785128ad5e54729dbcd969fdcc057685c64f079e425",
+    "adapted_sha256": "be5ff11591bf56c9dcabde694d3493f036bbeb9f4d19c2d933cf0fdd61676382"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/patterns.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "f44394f224161972a02f4f996117ac8085fc56c5df667141c12a51414d642d4f",
+    "adapted_sha256": "fcc7ff7de611cbc1a03735b3635ee838960966ccf707ff10299a8ed2f4f84c6a"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/presses.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "55db2e24f9b3fcce87fa3ceda37db31e9aeb6092a8354097a27470f448e7ba61",
+    "adapted_sha256": "5ec0e42417df55535e015b12df5565bd699b9613039b89baa9628d94a78c7a8b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/processors.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "a8924293d175ae018733a45a7da79a1c1851b8cbe4c7d693a8b5b4410a5e62e1",
+    "adapted_sha256": "7563287c329602c4d5da06dd41732a9ffdd7030e43e969433cc7c31d33e81812"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quantum_bridge.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "3b4d18106e8230bda6599750cb8d6d96b56336623951718c356358df68126b90",
+    "adapted_sha256": "e86b0ae1cc107fb3ffeef4a927182d57e0d6295ce035da22650c12cd02f9ea1b"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quartz_block.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "908b5a432df35aa97f6715f499f5b79f949d721635d4717b9ef681c7b241f78e",
+    "adapted_sha256": "e34d34320b72111a8b2dc2f9b7b7b99d2da2dc4ca57e58aa4dc4335ef0b2bba4"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quartz_fiber.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "229901473871a9a4a758196f301558bd14bf39f8c29e875f8c7c18fd4fca2703",
+    "adapted_sha256": "4f7cc8db9cd6e7e66a7eaf1c01aa45664f272a1d842335181044269656d36f2e"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quartz_fixture.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "8584b40783650b9adf8f8bba38914a4c67a98aae4394926afce5d7c986faae6c",
+    "adapted_sha256": "fae6f0f9f9efcfdc190862494b6dbc57bb92f3b266a4dde9c5bd7ae9836cd6d1"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quartz_glass.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7ca507cf51c3ebd1ada81f4f8ef1aed5f9218bdc75d492432747f4c7a28ad767",
+    "adapted_sha256": "453cbc4f8e21c1ccbaaf31756982716e17399c42af0b005eca561f4cd3933086"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/quartz_tools.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d9e354e895b57e84af5a7d2b49b1729fd5459283616bf3c5de8af5160af15e0c",
+    "adapted_sha256": "6c676d4d4a5291e8ff5ad5a6149553b853b89097c02832bf8f25a36973edfe14"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/singularities.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "bee537508bb5252246ff1ae8b00ee3107e3b5fbbc821b008b450dc39d73ab728",
+    "adapted_sha256": "ba591fd5c7e1db3d13f160966c032c99851c5e336c60e30ee5be4ba7fa5fb2f2"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/sky_dust.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "b80aa3dfc6fc6d8c85d54d7c7e07549acb6bd724304912951105ad24ff511424",
+    "adapted_sha256": "80f369025de07a4f8b5a2e2333442a4110281ac66ed82c301686fdbadd87d717"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/sky_stone.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d8f4620bb68fad55cadfd44b327c05a0de0bc54980e8094e7cdd9fd6cb5590cc",
+    "adapted_sha256": "14b30a43bd41f1a2f5567fe58d4fd07b5b5ee7b1e916b151539b087d56afe4cd"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/sky_stone_tank.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "e4464d6e7c6843af2d90934df532fcd620dd91d752e934afcb9ef8c3469dd16f",
+    "adapted_sha256": "b4f978781edde5a43556c37c7fbc5769aada9ffee9864727c1b6d71125631832"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/spatial_anchor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "31ec03a885f863a9ef00cfce9e6fa18e8a7120ee061f4e24cde1745d6862cfb1",
+    "adapted_sha256": "d2a7b4ccaa489dbf5d615b16ed6d77c8ed08a03031b05190709f4a71e4d4c602"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/spatial_cells.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "9987dccbbc281aaa42f32c5d1801bc02ab775975b7d3c32cd66b30a4b1f5441d",
+    "adapted_sha256": "9d4df2da49b1bd90568bd152b4ea40e996a57b1560eb8df1bf5368e01291bc30"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/spatial_io_port.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "8e4ce009aba506e3dd0ee143b8fe48f40e26637504dbc708f7ca77bd58bccbbb",
+    "adapted_sha256": "d858749c5ddba6c60a72b0d55df6dad7c852071dfd2f2b6afd82687b53558969"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/spatial_pylon.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "c9820a1016ecfcece44b6deb116b57ed731d119a8698b6f53f31f958389e2e28",
+    "adapted_sha256": "1b19311a1acbab9b0bdbc0b501d92f138b6b1c8051f1c7919a004fdb2f3a3319"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/storage_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0a7a7c51dcd03cba430a5bb77606218de6692aeb40928184de63b978714f19af",
+    "adapted_sha256": "ddeff7ca98968f6d89b671b11d03a5c73951cf68a192fb87836d82a4ece3a546"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/storage_cells.md",
+    "source": "Applied Guide Translations 1.21.1",
+    "source_sha256": "b3f0b2933934814c19f139608b7595873bdc6e925cf6bc0a6d29616e39f38dda",
+    "adapted_sha256": "6287caf1202244ba9bf3ff2b58525ccc6a34cf0e0cd127168e0bfc019bc17f81"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/terminals.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d5d2e571c11a374688fd0a84b72a38c2bc592c099014d605d69b15c51237050e",
+    "adapted_sha256": "d47c164e08d75f01c065406c9bf8c42f503259f4e6dcd9ec3d7377aa030495fa"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/tiny_tnt.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "54d5e4da73496b20b5618f158284c9027257f5f0190f72aceca91cc57f82f115",
+    "adapted_sha256": "bec6de8288a824bd5301c16e4a842aa3898c54be0802b544b1b4577867c3efc4"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/toggle_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "04f58e3cbd92df04b81cf5fd201f00b424ca3f22a2c4a7ff758b12cbc81182ee",
+    "adapted_sha256": "3291239065d4a359a4343b41eb07640a70b03bcaffe41121a2d56406928abcd9"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/upgrade_cards.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "a47001e939a5405e358d465c432a12af191238d3e8b51b76a8a4e2cca8fc21c2",
+    "adapted_sha256": "7b0275a8644dd3743d1f4770000f1ff58cf6e04591acc044dc357d0caa20e263"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/vibration_chamber.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7072444b25c0bcdd0c44df19b6482c131931c46b7c1327fdadbe1c75b9a9ba07",
+    "adapted_sha256": "7b9c606855bbb44a40c867808a6ff24e41235550dd8ac916ba02f47a35293cf3"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/view_cell.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "124315c8d813b6c8ff44af1560c8138651f904096ea02697ca7767ab230929a5",
+    "adapted_sha256": "4c44ef1d8b8baabbeedc45d388c40c13f8a24a8d33d26c7c298f130f608e2a6d"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/wireless_access_point.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "15d675ef75d0ec44c86d1476e0feb1bd4620eaf49da11c5e6ba39a130db906d5",
+    "adapted_sha256": "c073957eacb71ccff87b063cc76b23b0b47025caaf9f52e96c1206a30ef71ded"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/wireless_receiver.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "aef4836b0c7592c096973567767ad1e919a73058628b97be7a228dc664200dee",
+    "adapted_sha256": "2ddcf761daef78d131fe3b2ad2acf93ae1f71be3124e766cbc73fdc17a5a2e5f"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/wireless_terminals.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ddb34351f5823b79b044506599c62d0a8f499c133c504391c48775ad42ff5aaa",
+    "adapted_sha256": "0ec561f152413ea351aafeaf4afeba204acede92d6043aed9ebc37c7069f9464"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/wrench.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "9eae73c5c70c235a794a32fd37ba1964096e0d9c1a6f9e18fdf4b8ba808e79d6",
+    "adapted_sha256": "44c5fceef0823b31880cdfb20028f2fea272dbce8f69fd4837b2b466d8315b36"
+  },
+  {
+    "path": "assets/ae2/ae2guide/_ru_ru/tips-and-tricks.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "dc689664ef1062392c1b7da0e181abba954cd3a9b9b8fd496ced32c435db160a",
+    "adapted_sha256": "e77e9c690a47c7798e5c7a4431fd572c0e496ce79b5f3371fd6e24612e7a6dba"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/active_formation_plane.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "14db2a99e0fe032f2e497159db8ab6d277cdceff968d90602ede7e122ceb4325",
+    "adapted_sha256": "a8045ad0504a555afa9a7fc98192b98c6d6b06ac8becd2f044c78c95c65e800c"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/assembler_matrix.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "b3836bd49e80cd674baf3172d43a85acdc9cbb3a14f5083945c859b0065fa25b",
+    "adapted_sha256": "e6ac07819d4e74e0e8fc0fbac00a0b20ab79f44fda5bde07542fc6d318b5c113"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/caner.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "af378da251086edba98877025a7ee55033bd6635051a6a220ce6cb908b5a5761",
+    "adapted_sha256": "3c79a2ccf6a24f3de025140b79545a805b88153004f725238e11db48b7b74a4e"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/circuit_cutter.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6d88f0faaee9f66e550d00ef8bba70599a79e587db9961d5eec566d347b48c2f",
+    "adapted_sha256": "6ab6472d087ab4abb9835b49cbf2eb0f81283dc93e0f3f6f18ef132e0c87f13d"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/concurrent_processor.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "3fec664b731e13865fd56ac495e48fd86bdf5b32bded50eecbec50c71a5f34d2",
+    "adapted_sha256": "e3f506d77773fe930f56fdc746f6d2eadb7036d9983fca9e51d1d796ce406363"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/config_modifier.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ec2a3112b580fb826dc8d976d2afa1e5efa72bd23fb48320db4b5449319bd530",
+    "adapted_sha256": "be70c9d223eb4824750d68c8bae91e886ac9a03ad28e0edb682477fd35593686"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/crystal_assembler.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "cce69281ecd45aa9aeb0949eb72f83f6b0a1476c526532caf7ac14cede3ddd24",
+    "adapted_sha256": "feaae2c8fc34ab2ee89ff43d8a8b07854b6ed0ccf285d05930791d28ab07086f"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/crystal_fixer.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "8b0a855612ca6fdfb0362fc465714be55fc64e95612b30c7506f29ae612856f5",
+    "adapted_sha256": "e1235d2066a6965defd8254e07308c23d3d25e53fe1bb2db381a8dc6ddbec9e5"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_block.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "01e049ae739af3b28800d65ac5fdcaaa7494c87acf97461d027d35b6af9636f0",
+    "adapted_sha256": "05b1285f52e66e38733ae396014410da697222c4430e21d8e1f2729400c2a5a6"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_budding.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0694da48c7b108228c34b6a79182a518a7af8e5ba32bac94105d943985194728",
+    "adapted_sha256": "fd1de083269605a3e3b3b73ced630a250f7539cbf5d9cba2ba3c16ca343d48a2"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_crystal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "fefae18b086e90900cff569dba399a873f67197043eecb5adb94099b5148af73",
+    "adapted_sha256": "f8333e429bce32aebd77b006b3d8ad7b6e770da77cd2aa22aadd3217fe2afd1b"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_dust.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "03108682dbdfd044fc9ceec0d49881c8da27d3fa6cebbbf642f02767412bb4dc",
+    "adapted_sha256": "26bd0d7e4484ed8b48541ac6912452debdd2837d85c817d69cc5706ebd80c07f"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_ingot.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "59a2846a251b43d30912a5bfacb554734b69b71767a20513e2d80815eb60c225",
+    "adapted_sha256": "465898bd44c42265c3bfd10cc171f72cc49f4831db294b364b12fab2ffb2d260"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_seed.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "69d2e63363423192189ea2138a79baef1ee7da300453e446f998afe343773989",
+    "adapted_sha256": "d10c17dc521616527fac05bffe74d903589822b088aa2b93937e50a0560622d9"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/entro_shard.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6952643c33edccc62ce12852f91334af82ce00fd8f162987c092b15ba5ada756",
+    "adapted_sha256": "14e77fdd2aaa5b1b78f814d925a668c918a6f878f67a59558b78f5749c0ea65f"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/epp_intro-index.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "186fef4537fc180fe3ef3bc0507d015b07b2e7eba39b3aa6bbd30c8d9433cd28",
+    "adapted_sha256": "b071100f030e1715fdf5be4f0511868080b56b0fcf530e935af9398530616885"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_charger.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "75c5bf9003e7bcf7b2c3f75a8a66b5b7daef3c5a42bad072af79286f04ccc9fd",
+    "adapted_sha256": "65f947a1b2b9d4a006cad2207d6e8c6044b0af52ceaf80505e0d4f14bb3e5ae5"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_drive.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "f85b7a64440627bfcf50103d6330cc034bfb1c3ed9f4fe15f7d81ccb088c51c2",
+    "adapted_sha256": "4eea3da0e2b594b2f0c2296b6c157cee344085af1b858da3bac3f14be861a635"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_interface.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "862e7cd6edfc42b67e80321fed4b10ba449524573c1f8ed47a43f77f6d3590ed",
+    "adapted_sha256": "b0050ae596a2f1fd9fa0ece3558d9fcd476e2f3dfc24370f954c180ccd57aff1"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_io_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "1a5b3e1c1cac5bb0f08c01367e57879ff7926c9d5dee34c0e60e4e1ad511a80c",
+    "adapted_sha256": "141637c65b4607c1e42015c4e75bc535270f8a90476415955e940f2976a060d4"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_io_port.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "7322fb97d7c4cd1c1283bd98195394c5bac34cffb8deea0386247d9c9b90bb84",
+    "adapted_sha256": "ac06121978fd40395fdff2046ab222b116e69ec9df52e7bb15e084bec224e1c7"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_modecular_assembler.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ccfb659166e59b27420232a87abe97881c56161408f1b8fcf4d5e9e6f0e1ce8f",
+    "adapted_sha256": "2969989e53afd4cc3e7be767326769e1e3d1551da6950db309a876b35a1645a5"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_pattern_provider.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "012134cccb39277198f36fc2fa88245753bee60c34451920e099117522df4764",
+    "adapted_sha256": "c56815f596ef3717e101561b2de718ee08a69d5f2ac123efc9ad6e4794d9a08f"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/extended_pattern_terminal.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "82695eeab44ec5d3ae5cef6da9bf7026e53ca73029292cd27fa54b3464381085",
+    "adapted_sha256": "a131a5cbf643110d1e0a92706d3fc0089cd24db792f645abed5eaa2b7e5b68ef"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/infinity_cell.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "3a3179c13a8bf1fbf036421333be835cb1c6bcfe0780ebcb9d17e7358cdc576d",
+    "adapted_sha256": "bcfa85e26dd792df183761a86909059df5dca4b87528d9c5c646f7c3e8c41b88"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/ingredient_buffer.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "8aeff81c51915770fe4a8de060b5e26c8ef1d040423b6acd6a8cba491a17de7c",
+    "adapted_sha256": "6744f4ecbf8cecdaf35dc95410c1b88902d3746d8d2c26b4cd82309647f79905"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/machine_frame.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "d7af5bf3c4399818a026a53644f7e87ed9fa41f2fc368d3c64d6d3a0a41d4834",
+    "adapted_sha256": "2281e0c4ab7e6f5c3bd4209e98dead4a6824bc0c63dade6c762a3c94a7cc78bc"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/mod_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0e4fce7a82dfaaa85133166f874021b363ae25326e71681fb8d443481e51f348",
+    "adapted_sha256": "8d9efd22ff42912cb353de678d6837bb874b135c241d5b105f73b66761dd0d89"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/mod_storage_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "eafa1325af727b75a54d5b890dda198f87f74732908f3469f530ec008c3e59f9",
+    "adapted_sha256": "b6824563264e592639afb5c11008e7f41f1d12627ef7e3150e02c589a5d11858"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/oversize_interface.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "0dd5c87c0ecad964b12af1065f5381d7ad1faf8decf9f4cc4e63c23f4723ae75",
+    "adapted_sha256": "310bca544f82df99c169cc5be468ed594ad6a078d2b8680d50154244f707b762"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/packing_tape.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ccd28756d9a7b366df7fccd56ef97af2ddb5b1190200e3c1edf474f46f9189d8",
+    "adapted_sha256": "6310c67a1e62a74502a44628dfdfbf27cd64aa36ce79263e199cca1954227644"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/pattern_modifier.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ae5e0395af74cc579bf39fb179c982394417b86fd9e3bf1c2be5e23904f5172a",
+    "adapted_sha256": "746524808f6c051ebc2ffb0d5fbb439c5bc01e35484a0be1f5ec3a4d06193c54"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/precise_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "3ba60bc3acf2d8fa881b83e64797cdaed82a410cceffd9c6ef7607c9830f1212",
+    "adapted_sha256": "d30eba0c4c93ee0862c10ca90eadf38924442694ab0c67863309dba9bf12a443"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/precise_storage_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "59d8f21540f522a55cf1afa72e049fa2d4961dceb24945149d5a781dc09863d0",
+    "adapted_sha256": "63a8a500607876645c9491f8494fc83f4e028b3da3a79582fc54581b5fc78bf8"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/quartz_blend.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "cf500dbfbfa94b07ae36028bc54e149a21a2c15d72e93d32338b05119d8151af",
+    "adapted_sha256": "27964d71baf0c058e0ce6e7f6b1d6463e3ec89c9c8236b5f57a300385b2d8a66"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/silicon_block.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "6a97422a7b1ab6dcbbea4562e93a0be79498a6cd93a52e2d73881d758c8d3cd0",
+    "adapted_sha256": "f8eaea020f0c787e587a22a2793d1b33554db77f1b28909269bec81ef5cc973a"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/smart_annihilation_plane.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "db48f0d2831908893223840e9dcadf6f2d7b309292bba5521cddfabfa61534eb",
+    "adapted_sha256": "8a98c192a7ac1f0410084f01a9bc7b5d498fcd0982cdbd4cdc9ed94acf976869"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/tag_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ac17736d7d59426db49426674d9327f3d9d6c4527128793ddf43bd5ff4e3b063",
+    "adapted_sha256": "a3eee9aff02e1da3e9a4600c88543dfb378a817e7c0c69b992f30b5a99ad0b6a"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/tag_storage_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ea3c1ff758f17614564896dc14354d4c9a7ef817741057ef6e652bfc10007ec7",
+    "adapted_sha256": "2481a3628ecc053032aa688f31eb276d29dcf40af16925faa580f68cd709eda4"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/threshold_export_bus.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "ea77c0ed65913ad5a014d863933fe7b745d67fd7c6fdaccca5624dfec48ea0b1",
+    "adapted_sha256": "e81993f3ab67186e29466d2afcf023996d8107bf54c2b7454182c01dfaa7bcdb"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/threshold_level_emitter.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "5565fd4261d059b3b6c183f1e3871595bdf58e1bc964075274a650b3d1d87ea2",
+    "adapted_sha256": "822e341ed650b63e1736f3718ac5c127d7879d18c259af8bc1bceaa29d297a4a"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/upgrade_items.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "1330ccfdc8e028f2fb868b26f8508f650ec42cb76ee2bd1b86bdbfff31210c52",
+    "adapted_sha256": "b4430957d42be29ea0c70362759344b9b3553107dd052408a17f9a3e824e71b9"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/void_cell.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "4bd420dae2c6ff8cc049f99b1ca925dbdd661b86b953f5ef256b6cb28c021152",
+    "adapted_sha256": "a6e45bef1a79a033796c76f5b529d4069acd54a613320685102539eccb2b4dbf"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/wireless_connector.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "c9ea034cf79f22d38c6702fbdd9d3d07dd692895d3c030095699493131aa5bcc",
+    "adapted_sha256": "21cce4105b05a17366c19f40d01219441ec07988c5dde68f726f82aa48baba07"
+  },
+  {
+    "path": "assets/extendedae/ae2guide/_ru_ru/epp_intro/wireless_hub.md",
+    "source": "BMP Translations 1.21.1 v1.1.10",
+    "source_sha256": "2ce4eac6df28973fe546b5d94a36fb07caa898468ce2eb1b90156c77d9aca77d",
+    "adapted_sha256": "a99aba2715a2bbe231835c60be295288a0262a278b6adc160314c3333a24c92e"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/functional.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "2400ac31c3257ce029d57b2b2c126722bf8394e8ef9c4fe901de036ceb7dbd9c",
+    "adapted_sha256": "c390a3a6168040642afb7a5bb61928820cb71fe2f96c86d54f84f82b6182bb3b"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/generators.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "284fc7d5674948e3e9da102ac0e8a06d4fa37863aca7b53c6767c3457e8d6e9a",
+    "adapted_sha256": "3f02a12d7155ed17eecc84dd41ee3fab4716512a35511682e28788e8e0507db1"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/index.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "f8c3248e210ccaeacf2110cd7b44e980d3339401579b45efaafc850608f8ed06",
+    "adapted_sha256": "d08f98cdc1743e5392d70bd0f7e62bf0b1556d49690727c26492f7100b7f89c2"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/panels.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "f4b51d27a5613c6a3630ecb75ee1febd116c7f93a76d2d055776907b11221783",
+    "adapted_sha256": "5dd88ea7b3903b32f5c4a4b6d8d45e82e4b504b1c904ff724ca75baa42197685"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/storage.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "c3064a5911d802f08be4f250d5d7a5189aaad0e83ce2c015530d08e822773d09",
+    "adapted_sha256": "51872a6411e612fc5abb219bec42a01895ea63269a8a1636ed86a88a7b027470"
+  },
+  {
+    "path": "assets/advancedpowah/guides/powah/book/_ru_ru/tiers.md",
+    "source": "BronzePanther translation of installed Advanced Powah 1.1.14",
+    "english_sha256": "2b24e3dc8beb9dc52531862cfd731001b99c77c52920b3cd617f6d4592792c49",
+    "adapted_sha256": "1b496b2174ae9df4d495e269487a55ff4283c7e74cfcac7c474c7d431b913a1f"
+  }
+]

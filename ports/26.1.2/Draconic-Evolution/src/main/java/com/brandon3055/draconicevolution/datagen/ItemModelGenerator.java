@@ -86,7 +86,8 @@ public class ItemModelGenerator extends ModelProvider {
         blockItem(DEContent.CHAOS_CRYSTAL);
         blockItem(DEContent.ENERGY_CORE);
         blockItem(DEContent.ENERGY_CORE_STABILIZER);
-        blockItem(DEContent.STRUCTURE_BLOCK);
+        // Invisible multiblock placeholder has no block model; retain a valid debug item icon.
+        blockItem(DEContent.STRUCTURE_BLOCK, net.minecraft.resources.Identifier.withDefaultNamespace("block/structure_block"));
         blockItem(DEContent.REACTOR_CORE);
         blockItem(DEContent.REACTOR_STABILIZER);
         blockItem(DEContent.REACTOR_INJECTOR);

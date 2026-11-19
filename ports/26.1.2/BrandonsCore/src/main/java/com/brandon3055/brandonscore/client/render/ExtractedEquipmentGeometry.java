@@ -20,7 +20,17 @@ public final class ExtractedEquipmentGeometry {
     public int drawCount(){return geometry.size();}
     /** Reuse immutable vertices while capturing this frame's animated shader uniforms. */
     public ExtractedEquipmentGeometry snapshotShaderState(){
-        return new ExtractedEquipmentGeometry(geometry.stream().map(draw->new Geometry(draw.type(),draw.vertices(),NativeShaderBindings.capture(draw.type()))).toList());
+        return new ExtractedEquipmentGeometry(geometry.stream().map(draw->new Geometry(draw.type(),draw.vertices(),NativeShaderBindings.capture(draw.type()),draw.local(),draw.light(),draw.overlay())).toList());
+    }
+    /** Append immutable model vertices with this extraction's pose, light and uniforms. */
+    public static boolean captureInstance(ExtractedEquipmentGeometry mesh,org.joml.Matrix4fc local,int light,int overlay){
+        var builder=ACTIVE.get();if(builder==null)return false;builder.flush();
+        for(var draw:mesh.geometry){
+            var transform=new org.joml.Matrix4f(local);
+            if(draw.local()!=null)transform.mul(draw.local());
+            builder.result.add(new Geometry(draw.type(),draw.vertices(),NativeShaderBindings.capture(draw.type()),transform,light,overlay));
+        }
+        return true;
     }
     public static void flush(MultiBufferSource buffers){if(buffers instanceof Builder builder)builder.flush();}
     static boolean captureCached(CachedModelMesh mesh){
@@ -34,31 +44,44 @@ public final class ExtractedEquipmentGeometry {
     public void submit(PoseStack poses,SubmitNodeCollector collector,int packedLight){
         var outer=new org.joml.Matrix4f(poses.last().pose());
         for(var draw:geometry){
-            var shader=draw.shader()==null?null:draw.shader().transformed(outer);
+            poses.pushPose();
+            if(draw.local()!=null)poses.mulPose(draw.local());
+            var shader=draw.shader()==null?null:draw.shader().transformed(poses.last().pose());
             var type=NativeShaderBindings.frozenType(draw.type(),shader);
             boolean transform=shader==null||!shader.hasModelMatrix();
-            collector.submitCustomGeometry(poses,type,(pose,consumer)->draw.vertices().forEach(vertex->vertex.emit(pose,consumer,transform,packedLight)));
+            int light=packedLight<0?draw.light():packedLight;
+            try{collector.submitCustomGeometry(poses,type,(pose,consumer)->draw.vertices().forEach(vertex->vertex.emit(pose,consumer,transform,light,draw.overlay())));}
+            finally{poses.popPose();}
         }
     }
     /** Replays an extracted snapshot in the existing native late transparent pass. */
     public void emit(PoseStack poses,MultiBufferSource buffers) {
         var outer=new org.joml.Matrix4f(poses.last().pose());
         for(var draw:geometry){
-            var shader=draw.shader()==null?null:draw.shader().transformed(outer);
+            poses.pushPose();
+            if(draw.local()!=null)poses.mulPose(draw.local());
+            var shader=draw.shader()==null?null:draw.shader().transformed(poses.last().pose());
             var type=NativeShaderBindings.frozenType(draw.type(),shader);
             boolean transform=shader==null||!shader.hasModelMatrix();
             var consumer=buffers.getBuffer(type);
-            draw.vertices().forEach(vertex->vertex.emit(poses.last(),consumer,transform));
+            try{draw.vertices().forEach(vertex->vertex.emit(poses.last(),consumer,transform,draw.light(),draw.overlay()));}
+            finally{poses.popPose();}
         }
     }
-    private record Geometry(RenderType type,List<Vertex> vertices,BCShader.Snapshot shader){}
+    private record Geometry(RenderType type,List<Vertex> vertices,BCShader.Snapshot shader,org.joml.Matrix4f local,int light,int overlay){
+        Geometry(RenderType type,List<Vertex> vertices,BCShader.Snapshot shader){this(type,vertices,shader,null,-1,-1);}
+    }
     static record Vertex(float x,float y,float z,int color,float u,float v,int u1,int v1,int u2,int v2,float nx,float ny,float nz,float width){
         void emit(PoseStack.Pose pose,VertexConsumer consumer,boolean transform){
             emit(pose,consumer,transform,-1);
         }
         void emit(PoseStack.Pose pose,VertexConsumer consumer,boolean transform,int packedLight){
+            emit(pose,consumer,transform,packedLight,-1);
+        }
+        void emit(PoseStack.Pose pose,VertexConsumer consumer,boolean transform,int packedLight,int packedOverlay){
             if(transform)consumer.addVertex(pose,x,y,z);else consumer.addVertex(x,y,z);
-            consumer.setColor(color).setUv(u,v).setUv1(u1,v1);
+            consumer.setColor(color).setUv(u,v);
+            if(packedOverlay<0)consumer.setUv1(u1,v1);else consumer.setOverlay(packedOverlay);
             if(packedLight<0)consumer.setUv2(u2,v2);else consumer.setLight(packedLight);
             consumer.setLineWidth(width);
             if(transform)consumer.setNormal(pose,nx,ny,nz);else consumer.setNormal(nx,ny,nz);

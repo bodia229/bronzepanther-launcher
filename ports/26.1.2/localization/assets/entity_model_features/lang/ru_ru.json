@@ -1,0 +1,16 @@
+{
+  "entity_model_features.config.options": "Настройки и исправления",
+  "entity_model_features.config.options.tooltip": "Различные настройки основных функций или исправления совместимости с модами.",
+  "entity_model_features.config.tools": "Инструменты",
+  "entity_model_features.config.tools.tooltip": "Дополнительные инструменты для создания моделей или различения пользовательских моделей.",
+  "entity_model_features.config.force_models": "Пытаться предотвратить переопределение моделей EMF",
+  "entity_model_features.config.force_models.tooltip": "Пытается заставить рендереры сущностей использовать модели, заданные EMF.\nЭто может переопределить стандартные модели, изменённые другими модами.\nЭто сработает не со всеми модами.",
+  "entity_model_features.config.texture_override_mode.emf": "Использовать код EMF",
+  "entity_model_features.config.texture_override_mode.dont": "Игнорировать переопределения текстур",
+  "entity_model_features.config.texture_override_mode.iris": "Сначала попробовать через Iris",
+  "entity_model_features.config.texture_override_mode.tooltip": "Управляет тем, как EMF обрабатывает отрисовку субмоделей с переопределённой текстурой.\nНапример, если модель крипера имеет отдельную текстуру для субмодели головы.\nЕсть два пути: положиться на мой код или на особенность мода Iris.\nМой код «работает», но я не эксперт по буферам рендеринга, и это может вызвать проблемы.\nОсобенность Iris использует довольно простой и кажущийся безопасным/стабильным метод, но мне сказали, что это не предполагаемое поведение Iris.\nВариант с Iris по умолчанию использует код EMF, если Iris не установлен.\nЭту настройку почти всегда следует оставлять по умолчанию, за исключением отладки переопределений текстур в субмоделях.",
+  "entity_model_features.config.texture_override_mode": "Обработка текстур субмоделей",
+  "entity_model_features.config.debug_right_click": "Показывать отладочные данные EMF при ПКМ по сущности",
+  "entity_model_features.config.debug_right_click.tooltip": "Если включено, будет выводить отладочную информацию EMF в\nжурнал и чат при нажатии ПКМ по сущности.",
+  "entity_model_features.config.animate_once": "Анимировать модели один раз для каждой сущности"
+}

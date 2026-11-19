@@ -42,6 +42,13 @@ import static com.brandon3055.draconicevolution.DraconicEvolution.MODID;
 public class RenderTileReactorCore implements DETransparentBlockRenderer<TileReactorCore> {
 
     private static CCModel model = null;
+    private static com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry coreGeometry,shieldGeometry;
+
+    private static com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry cacheGeometry(RenderType type){
+        return com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry.capture(buffers->{
+            var state=CCRenderState.instance();state.reset();state.bind(type,buffers);model.render(state);
+        });
+    }
 
     public static RenderType REACTOR_CORE_TYPE = com.brandon3055.draconicevolution.client.render.DEGeometryTypes.shader("rendertilereactorcore_reactor_core_type", DEShaders.reactorShader, null, com.mojang.blaze3d.vertex.VertexFormat.Mode.QUADS, "none", true, true, false, false, false, false, false);
 
@@ -115,16 +122,26 @@ public class RenderTileReactorCore implements DETransparentBlockRenderer<TileRea
         }
         DEShaders.reactorTime.glUniform1f(animation);
         DEShaders.reactorIntensity.glUniform1f(intensity);
-        ccrs.bind(REACTOR_CORE_TYPE, getter);
-        model.render(ccrs, mat);
+        int instanceLight=ccrs.brightness,instanceOverlay=ccrs.overlay;
+        // Keep the sphere's immutable vertices; only transforms/uniforms change each frame.
+        if(coreGeometry==null)coreGeometry=cacheGeometry(REACTOR_CORE_TYPE);
+        ccrs.brightness=instanceLight;ccrs.overlay=instanceOverlay;
+        if(!com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry.captureInstance(coreGeometry,mat.toMatrix4f(),instanceLight,instanceOverlay)){
+            ccrs.bind(REACTOR_CORE_TYPE, getter);
+            model.render(ccrs, mat);
+        }
         RenderUtils.endBatch(getter);
 
         mat.scale(1.05);
 
         DEShaders.reactorShieldTime.glUniform1f(animation);
         DEShaders.reactorShieldIntensity.glUniform1f((0.7F * shieldPower) - (float) (1 - animState));
-        ccrs.bind(REACTOR_SHIELD_TYPE, getter);
-        model.render(ccrs, mat);
+        if(shieldGeometry==null)shieldGeometry=cacheGeometry(REACTOR_SHIELD_TYPE);
+        ccrs.brightness=instanceLight;ccrs.overlay=instanceOverlay;
+        if(!com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry.captureInstance(shieldGeometry,mat.toMatrix4f(),instanceLight,instanceOverlay)){
+            ccrs.bind(REACTOR_SHIELD_TYPE, getter);
+            model.render(ccrs, mat);
+        }
         RenderUtils.endBatch(getter);
     }
 
