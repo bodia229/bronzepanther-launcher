@@ -1,0 +1,20 @@
+license="MIT"
+[[mods]]
+modId="bronzepanther"
+version="1.0.0"
+displayName="BronzePanther: Techmagic RPG"
+authors="BronzePanther"
+description="Bronze crafting and lossless 1:1 FE/EU compatibility."
+[[mixins]]
+config="bronzepanther.mixins.json"
+[[dependencies.bronzepanther]]
+modId="industrial"
+type="required"
+versionRange="[1.2.0,1.3)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.bronzepanther]]
+modId="minecraft"
+type="required"
+versionRange="[26.1.2]"
+side="BOTH"

@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "community.bronzepanther.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "EnergyAccess",
+    "CapacityAccess",
+    "GeneratorTickMixin",
+    "PowahJadeMixin"
+  ],
+  "client": [
+    "EntropyTooltipMixin",
+    "ResourcePackPolicyMixin",
+    "ExtendedAECreativeTabMixin",
+    "JemiTagIdMixin",
+    "BackpackEmiSyntheticIdMixin",
+    "FtbEmiRecipeHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

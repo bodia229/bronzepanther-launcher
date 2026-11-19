@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:nuggets/draconium_awakened",
+    "C": "draconicevolution:draconium_core",
+    "I": "minecraft:comparator",
+    "M": "draconicevolution:item_wyvern_ender_collection",
+    "W": "#c:chests"
+  },
+  "pattern": [
+    "#C#",
+    "IMI",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_ender_collection"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "minecraft:diamond_sword",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconium_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:basic_relay_crystal"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:basic_relay_crystal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_sword"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 8000000
+}

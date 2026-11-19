@@ -1,0 +1,7 @@
+{
+  "key.bronzepanther.performance": "Режим производительности (F8)",
+  "message.bronzepanther.performance": "BronzePanther: %s",
+  "bronzepanther.mode.auto": "Авто — адаптивная дальность",
+  "bronzepanther.mode.potato": "Слабый ПК — минимум нагрузки",
+  "bronzepanther.mode.manual": "Ручные настройки графики"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "draconicevolution:item_draconic_damage",
+    "B": "draconicevolution:awakened_core",
+    "C": "draconicevolution:medium_chaos_frag"
+  },
+  "pattern": [
+    "CCC",
+    "ABA",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_damage"
+  }
+}

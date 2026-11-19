@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/draconium",
+    "B": "draconicevolution:draconium_core",
+    "C": "#c:nether_stars"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_core"
+  }
+}

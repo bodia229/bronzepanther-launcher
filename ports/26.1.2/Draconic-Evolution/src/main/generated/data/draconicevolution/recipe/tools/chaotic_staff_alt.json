@@ -1,0 +1,52 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:draconic_staff",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:medium_chaos_frag"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:chaotic_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:medium_chaos_frag"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:awakened_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:awakened_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:large_chaos_frag"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:chaotic_energy_core"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:chaotic_staff"
+  },
+  "techLevel": "chaotic",
+  "totalEnergy": 1024000000
+}

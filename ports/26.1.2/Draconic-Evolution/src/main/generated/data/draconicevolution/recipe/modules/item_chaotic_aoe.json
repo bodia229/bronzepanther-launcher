@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ingots/netherite",
+    "A": "draconicevolution:item_draconic_aoe",
+    "B": "draconicevolution:chaotic_core",
+    "I": "#c:ingots/draconium_awakened"
+  },
+  "pattern": [
+    "#I#",
+    "ABA",
+    "#I#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_aoe"
+  }
+}

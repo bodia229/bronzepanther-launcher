@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/draconium",
+    "B": "#c:gems/diamond",
+    "C": "minecraft:blaze_rod",
+    "D": "draconicevolution:draconium_core"
+  },
+  "pattern": [
+    " AB",
+    " CA",
+    "D  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:crystal_binder"
+  }
+}

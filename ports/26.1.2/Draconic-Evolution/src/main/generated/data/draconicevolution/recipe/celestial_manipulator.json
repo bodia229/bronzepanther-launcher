@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:storage_blocks/redstone",
+    "B": "minecraft:clock",
+    "C": "#c:ingots/draconium",
+    "D": "minecraft:dragon_egg",
+    "E": "#c:ingots/iron",
+    "F": "draconicevolution:wyvern_core"
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:celestial_manipulator"
+  }
+}

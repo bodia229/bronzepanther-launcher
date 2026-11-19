@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:nuggets/draconium_awakened",
+    "A": "draconicevolution:item_wyvern_energy",
+    "B": "draconicevolution:wyvern_core"
+  },
+  "pattern": [
+    "###",
+    "ABA",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_energy"
+  }
+}

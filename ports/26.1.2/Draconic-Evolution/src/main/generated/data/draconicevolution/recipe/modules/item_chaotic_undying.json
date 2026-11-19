@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "draconicevolution:medium_chaos_frag",
+    "A": "draconicevolution:awakened_core",
+    "B": "draconicevolution:item_draconic_undying",
+    "C": "minecraft:enchanted_golden_apple",
+    "D": "draconicevolution:item_chaotic_shield_capacity"
+  },
+  "pattern": [
+    "#C#",
+    "ABA",
+    "#D#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_undying"
+  }
+}

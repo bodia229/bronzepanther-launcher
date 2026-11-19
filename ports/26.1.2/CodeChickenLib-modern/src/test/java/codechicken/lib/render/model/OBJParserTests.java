@@ -1,0 +1,54 @@
+package codechicken.lib.render.model;
+
+import codechicken.lib.render.CCModel;
+import codechicken.lib.test.TestResourceProvider;
+import com.mojang.blaze3d.vertex.VertexFormat;
+import net.minecraft.resources.Identifier;
+import org.junit.jupiter.api.Test;
+
+import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+/**
+ * Created by covers1624 on 14/4/22.
+ */
+public class OBJParserTests {
+
+    @Test
+    public void testObject() {
+        Map<String, CCModel> modelMap = OBJParser.parse(TestResourceProvider.INSTANCE, Identifier.parse("test:model/test.obj"), VertexFormat.Mode.QUADS, null, false);
+        CCModel model = modelMap.get("Cube");
+        assertNotNull(model);
+        ModelMaterial material = model.material();
+        assertNotNull(material);
+    }
+
+    @Test
+    public void testGroup() {
+        Map<String, CCModel> modelMap = OBJParser.parse(TestResourceProvider.INSTANCE, Identifier.parse("test:model/test_group.obj"), VertexFormat.Mode.QUADS, null, false);
+        CCModel model = modelMap.get("Cube");
+        assertNotNull(model);
+        ModelMaterial material = model.material();
+        assertNotNull(material);
+    }
+
+    @Test
+    public void testGroupObject() {
+        Map<String, CCModel> modelMap = OBJParser.parse(TestResourceProvider.INSTANCE, Identifier.parse("test:model/test_group_object.obj"), VertexFormat.Mode.QUADS, null, false);
+        CCModel model = modelMap.get("Group/Cube");
+        assertNotNull(model);
+        ModelMaterial material = model.material();
+        assertNotNull(material);
+    }
+
+    @Test
+    public void testMultiObject() {
+        Map<String, CCModel> modelMap = new OBJParser(TestResourceProvider.INSTANCE, Identifier.parse("test:model/test_multi_object.obj"))
+                .ignoreMtl()
+                .quads()
+                .parse();
+        assertEquals(2, modelMap.size());
+    }
+}

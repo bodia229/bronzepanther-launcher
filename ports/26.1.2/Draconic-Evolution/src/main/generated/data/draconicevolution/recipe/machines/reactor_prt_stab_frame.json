@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/iron",
+    "B": "draconicevolution:wyvern_core",
+    "C": "#c:ingots/draconium_awakened"
+  },
+  "pattern": [
+    "AAA",
+    "BC ",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:reactor_prt_stab_frame"
+  }
+}

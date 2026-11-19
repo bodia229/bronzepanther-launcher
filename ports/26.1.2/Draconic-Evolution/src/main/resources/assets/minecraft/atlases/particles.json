@@ -1,0 +1,109 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/energy_0",
+      "sprite": "draconicevolution:energy_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/energy_1",
+      "sprite": "draconicevolution:energy_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/energy_2",
+      "sprite": "draconicevolution:energy_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/energy_3",
+      "sprite": "draconicevolution:energy_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/energy_4",
+      "sprite": "draconicevolution:energy_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_0",
+      "sprite": "draconicevolution:spark_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_1",
+      "sprite": "draconicevolution:spark_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_2",
+      "sprite": "draconicevolution:spark_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_3",
+      "sprite": "draconicevolution:spark_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_4",
+      "sprite": "draconicevolution:spark_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_5",
+      "sprite": "draconicevolution:spark_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spark_6",
+      "sprite": "draconicevolution:spark_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_0",
+      "sprite": "draconicevolution:spell_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_1",
+      "sprite": "draconicevolution:spell_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_2",
+      "sprite": "draconicevolution:spell_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_3",
+      "sprite": "draconicevolution:spell_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_4",
+      "sprite": "draconicevolution:spell_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_5",
+      "sprite": "draconicevolution:spell_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/spell_6",
+      "sprite": "draconicevolution:spell_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/white_orb",
+      "sprite": "draconicevolution:white_orb"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:particle/portal",
+      "sprite": "draconicevolution:portal"
+    }
+  ]
+}

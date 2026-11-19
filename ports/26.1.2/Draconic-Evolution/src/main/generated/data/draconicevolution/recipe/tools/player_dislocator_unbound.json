@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "draconicevolution:dislocator",
+    "draconicevolution:draconium_core",
+    "minecraft:ghast_tear"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:player_dislocator_unbound"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:gems/emerald",
+    "A": "draconicevolution:awakened_core",
+    "B": "draconicevolution:item_wyvern_shield_control",
+    "I": "#c:ingots/netherite"
+  },
+  "pattern": [
+    "#I#",
+    "ABA",
+    "#I#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_shield_control"
+  }
+}

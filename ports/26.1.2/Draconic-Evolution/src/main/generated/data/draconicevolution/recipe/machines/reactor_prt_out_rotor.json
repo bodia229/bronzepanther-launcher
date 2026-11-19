@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:gems/diamond",
+    "B": "draconicevolution:draconium_core",
+    "C": "#c:ingots/draconium"
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "BCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:reactor_prt_out_rotor"
+  }
+}

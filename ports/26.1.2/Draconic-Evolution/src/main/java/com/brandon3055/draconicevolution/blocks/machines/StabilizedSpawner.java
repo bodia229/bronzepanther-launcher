@@ -1,0 +1,64 @@
+package com.brandon3055.draconicevolution.blocks.machines;
+
+import com.brandon3055.brandonscore.api.TechLevel;
+import com.brandon3055.brandonscore.blocks.BlockBCore;
+import com.brandon3055.brandonscore.blocks.EntityBlockBCore;
+import com.brandon3055.draconicevolution.blocks.tileentity.TileStabilizedSpawner;
+import com.brandon3055.draconicevolution.init.DEContent;
+import net.minecraft.ChatFormatting;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.state.BlockState;
+
+import javax.annotation.Nullable;
+import java.util.List;
+
+/**
+ * Created by brandon3055 on 25/09/2016.
+ */
+public class StabilizedSpawner extends EntityBlockBCore {
+
+    public StabilizedSpawner(Properties properties) {
+        super(properties);
+        setMobResistant();
+        setExplosionResistant();
+        setBlockEntity(DEContent.TILE_STABILIZED_SPAWNER::get, true);
+    }
+
+@Override
+    public boolean canConnectRedstone(BlockState state, BlockGetter world, BlockPos pos, @Nullable Direction side) {
+        return true;
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flagIn) {
+        super.appendHoverText(stack, context, tooltip, flagIn);
+        if (!stack.has(BlockBCore.BC_TILE_DATA_TAG) || context.level() == null) {
+            return;
+        }
+        CompoundTag tag = stack.get(BlockBCore.BC_TILE_DATA_TAG).copyTag();
+        CompoundTag data = tag.getCompoundOrEmpty(BlockBCore.BC_MANAGED_DATA_FLAG);
+
+        CompoundTag tier = data.getCompoundOrEmpty("spawner_tier");
+        if (tier.contains("value")) {
+            int index = tier.getByteOr("value",(byte)0);
+            if (index >= 0 && index < TileStabilizedSpawner.SpawnerTier.values().length) {
+                TechLevel techLevel = TileStabilizedSpawner.SpawnerTier.values()[index].getTechLevel();
+                tooltip.add(techLevel.getDisplayName().copy().withStyle(techLevel.getTextColour()));
+            }
+        }
+        if (data.contains("mob_soul")) {
+            ItemStack soul = data.read("mob_soul", ItemStack.OPTIONAL_CODEC, net.minecraft.resources.RegistryOps.create(net.minecraft.nbt.NbtOps.INSTANCE, context.level().registryAccess())).orElse(ItemStack.EMPTY);
+            if (!soul.isEmpty()) {
+                tooltip.add(soul.getDisplayName().copy().withStyle(ChatFormatting.YELLOW));
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "draconicevolution:item_chaotic_shield_capacity",
+    "A": "draconicevolution:draconium_core"
+  },
+  "pattern": [
+    "#A#",
+    "A#A",
+    "#A#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_large_shield_capacity"
+  }
+}

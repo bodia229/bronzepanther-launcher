@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "#c:nether_stars",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:awakened_core"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 1000000
+}

@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:wyvern_core",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_capacitor"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 8000000
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/gold",
+    "B": "#c:gems/diamond",
+    "C": "draconicevolution:wyvern_core"
+  },
+  "pattern": [
+    "ABA",
+    "CBC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:reactor_prt_focus_ring"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:wyvern_chestpiece",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/netherite"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/netherite"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/netherite"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/netherite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:draconic_chestpiece"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 32000000
+}

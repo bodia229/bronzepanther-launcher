@@ -1,0 +1,52 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:awakened_core",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_pickaxe"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_sword"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_shovel"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:draconic_staff"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 256000000
+}

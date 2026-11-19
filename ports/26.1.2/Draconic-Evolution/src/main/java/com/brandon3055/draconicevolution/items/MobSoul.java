@@ -1,0 +1,188 @@
+package com.brandon3055.draconicevolution.items;
+
+import com.brandon3055.brandonscore.api.TimeKeeper;
+import com.brandon3055.brandonscore.utils.InventoryUtils;
+import com.brandon3055.draconicevolution.DraconicEvolution;
+import com.brandon3055.draconicevolution.init.DEContent;
+import com.brandon3055.draconicevolution.init.ItemData;
+import com.brandon3055.draconicevolution.utils.LogHelper;
+import net.minecraft.client.Minecraft;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.EntitySpawnReason;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.SpawnEggItem;
+import net.minecraft.world.item.component.CustomData;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.level.Level;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.neoforge.event.EventHooks;
+
+import javax.annotation.Nullable;
+import java.util.*;
+
+/**
+ * Created by brandon3055 on 25/09/2016.
+ */
+public class MobSoul extends Item {
+
+    private static final Map<Identifier, Entity> renderEntityMap = new HashMap<>();
+    public static List<Identifier> randomDisplayList = null;
+
+    public MobSoul(Properties properties) {
+        super(properties);
+    }
+
+    @Override
+    public InteractionResult useOn(UseOnContext context) {
+        Level level = context.getLevel();
+        Direction facing = context.getClickedFace();
+        BlockPos pos = context.getClickedPos();
+        Player player = context.getPlayer();
+
+        if (player == null) return InteractionResult.PASS;
+        ItemStack stack = player.getItemInHand(context.getHand());
+        if (player.isShiftKeyDown()) {
+
+            Entity entity = createEntity(level, stack);
+            double sX = pos.getX() + facing.getStepX() + 0.5;
+            double sY = pos.getY() + facing.getStepY() + 0.5;
+            double sZ = pos.getZ() + facing.getStepZ() + 0.5;
+            if (entity == null) {
+                LogHelper.error("Mob Soul bound entity = null");
+                return super.useOn(context);
+            }
+            entity.snapTo(sX, sY, sZ, player.getYRot(), 0F);
+
+            if (!level.isClientSide()) {
+                if (!stack.has(ItemData.SOUL_DATA) && entity instanceof Mob mob && level instanceof ServerLevel serverLevel) {
+                    EventHooks.finalizeMobSpawn(mob, serverLevel, serverLevel.getCurrentDifficultyAt(entity.blockPosition()), EntitySpawnReason.SPAWN_ITEM_USE, null);
+                }
+                level.addFreshEntity(entity);
+                if (!player.getAbilities().instabuild) {
+                    InventoryUtils.consumeHeldItem(player, stack, context.getHand());
+                }
+            }
+        }
+        return super.useOn(context);
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        EntityType<?> type = BuiltInRegistries.ENTITY_TYPE.getValue(getEntity(stack));
+        return Component.translatable(type.getDescriptionId()).append(" ").append(super.getName(stack));
+    }
+
+    public Identifier getEntity(ItemStack stack) {
+        return stack.getOrDefault(ItemData.SOUL_ID, Identifier.withDefaultNamespace("pig"));
+    }
+
+    public void setEntity(Identifier entityName, ItemStack stack) {
+        stack.set(ItemData.SOUL_ID, entityName);
+    }
+
+    @Nullable
+    public CompoundTag getEntityData(ItemStack stack) {
+        CustomData data = stack.get(ItemData.SOUL_DATA);
+        if (data == null || data.isEmpty()) {
+            return null;
+        }
+        return data.copyTag();
+    }
+
+    public void setEntityData(CompoundTag compound, ItemStack stack) {
+        compound.remove("UUID");
+        compound.remove("Motion");
+        stack.set(ItemData.SOUL_DATA, CustomData.of(compound));
+    }
+
+    public Entity createEntity(Level level, ItemStack stack) {
+        return createEntity(level, stack, EntitySpawnReason.SPAWN_ITEM_USE);
+    }
+
+    public Entity createEntity(Level level, ItemStack stack, EntitySpawnReason reason) {
+        try {
+            CompoundTag entityData = getEntityData(stack);
+            EntityType<?> type = BuiltInRegistries.ENTITY_TYPE.getValue(getEntity(stack));
+            Entity entity;
+
+            entity = type.create(level, reason);
+            if (entity == null) {
+                return EntityType.PIG.create(level, reason);
+            }
+            if (entityData != null) {
+                com.brandon3055.draconicevolution.lib.EntityDataIO.load(entity, entityData);
+            }
+            return entity;
+        } catch (Throwable e) {
+            return EntityType.PIG.create(level, reason);
+        }
+    }
+
+    public ItemStack getSoulFromEntity(Entity entity, boolean saveEntityData) {
+        ItemStack soul = new ItemStack(DEContent.MOB_SOUL.get());
+
+        setEntity(BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()), soul);
+
+        if (saveEntityData) {
+            CompoundTag compound = com.brandon3055.draconicevolution.lib.EntityDataIO.save(entity);
+            setEntityData(compound, soul);
+        }
+
+        return soul;
+    }
+
+    
+    public static void clearRenderCache() {
+        renderEntityMap.clear();
+        randomDisplayList = null;
+    }
+
+    public Entity getRenderEntity(ItemStack stack) {
+        return getRenderEntity(getEntity(stack));
+    }
+
+    
+    public Entity getRenderEntity(Identifier name) {
+        if (name == null || name.equals(Identifier.fromNamespaceAndPath(DraconicEvolution.MODID, "random_display_entity"))) {
+            if (randomDisplayList == null) {
+                randomDisplayList = new ArrayList<>();
+                BuiltInRegistries.ENTITY_TYPE.stream().filter(type -> SpawnEggItem.byId(type).isPresent())
+                        .forEach(type -> randomDisplayList.add(BuiltInRegistries.ENTITY_TYPE.getKey(type)));
+            }
+
+            if (!randomDisplayList.isEmpty()) {
+                name = randomDisplayList.get((TimeKeeper.getClientTick() / 20) % randomDisplayList.size());
+            }
+        }
+
+        if (!renderEntityMap.containsKey(name)) {
+            Level level = com.brandon3055.draconicevolution.client.DEClientAccess.level();
+            if (level == null) return null;
+            Entity entity;
+            try {
+                EntityType<?> type = BuiltInRegistries.ENTITY_TYPE.getValue(name);
+                entity = type.create(level, EntitySpawnReason.LOAD);
+                if (entity == null) {
+                    entity = EntityType.PIG.create(level, EntitySpawnReason.LOAD);
+                }
+            } catch (Throwable e) {
+                entity = EntityType.PIG.create(level, EntitySpawnReason.LOAD);
+            }
+            renderEntityMap.put(name, entity);
+        }
+
+        return renderEntityMap.get(name);
+    }
+}

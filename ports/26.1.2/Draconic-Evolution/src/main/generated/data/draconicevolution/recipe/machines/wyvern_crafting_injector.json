@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:basic_crafting_injector",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconium_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconium_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:gems/diamond"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:storage_blocks/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:gems/diamond"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:wyvern_crafting_injector"
+  },
+  "techLevel": "draconium",
+  "totalEnergy": 32000
+}

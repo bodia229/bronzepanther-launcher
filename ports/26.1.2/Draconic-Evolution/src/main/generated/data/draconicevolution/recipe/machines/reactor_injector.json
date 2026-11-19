@@ -1,0 +1,52 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:wyvern_core",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_in_rotor"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_in_rotor"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_in_rotor"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_in_rotor"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/iron"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:reactor_injector"
+  },
+  "techLevel": "chaotic",
+  "totalEnergy": 16000000
+}

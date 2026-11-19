@@ -1,0 +1,1 @@
+package community.bronzepanther.api;public interface CapacityView{int bp$getCapacity();}

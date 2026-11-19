@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "draconicevolution:basic_io_crystal",
+    "draconicevolution:basic_io_crystal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:basic_relay_crystal"
+  }
+}

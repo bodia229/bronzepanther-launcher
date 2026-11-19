@@ -1,0 +1,15 @@
+{
+  "rso.search_bar_empty": "Поиск настроек...",
+  "modmenu.summaryTranslation.reeses-sodium-options": "Альтернативное меню настроек Sodium.",
+  "modmenu.descriptionTranslation.reeses-sodium-options": "Заменяет меню настроек Sodium с целью повысить удобство его использования.",
+  "rso.controller.guide.toggle": "Переключение",
+  "rso.controller.guide.reset": "Сброс",
+  "rso.controller.guide.undo": "Вернуть",
+  "rso.options.group.general": "Основные",
+  "rso.options.group.appearance": "Внешний вид",
+  "rso.options.tab_header_collapse_mode.value.manual": "Ручная",
+  "rso.options.disabled_option_visibility.value.shown": "Показана",
+  "rso.options.disabled_option_visibility.value.hidden": "Скрыты",
+  "rso.options.focus_border_mode.value.always": "Всегда",
+  "rso.options.focus_border_mode.value.never": "Никогда"
+}

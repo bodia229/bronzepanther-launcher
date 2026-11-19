@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:dislocator",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ender_pearls"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:wyvern_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:advanced_dislocator"
+  },
+  "techLevel": "wyvern",
+  "totalEnergy": 1000000
+}

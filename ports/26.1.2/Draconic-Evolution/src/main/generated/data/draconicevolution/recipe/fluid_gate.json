@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/iron",
+    "B": "draconicevolution:potentiometer",
+    "C": "minecraft:bucket",
+    "D": "draconicevolution:draconium_core",
+    "E": "minecraft:comparator"
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:fluid_gate"
+  }
+}

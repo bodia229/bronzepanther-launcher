@@ -1,0 +1,7 @@
+{
+  "item.appliedthaumaturge.upgrade_alchemy": "Улучшение «Алхимия»",
+  "tooltip.appliedthaumaturge.wireless_essentia_terminal.alchemy_mode": "Алхимия",
+  "tooltip.appliedthaumaturge.wireless_essentia_terminal.terminal_mode": "Терминал",
+  "tooltip.appliedthaumaturge.wireless_arcane_terminal.terminal_mode": "Терминал",
+  "gui.appliedthaumaturge.portable_essentia_cell": "Переносная ячейка"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:storage_blocks/redstone",
+    "B": "minecraft:skeleton_skull",
+    "C": "#c:storage_blocks/lapis",
+    "D": "#c:gems/diamond",
+    "E": "#c:ingots/draconium",
+    "F": "draconicevolution:entity_detector"
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:entity_detector_advanced"
+  }
+}

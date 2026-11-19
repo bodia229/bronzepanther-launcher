@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:nuggets/draconium_awakened",
+    "A": "draconicevolution:draconium_core",
+    "B": "draconicevolution:item_wyvern_auto_feed",
+    "C": "minecraft:cookie"
+  },
+  "pattern": [
+    "#C#",
+    "ABA",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_auto_feed"
+  }
+}

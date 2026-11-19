@@ -1,0 +1,161 @@
+package codechicken.lib.render.buffer;
+
+import codechicken.lib.model.Quad;
+import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.mojang.blaze3d.vertex.VertexFormat;
+import net.minecraft.client.resources.model.geometry.BakedQuad;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+import net.minecraft.client.resources.model.geometry.QuadCollection;
+import net.minecraft.core.Direction;
+import net.minecraft.util.ARGB;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * A {@link VertexConsumer} implementation to build {@link BakedQuad}s.
+ * <p>
+ * Created by covers1624 on 4/23/20.
+ */
+public class BakedQuadVertexBuilder implements VertexConsumer, ISpriteAwareVertexConsumer {
+
+    private final List<BakedQuad> quadList = new ArrayList<>();
+    private final VertexFormat.Mode mode;
+
+    private boolean shade = false;
+    private boolean ambientOcclusion = true;
+
+    private final Quad current = new Quad();
+    private int vertex = -1;
+
+    public BakedQuadVertexBuilder() {
+        this(VertexFormat.Mode.QUADS);
+    }
+
+    public BakedQuadVertexBuilder(VertexFormat.Mode mode) {
+        if (mode != VertexFormat.Mode.QUADS && mode != VertexFormat.Mode.TRIANGLES) {
+            throw new IllegalArgumentException("Only QUADS or TRIANGLES supported. Got: " + mode);
+        }
+        this.mode = mode;
+    }
+
+    public void reset() {
+        quadList.clear();
+        shade = false;
+        ambientOcclusion = true;
+        vertex = -1;
+    }
+
+    public void setShade(boolean shade) {
+        this.shade = shade;
+    }
+
+    public void setAmbientOcclusion(boolean ambientOcclusion) {
+        this.ambientOcclusion = ambientOcclusion;
+    }
+
+    @Override
+    public void sprite(TextureAtlasSprite sprite) {
+        current.sprite = sprite;
+    }
+
+    @Override
+    public VertexConsumer addVertex(float x, float y, float z) {
+        endPrevVertex();
+        current.vertices[vertex].vec.set(x, y, z);
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setColor(int color) {
+        current.vertices[vertex].color = color;
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setColor(int red, int green, int blue, int alpha) {
+        setColor(ARGB.color(alpha, red, green, blue));
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setUv(float u, float v) {
+        current.vertices[vertex].uv.set(u, v);
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setNormal(float x, float y, float z) {
+        current.vertices[vertex].normal.set(x, y, z);
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setUv1(int u, int v) {
+        // Baked quads dont support overlay.
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setUv2(int u, int v) {
+        // Baked quads dont support arbitrary lightmap.
+        return this;
+    }
+
+    @Override
+    public VertexConsumer setLineWidth(float lineWidth) {
+        // Baked quads dont support line width.
+        return this;
+    }
+
+    private void endPrevVertex() {
+        vertex++;
+        if (vertex == mode.primitiveLength) {
+            if (mode == VertexFormat.Mode.TRIANGLES) {
+                // Quadulate.
+                current.vertices[3].copyFrom(current.vertices[2]);
+            }
+            if (current.sprite == null) {
+                throw new IllegalStateException("Sprite not set.");
+            }
+            current.calculateOrientation(false);
+            current.shade = shade;
+            current.ambientOcclusion = ambientOcclusion;
+            quadList.add(current.bake());
+            vertex = 0;
+        }
+    }
+
+    private List<BakedQuad> finish() {
+        endPrevVertex();
+        vertex = -1;
+        return quadList;
+    }
+
+    public List<BakedQuad> getQuads() {
+        return new ArrayList<>(finish());
+    }
+
+    /**
+     * Add all quads as culled on the specified face.
+     */
+    public void getAsCulled(QuadCollection.Builder builder, Direction face) {
+        finish().forEach(e -> builder.addCulledFace(face, e));
+    }
+
+    /**
+     * Add all quads as culled, based on the orientation of the quad.
+     * <p>
+     * Does not check if the quad lies on its face.
+     */
+    public void getAsCulled(QuadCollection.Builder builder) {
+        finish().forEach(e -> builder.addCulledFace(e.direction(), e));
+    }
+
+    /**
+     * Add all the quads to the builder as unculled.
+     */
+    public void getAsUnculled(QuadCollection.Builder builder) {
+        finish().forEach(builder::addUnculledFace);
+    }
+}

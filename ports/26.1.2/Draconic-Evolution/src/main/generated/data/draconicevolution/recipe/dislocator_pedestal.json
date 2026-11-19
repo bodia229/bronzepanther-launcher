@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:stone_pressure_plate",
+    "B": "#c:stones",
+    "C": "minecraft:stone_slab",
+    "D": "minecraft:blaze_powder"
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:dislocator_pedestal"
+  }
+}

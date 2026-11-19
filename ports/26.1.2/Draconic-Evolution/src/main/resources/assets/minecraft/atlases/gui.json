@@ -1,0 +1,409 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/bars",
+      "sprite": "draconicevolution:bars"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/clear",
+      "sprite": "draconicevolution:celestial_manipulator/clear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/midnight",
+      "sprite": "draconicevolution:celestial_manipulator/midnight"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/moonrise",
+      "sprite": "draconicevolution:celestial_manipulator/moonrise"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/moonset",
+      "sprite": "draconicevolution:celestial_manipulator/moonset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/noon",
+      "sprite": "draconicevolution:celestial_manipulator/noon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/rain",
+      "sprite": "draconicevolution:celestial_manipulator/rain"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/storm",
+      "sprite": "draconicevolution:celestial_manipulator/storm"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/sunrise",
+      "sprite": "draconicevolution:celestial_manipulator/sunrise"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/celestial_manipulator/sunset",
+      "sprite": "draconicevolution:celestial_manipulator/sunset"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/autofill_all",
+      "sprite": "draconicevolution:chest/autofill_all"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/autofill_fill",
+      "sprite": "draconicevolution:chest/autofill_fill"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/autofill_lock",
+      "sprite": "draconicevolution:chest/autofill_lock"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/autofill_off",
+      "sprite": "draconicevolution:chest/autofill_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/feed_all",
+      "sprite": "draconicevolution:chest/feed_all"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/feed_filter",
+      "sprite": "draconicevolution:chest/feed_filter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/feed_filter_sticky",
+      "sprite": "draconicevolution:chest/feed_filter_sticky"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/feed_off",
+      "sprite": "draconicevolution:chest/feed_off"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/fire_base",
+      "sprite": "draconicevolution:chest/fire_base"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/chest/fire_over",
+      "sprite": "draconicevolution:chest/fire_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/fusion_slot",
+      "sprite": "draconicevolution:dark/fusion_slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/add_bottom",
+      "sprite": "draconicevolution:dislocator/add_bottom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/add_top",
+      "sprite": "draconicevolution:dislocator/add_top"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/delete",
+      "sprite": "draconicevolution:dislocator/delete"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/locked",
+      "sprite": "draconicevolution:dislocator/locked"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/slot",
+      "sprite": "draconicevolution:dislocator/slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/slot_selected",
+      "sprite": "draconicevolution:dislocator/slot_selected"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator/unlocked",
+      "sprite": "draconicevolution:dislocator/unlocked"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dislocator_advanced",
+      "sprite": "draconicevolution:dislocator_advanced"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_0",
+      "sprite": "draconicevolution:effect/glitter_0"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_1",
+      "sprite": "draconicevolution:effect/glitter_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_2",
+      "sprite": "draconicevolution:effect/glitter_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_3",
+      "sprite": "draconicevolution:effect/glitter_3"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_4",
+      "sprite": "draconicevolution:effect/glitter_4"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_5",
+      "sprite": "draconicevolution:effect/glitter_5"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_6",
+      "sprite": "draconicevolution:effect/glitter_6"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/effect/glitter_7",
+      "sprite": "draconicevolution:effect/glitter_7"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/hud/ryg_bar",
+      "sprite": "draconicevolution:hud/ryg_bar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/hud/shield_icon",
+      "sprite": "draconicevolution:hud/shield_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/hud/undying",
+      "sprite": "draconicevolution:hud/undying"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/hud",
+      "sprite": "draconicevolution:hud"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/images/debanner",
+      "sprite": "draconicevolution:images/debanner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/jei_fusion_background",
+      "sprite": "draconicevolution:jei_fusion_background"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/fusion_slot",
+      "sprite": "draconicevolution:light/fusion_slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/misc/es_buttons",
+      "sprite": "draconicevolution:misc/es_buttons"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/core",
+      "sprite": "draconicevolution:reactor/core"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/fuel_gauge",
+      "sprite": "draconicevolution:reactor/fuel_gauge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/pointer",
+      "sprite": "draconicevolution:reactor/pointer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/sat_gauge",
+      "sprite": "draconicevolution:reactor/sat_gauge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/shield_gauge",
+      "sprite": "draconicevolution:reactor/shield_gauge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/reactor/temp_gauge",
+      "sprite": "draconicevolution:reactor/temp_gauge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/balanced_charge",
+      "sprite": "draconicevolution:transfuser/balanced_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/mode_buffer",
+      "sprite": "draconicevolution:transfuser/mode_buffer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/mode_charge",
+      "sprite": "draconicevolution:transfuser/mode_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/mode_disabled",
+      "sprite": "draconicevolution:transfuser/mode_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/mode_discharge",
+      "sprite": "draconicevolution:transfuser/mode_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/transfuser/sequential_charge",
+      "sprite": "draconicevolution:transfuser/sequential_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/advanced_dislocator",
+      "sprite": "draconicevolution:dark/advanced_dislocator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/celestial_manipulator",
+      "sprite": "draconicevolution:dark/celestial_manipulator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/disenchanter",
+      "sprite": "draconicevolution:dark/disenchanter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/draconium_chest",
+      "sprite": "draconicevolution:dark/draconium_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/energy_core",
+      "sprite": "draconicevolution:dark/energy_core"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/entity_detector",
+      "sprite": "draconicevolution:dark/entity_detector"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/flow_gate",
+      "sprite": "draconicevolution:dark/flow_gate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/fusion_craft",
+      "sprite": "draconicevolution:dark/fusion_craft"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/generator",
+      "sprite": "draconicevolution:dark/generator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/grinder",
+      "sprite": "draconicevolution:dark/grinder"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/reactor",
+      "sprite": "draconicevolution:dark/reactor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/dark/transfuser",
+      "sprite": "draconicevolution:dark/transfuser"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/advanced_dislocator",
+      "sprite": "draconicevolution:light/advanced_dislocator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/celestial_manipulator",
+      "sprite": "draconicevolution:light/celestial_manipulator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/disenchanter",
+      "sprite": "draconicevolution:light/disenchanter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/draconium_chest",
+      "sprite": "draconicevolution:light/draconium_chest"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/energy_core",
+      "sprite": "draconicevolution:light/energy_core"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/entity_detector",
+      "sprite": "draconicevolution:light/entity_detector"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/flow_gate",
+      "sprite": "draconicevolution:light/flow_gate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/fusion_craft",
+      "sprite": "draconicevolution:light/fusion_craft"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/generator",
+      "sprite": "draconicevolution:light/generator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/grinder",
+      "sprite": "draconicevolution:light/grinder"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/reactor",
+      "sprite": "draconicevolution:light/reactor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "draconicevolution:gui/light/transfuser",
+      "sprite": "draconicevolution:light/transfuser"
+    }
+  ]
+}

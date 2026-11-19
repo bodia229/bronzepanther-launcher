@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "draconicevolution:item_wyvern_damage",
+    "B": "draconicevolution:wyvern_core",
+    "I": "#c:nuggets/draconium_awakened",
+    "P": "minecraft:dragon_breath"
+  },
+  "pattern": [
+    "IPI",
+    "ABA",
+    "IPI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_damage"
+  }
+}

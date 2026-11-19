@@ -1,0 +1,569 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/add",
+      "sprite": "brandonscore:add"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/bars/energy_empty",
+      "sprite": "brandonscore:bars/energy_empty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/bars/energy_full",
+      "sprite": "brandonscore:bars/energy_full"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/bars/food_empty",
+      "sprite": "brandonscore:bars/food_empty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/bars/food_full",
+      "sprite": "brandonscore:bars/food_full"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/bars/food_half",
+      "sprite": "brandonscore:bars/food_half"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/color_picker",
+      "sprite": "brandonscore:color_picker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/advanced",
+      "sprite": "brandonscore:dark/advanced"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/arrow_left",
+      "sprite": "brandonscore:dark/arrow_left"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/arrow_right",
+      "sprite": "brandonscore:dark/arrow_right"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/background_dynamic",
+      "sprite": "brandonscore:dark/background_dynamic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/bg_dynamic_small",
+      "sprite": "brandonscore:dark/bg_dynamic_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/borderless_bg_dynamic_small",
+      "sprite": "brandonscore:dark/borderless_bg_dynamic_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/button",
+      "sprite": "brandonscore:dark/button"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/button_borderless",
+      "sprite": "brandonscore:dark/button_borderless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/button_borderless_invert",
+      "sprite": "brandonscore:dark/button_borderless_invert"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/button_disabled",
+      "sprite": "brandonscore:dark/button_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/button_highlight",
+      "sprite": "brandonscore:dark/button_highlight"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/collapse_content",
+      "sprite": "brandonscore:dark/collapse_content"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/copy",
+      "sprite": "brandonscore:dark/copy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/expand_content",
+      "sprite": "brandonscore:dark/expand_content"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/gear",
+      "sprite": "brandonscore:dark/gear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/global_icon",
+      "sprite": "brandonscore:dark/global_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/global_icon_inactive",
+      "sprite": "brandonscore:dark/global_icon_inactive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/global_key_icon",
+      "sprite": "brandonscore:dark/global_key_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/grid_large",
+      "sprite": "brandonscore:dark/grid_large"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/grid_small",
+      "sprite": "brandonscore:dark/grid_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/hud_button",
+      "sprite": "brandonscore:dark/hud_button"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/info_icon",
+      "sprite": "brandonscore:dark/info_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/item_config",
+      "sprite": "brandonscore:dark/item_config"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/preset_icon",
+      "sprite": "brandonscore:dark/preset_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_right",
+      "sprite": "brandonscore:dark/prog_arrow_right"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_right_over",
+      "sprite": "brandonscore:dark/prog_arrow_right_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_up",
+      "sprite": "brandonscore:dark/prog_arrow_up"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_up_over",
+      "sprite": "brandonscore:dark/prog_arrow_up_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_up_tall",
+      "sprite": "brandonscore:dark/prog_arrow_up_tall"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/prog_arrow_up_tall_over",
+      "sprite": "brandonscore:dark/prog_arrow_up_tall_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/pwr_btn",
+      "sprite": "brandonscore:dark/pwr_btn"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/reposition",
+      "sprite": "brandonscore:dark/reposition"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/resize",
+      "sprite": "brandonscore:dark/resize"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/slot",
+      "sprite": "brandonscore:dark/slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/slot_large",
+      "sprite": "brandonscore:dark/slot_large"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/dark/theme",
+      "sprite": "brandonscore:dark/theme"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/delete",
+      "sprite": "brandonscore:delete"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/delete_all",
+      "sprite": "brandonscore:delete_all"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/download_failed",
+      "sprite": "brandonscore:download_failed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/downloading",
+      "sprite": "brandonscore:downloading"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/info_panel",
+      "sprite": "brandonscore:info_panel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_right_both",
+      "sprite": "brandonscore:item_charge/btn_right_both"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_right_charge",
+      "sprite": "brandonscore:item_charge/btn_right_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_right_disabled",
+      "sprite": "brandonscore:item_charge/btn_right_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_right_discharge",
+      "sprite": "brandonscore:item_charge/btn_right_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_vertical_both",
+      "sprite": "brandonscore:item_charge/btn_vertical_both"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_vertical_charge",
+      "sprite": "brandonscore:item_charge/btn_vertical_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_vertical_disabled",
+      "sprite": "brandonscore:item_charge/btn_vertical_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/btn_vertical_discharge",
+      "sprite": "brandonscore:item_charge/btn_vertical_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/horizontal_charge",
+      "sprite": "brandonscore:item_charge/horizontal_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/horizontal_discharge",
+      "sprite": "brandonscore:item_charge/horizontal_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/right_charge",
+      "sprite": "brandonscore:item_charge/right_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/right_discharge",
+      "sprite": "brandonscore:item_charge/right_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/vertical_charge",
+      "sprite": "brandonscore:item_charge/vertical_charge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/item_charge/vertical_discharge",
+      "sprite": "brandonscore:item_charge/vertical_discharge"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/legacy",
+      "sprite": "brandonscore:legacy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/advanced",
+      "sprite": "brandonscore:light/advanced"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/arrow_left",
+      "sprite": "brandonscore:light/arrow_left"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/arrow_right",
+      "sprite": "brandonscore:light/arrow_right"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/background_dynamic",
+      "sprite": "brandonscore:light/background_dynamic"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/bg_dynamic_small",
+      "sprite": "brandonscore:light/bg_dynamic_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/borderless_bg_dynamic_small",
+      "sprite": "brandonscore:light/borderless_bg_dynamic_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/button",
+      "sprite": "brandonscore:light/button"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/button_borderless",
+      "sprite": "brandonscore:light/button_borderless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/button_borderless_invert",
+      "sprite": "brandonscore:light/button_borderless_invert"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/button_disabled",
+      "sprite": "brandonscore:light/button_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/button_highlight",
+      "sprite": "brandonscore:light/button_highlight"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/collapse_content",
+      "sprite": "brandonscore:light/collapse_content"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/copy",
+      "sprite": "brandonscore:light/copy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/expand_content",
+      "sprite": "brandonscore:light/expand_content"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/gear",
+      "sprite": "brandonscore:light/gear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/global_icon",
+      "sprite": "brandonscore:light/global_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/global_icon_inactive",
+      "sprite": "brandonscore:light/global_icon_inactive"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/global_key_icon",
+      "sprite": "brandonscore:light/global_key_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/grid_large",
+      "sprite": "brandonscore:light/grid_large"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/grid_small",
+      "sprite": "brandonscore:light/grid_small"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/hud_button",
+      "sprite": "brandonscore:light/hud_button"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/info_icon",
+      "sprite": "brandonscore:light/info_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/item_config",
+      "sprite": "brandonscore:light/item_config"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/preset_icon",
+      "sprite": "brandonscore:light/preset_icon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_right",
+      "sprite": "brandonscore:light/prog_arrow_right"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_right_over",
+      "sprite": "brandonscore:light/prog_arrow_right_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_up",
+      "sprite": "brandonscore:light/prog_arrow_up"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_up_over",
+      "sprite": "brandonscore:light/prog_arrow_up_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_up_tall",
+      "sprite": "brandonscore:light/prog_arrow_up_tall"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/prog_arrow_up_tall_over",
+      "sprite": "brandonscore:light/prog_arrow_up_tall_over"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/pwr_btn",
+      "sprite": "brandonscore:light/pwr_btn"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/reposition",
+      "sprite": "brandonscore:light/reposition"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/resize",
+      "sprite": "brandonscore:light/resize"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/slot",
+      "sprite": "brandonscore:light/slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/slot_large",
+      "sprite": "brandonscore:light/slot_large"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/light/theme",
+      "sprite": "brandonscore:light/theme"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/modular_gui",
+      "sprite": "brandonscore:modular_gui"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/new_group",
+      "sprite": "brandonscore:new_group"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/redstone/active_high",
+      "sprite": "brandonscore:redstone/active_high"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/redstone/active_low",
+      "sprite": "brandonscore:redstone/active_low"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/redstone/always_active",
+      "sprite": "brandonscore:redstone/always_active"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/redstone/never_active",
+      "sprite": "brandonscore:redstone/never_active"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/reposition_gray",
+      "sprite": "brandonscore:reposition_gray"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/rgb_checker",
+      "sprite": "brandonscore:rgb_checker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/book",
+      "sprite": "brandonscore:slots/book"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/energy",
+      "sprite": "brandonscore:slots/energy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/filter",
+      "sprite": "brandonscore:slots/filter"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/fuel",
+      "sprite": "brandonscore:slots/fuel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/sword",
+      "sprite": "brandonscore:slots/sword"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "brandonscore:gui/slots/trash",
+      "sprite": "brandonscore:slots/trash"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#minecraft:planks",
+    "B": "#c:dusts/redstone",
+    "C": "#c:dusts/draconium",
+    "D": "minecraft:stone_slab"
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:potentiometer"
+  }
+}

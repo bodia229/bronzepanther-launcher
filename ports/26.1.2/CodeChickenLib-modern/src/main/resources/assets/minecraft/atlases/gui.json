@@ -1,0 +1,109 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/cursors/drag",
+      "sprite": "codechickenlib:cursors/drag"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/cursors/resize_diag_tlbr",
+      "sprite": "codechickenlib:cursors/resize_diag_tlbr"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/cursors/resize_diag_trbl",
+      "sprite": "codechickenlib:cursors/resize_diag_trbl"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/cursors/resize_h",
+      "sprite": "codechickenlib:cursors/resize_h"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/cursors/resize_v",
+      "sprite": "codechickenlib:cursors/resize_v"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_borderless",
+      "sprite": "codechickenlib:dynamic/button_borderless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_borderless_pressed",
+      "sprite": "codechickenlib:dynamic/button_borderless_pressed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_highlight",
+      "sprite": "codechickenlib:dynamic/button_highlight"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_highlight_borderless",
+      "sprite": "codechickenlib:dynamic/button_highlight_borderless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_highlight_pressed",
+      "sprite": "codechickenlib:dynamic/button_highlight_pressed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_pressed",
+      "sprite": "codechickenlib:dynamic/button_pressed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_vanilla",
+      "sprite": "codechickenlib:dynamic/button_vanilla"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/button_vanilla_disabled",
+      "sprite": "codechickenlib:dynamic/button_vanilla_disabled"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/gui_borderless",
+      "sprite": "codechickenlib:dynamic/gui_borderless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/dynamic/gui_vanilla",
+      "sprite": "codechickenlib:dynamic/gui_vanilla"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/energy_empty",
+      "sprite": "codechickenlib:widgets/energy_empty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/energy_full",
+      "sprite": "codechickenlib:widgets/energy_full"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/progress_arrow_empty",
+      "sprite": "codechickenlib:widgets/progress_arrow_empty"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/progress_arrow_full",
+      "sprite": "codechickenlib:widgets/progress_arrow_full"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/slot",
+      "sprite": "codechickenlib:widgets/slot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "codechickenlib:gui/sprites/widgets/slot_large",
+      "sprite": "codechickenlib:widgets/slot_large"
+    }
+  ]
+}

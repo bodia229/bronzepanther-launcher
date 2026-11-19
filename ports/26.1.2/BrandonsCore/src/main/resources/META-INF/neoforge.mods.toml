@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+issueTrackerURL="https://github.com/Draconic-Inc/BrandonsCore"
+license="CoFH \"Don't Be a Jerk\" License"
+
+[[mods]]
+	modId="brandonscore"
+	displayName="Brandon's Core"
+    version="${file.jarVersion}"
+	authors="brandon3055"
+	description=''''''
+    updateJSONURL="https://version-check.covers1624.net/check/?mod=BrandonsCore&mc=${mc_version}"
+
+[[dependencies.brandonscore]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.brandonscore]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.brandonscore]]
+    modId="codechickenlib"
+    type="required"
+    versionRange="${ccl_version}"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.brandonscore]]
+	modId="projectintelligence"
+    type="optional"
+    versionRange="[${pi_version},)"
+	ordering="NONE"
+	side="BOTH"
+
+[[mixins]]
+    config="mixins.brandonscore.json"

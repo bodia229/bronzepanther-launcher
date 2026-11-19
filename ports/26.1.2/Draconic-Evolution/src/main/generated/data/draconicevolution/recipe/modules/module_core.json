@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "#c:ingots/draconium",
+    "G": "#c:ingots/gold",
+    "I": "#c:ingots/iron",
+    "R": "#c:dusts/redstone"
+  },
+  "pattern": [
+    "IRI",
+    "GDG",
+    "IRI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:module_core"
+  }
+}

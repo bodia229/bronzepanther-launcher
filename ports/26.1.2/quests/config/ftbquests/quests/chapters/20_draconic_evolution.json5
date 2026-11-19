@@ -1,0 +1,4228 @@
+{
+  "id": "6DCE054BF0FEED96",
+  "filename": "20_draconic_evolution",
+  "group": "",
+  "order_index": 19,
+  "icon": {
+    "id": "draconicevolution:draconic_staff"
+  },
+  "quests": [
+    {
+      "id": "6D0A9224D2FF9BF8",
+      "x": 0,
+      "y": 0,
+      "dependencies": [],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DE0DC7CF06F6A2A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_dust"
+          },
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DD0CC06E97EE123",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6D35CCB3829B166C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconium_dust"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D4AD22240C9683F",
+      "x": 3,
+      "y": 0,
+      "dependencies": [
+        "6D0A9224D2FF9BF8"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DBE87C9B27AE0E5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D5CD44FB8CEB086",
+          "type": "xp",
+          "xp": 165
+        },
+        {
+          "id": "6D23573D8699FD46",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconium_ingot"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D25A9C50B5E7F80",
+      "x": 6,
+      "y": 0,
+      "dependencies": [
+        "6D4AD22240C9683F"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D074621CBF69C72",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_core"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D103BA9BA1E493C",
+          "type": "xp",
+          "xp": 180
+        },
+        {
+          "id": "6DC03CE57D5900AB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconium_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D4AA727731B832F",
+      "x": 9,
+      "y": 0,
+      "dependencies": [
+        "6D25A9C50B5E7F80"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DDD9E7F3F158BFF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:generator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D842B53BFCD57B0",
+          "type": "xp",
+          "xp": 195
+        },
+        {
+          "id": "6D1677E041F98A62",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:generator"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D2774052055095D",
+      "x": 12,
+      "y": 0,
+      "dependencies": [
+        "6D4AA727731B832F"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D22535899EB477E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:basic_io_crystal"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D3CD7FC514A9AF6",
+          "type": "xp",
+          "xp": 210
+        },
+        {
+          "id": "6D6E7180F37F88C3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:basic_io_crystal"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE4E3F5F316497C",
+      "x": 15,
+      "y": 0,
+      "dependencies": [
+        "6D2774052055095D"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D4B00ADC22A3662",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:crystal_binder"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D5C0F8AB72FED21",
+          "type": "xp",
+          "xp": 225
+        },
+        {
+          "id": "6D506E7BA6AB93DA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:crystal_binder"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D770A06A8A4BECB",
+      "x": 18,
+      "y": 0,
+      "dependencies": [
+        "6DE4E3F5F316497C"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D4D0D8F6FAF2567",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:crafting_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D6F84ED2FC2276E",
+          "type": "xp",
+          "xp": 240
+        },
+        {
+          "id": "6D749C71765E518F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:crafting_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE5EF253A1FA641",
+      "x": 21,
+      "y": 0,
+      "dependencies": [
+        "6D770A06A8A4BECB"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DC66098E0FD94F6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:basic_crafting_injector"
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D49102AF818E4A0",
+          "type": "xp",
+          "xp": 255
+        },
+        {
+          "id": "6D3D39A6CD506D2E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:basic_crafting_injector"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE3DE54565BF226",
+      "x": 24,
+      "y": 0,
+      "dependencies": [
+        "6DE5EF253A1FA641"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D5C37189FBFEE5F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_core"
+          },
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DCB7B96F0A6BD76",
+          "type": "xp",
+          "xp": 270
+        },
+        {
+          "id": "6DE706EC6F281EED",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DC14010E4DE1420",
+      "x": 27,
+      "y": 0,
+      "dependencies": [
+        "6DE3DE54565BF226"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D2DE63A5EF30879",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_energy_core"
+          },
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D9D96937F4E8E18",
+          "type": "xp",
+          "xp": 285
+        },
+        {
+          "id": "6D380F16C9E1788D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_energy_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D238603DA55F246",
+      "x": 30,
+      "y": 0,
+      "dependencies": [
+        "6DC14010E4DE1420"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D9E1770B6951509",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DA6FD3C4897B008",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DF2784D2C39D9EA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_capacitor"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DC880233ED432D5",
+      "x": 33,
+      "y": 0,
+      "dependencies": [
+        "6D238603DA55F246"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DFA91C44CFC5DA1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:dislocator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D72FBF220355835",
+          "type": "xp",
+          "xp": 315
+        },
+        {
+          "id": "6DA4D68C875F1F28",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        },
+        {
+          "id": "6D6AAF14326F541D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:dislocator"
+      },
+      "shape": "hexagon",
+      "size": 1.2,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D22CC69ACE22859",
+      "x": 33,
+      "y": 5,
+      "dependencies": [
+        "6DC880233ED432D5"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DED93D7E990E175",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_crafting_injector"
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DCEF6D228C8808D",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D86E765296D3339",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_crafting_injector"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DC113C45C86664C",
+      "x": 30,
+      "y": 5,
+      "dependencies": [
+        "6D22CC69ACE22859"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D10DC8FC6258B2A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_pickaxe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D7292307A93FB37",
+          "type": "xp",
+          "xp": 315
+        },
+        {
+          "id": "6DF5629AD2A15EA5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_pickaxe"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D9EED762A2F97E5",
+      "x": 27,
+      "y": 5,
+      "dependencies": [
+        "6DC113C45C86664C"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D6FEEB9A13F293D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:wyvern_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DEEF60BC173D4AF",
+          "type": "xp",
+          "xp": 330
+        },
+        {
+          "id": "6D1C3076B69FC036",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:wyvern_chestpiece"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE6452D63D1A245",
+      "x": 24,
+      "y": 5,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D12CA06D179ED96",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:dragon_heart"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DBD461E1978133E",
+          "type": "xp",
+          "xp": 345
+        },
+        {
+          "id": "6DA263588BF91A2A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:dragon_heart"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D448CA20263FDAD",
+      "x": 21,
+      "y": 5,
+      "dependencies": [
+        "6DE6452D63D1A245"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DE38E1791DD927C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D57C9448EFB954F",
+          "type": "xp",
+          "xp": 360
+        },
+        {
+          "id": "6D0F5601BAD6825C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:awakened_draconium_ingot"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DA992D9E44119A8",
+      "x": 18,
+      "y": 5,
+      "dependencies": [
+        "6D448CA20263FDAD"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D24D898D86CA98C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DC4379966DA7254",
+          "type": "xp",
+          "xp": 375
+        },
+        {
+          "id": "6D9DD1A6CA616DC6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:awakened_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D3BB594F35441D7",
+      "x": 15,
+      "y": 5,
+      "dependencies": [
+        "6DA992D9E44119A8"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D48059B5DA560F2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_crafting_injector"
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D7A34EC32E5AA51",
+          "type": "xp",
+          "xp": 390
+        },
+        {
+          "id": "6D40DA20C28B44E3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:awakened_crafting_injector"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DF36DE35154C25C",
+      "x": 12,
+      "y": 5,
+      "dependencies": [
+        "6D3BB594F35441D7"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D49F136DB6E3DB7",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DE07A84A4BBC350",
+          "type": "xp",
+          "xp": 405
+        },
+        {
+          "id": "6D86EC0BFD619D15",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconic_capacitor"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D3AEB434989BB48",
+      "x": 9,
+      "y": 5,
+      "dependencies": [
+        "6DF36DE35154C25C"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D1A83679D3DDC99",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D7C13A08E4EB3D7",
+          "type": "xp",
+          "xp": 420
+        },
+        {
+          "id": "6DC228799550A3AD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconic_chestpiece"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DDF1DB8F0849B2D",
+      "x": 6,
+      "y": 5,
+      "dependencies": [
+        "6D3AEB434989BB48"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D25325EC16FA43A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_staff"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D87257265A7E12E",
+          "type": "xp",
+          "xp": 435
+        },
+        {
+          "id": "6D79472C629CB77B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconic_staff"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D4CF4876C804D51",
+      "x": 3,
+      "y": 5,
+      "dependencies": [
+        "6DDF1DB8F0849B2D"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DEA78D049D3EE08",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_io_crystal"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D4C2711D12C5E3E",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DCA97266872E636",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconic_io_crystal"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D1E05BF65D9079C",
+      "x": 0,
+      "y": 5,
+      "dependencies": [
+        "6D4CF4876C804D51"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D4E40B6F69BD06D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:advanced_dislocator"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D9E4A2F4941AA08",
+          "type": "xp",
+          "xp": 465
+        },
+        {
+          "id": "6DC63621E6E20F96",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        },
+        {
+          "id": "6D47A6AA23060477",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          },
+          "count": 2
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:advanced_dislocator"
+      },
+      "shape": "hexagon",
+      "size": 1.2,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D6153CA28E22410",
+      "x": 0,
+      "y": 10,
+      "dependencies": [
+        "6D1E05BF65D9079C"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D695836542BC475",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DDAB3A7405471DB",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D03131896B77F1C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:energy_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DD08AB026D63164",
+      "x": 3,
+      "y": 10,
+      "dependencies": [
+        "6D6153CA28E22410"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DE471D55F453C41",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_core_stabilizer"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D5240F2E319E7B1",
+          "type": "xp",
+          "xp": 465
+        },
+        {
+          "id": "6D18FA64C85038E7",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:energy_core_stabilizer"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D1DF731F4E998E3",
+      "x": 6,
+      "y": 10,
+      "dependencies": [
+        "6DD08AB026D63164"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D7D671E768B4658",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:energy_pylon"
+          },
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DD5863D5936A2C6",
+          "type": "xp",
+          "xp": 480
+        },
+        {
+          "id": "6D0FC57E8501BBAF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:energy_pylon"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D0A325F7409CB7A",
+      "x": 9,
+      "y": 10,
+      "dependencies": [
+        "6D1DF731F4E998E3"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D1BB2C927F2B648",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconic_bow"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D69C36C85722821",
+          "type": "xp",
+          "xp": 495
+        },
+        {
+          "id": "6D0A319C0CDD7206",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:draconic_bow"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DC99424E335C15C",
+      "x": 12,
+      "y": 10,
+      "dependencies": [
+        "6D0A325F7409CB7A"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DC1593F94E25B78",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaos_shard"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D98FA13875EBBCB",
+          "type": "xp",
+          "xp": 510
+        },
+        {
+          "id": "6DCFF423021A3142",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:chaos_shard"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D9947703ADD5174",
+      "x": 15,
+      "y": 10,
+      "dependencies": [
+        "6DC99424E335C15C"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DDCFD4D99FB2C78",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_core"
+          },
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D6D3EDA74E618D3",
+          "type": "xp",
+          "xp": 525
+        },
+        {
+          "id": "6DB254527A77317D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:chaotic_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D459C5D9AFFAA0D",
+      "x": 18,
+      "y": 10,
+      "dependencies": [
+        "6D9947703ADD5174"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D9684F42D75422E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_crafting_injector"
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DA9AFA84EC7449A",
+          "type": "xp",
+          "xp": 540
+        },
+        {
+          "id": "6DB0C68B4FC9140B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:chaotic_crafting_injector"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D9D0C3DF832E19D",
+      "x": 21,
+      "y": 10,
+      "dependencies": [
+        "6D459C5D9AFFAA0D"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DAE0E6A8E5C7D2F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_capacitor"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D18C9351D7F21F0",
+          "type": "xp",
+          "xp": 555
+        },
+        {
+          "id": "6DC0F55EA3B85952",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:chaotic_capacitor"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D8257656595855E",
+      "x": 24,
+      "y": 10,
+      "dependencies": [
+        "6D9D0C3DF832E19D"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D6E4808343C5A6E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:chaotic_chestpiece"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D2B570364C15C09",
+          "type": "xp",
+          "xp": 570
+        },
+        {
+          "id": "6D078F4C2934DB8F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:chaotic_chestpiece"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D9B6B61BD9BD388",
+      "x": 27,
+      "y": 10,
+      "dependencies": [
+        "6D8257656595855E"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6DEFFE2957AF7878",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_core"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DB6405F3A4B05DF",
+          "type": "xp",
+          "xp": 585
+        },
+        {
+          "id": "6DA5F9C1B86226E5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:reactor_core"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DFD6CB13C0DBD02",
+      "x": 30,
+      "y": 10,
+      "dependencies": [
+        "6D9B6B61BD9BD388"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D2A729878DA3D2C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_stabilizer"
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D16338CC1577B02",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D201A3DCA5154CE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:reactor_stabilizer"
+      },
+      "shape": "circle",
+      "size": 1,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D9FC2AE0EEEA03B",
+      "x": 33,
+      "y": 10,
+      "dependencies": [
+        "6DFD6CB13C0DBD02"
+      ],
+      "can_repeat": false,
+      "tasks": [
+        {
+          "id": "6D2138B82E0B5345",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:reactor_injector"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DE64B9B66BF4C1E",
+          "type": "xp",
+          "xp": 615
+        },
+        {
+          "id": "6D75F6908C303294",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        },
+        {
+          "id": "6DC005E72A626CD3",
+          "type": "item",
+          "item": {
+            "id": "minecraft:netherite_ingot"
+          },
+          "count": 3
+        }
+      ],
+      "icon": {
+        "id": "draconicevolution:reactor_injector"
+      },
+      "shape": "hexagon",
+      "size": 1.2,
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D88A80BE6878B09",
+      "x": 0,
+      "y": 17,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_energy"
+      },
+      "tasks": [
+        {
+          "id": "6D5604097F596F89",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D11B06411CE1427",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6DEBA26230E9DC24",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DA43296A11300EA",
+      "x": 8,
+      "y": 17,
+      "dependencies": [
+        "6D88A80BE6878B09"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_energy"
+      },
+      "tasks": [
+        {
+          "id": "6DF13A0C3F487DDE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DAED722AA2B543E",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DED8BFA3842A1E6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D578E3E9F2A1737",
+      "x": 16,
+      "y": 17,
+      "dependencies": [
+        "6DA43296A11300EA"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_energy"
+      },
+      "tasks": [
+        {
+          "id": "6D573F58419936A1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D27F579351CA270",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D8A06C6C5557F9A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D5567A08CF3DAE5",
+      "x": 24,
+      "y": 17,
+      "dependencies": [
+        "6D578E3E9F2A1737"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_energy"
+      },
+      "tasks": [
+        {
+          "id": "6D34085E65EB4E52",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_energy"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DBC3A7E00622C3E",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6DAD8FF17A1B0CF8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DDDC3B7F8B6D873",
+      "x": 8,
+      "y": 20,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_energy_link"
+      },
+      "tasks": [
+        {
+          "id": "6DEE87E172878750",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D3BAAC6016FFDF9",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D8C98FCFD052C0E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D0E849C64D46B62",
+      "x": 16,
+      "y": 20,
+      "dependencies": [
+        "6DDDC3B7F8B6D873"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_energy_link"
+      },
+      "tasks": [
+        {
+          "id": "6D41FBEBD50E59F5",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D173D1B0F7D68D1",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D68B818F5B79309",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D8814A28FFF1FE0",
+      "x": 24,
+      "y": 20,
+      "dependencies": [
+        "6D0E849C64D46B62"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_energy_link"
+      },
+      "tasks": [
+        {
+          "id": "6DE840C14C6E16F9",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_energy_link"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DC1F868A5C8544D",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D75A0FDAB3AF557",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DA13CFF6767C7C3",
+      "x": 0,
+      "y": 23,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_speed"
+      },
+      "tasks": [
+        {
+          "id": "6D71112A59771725",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D45AE13D806E2AA",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6D7FB6CC1458BFFF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D134550A0956AD5",
+      "x": 8,
+      "y": 23,
+      "dependencies": [
+        "6DA13CFF6767C7C3"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_speed"
+      },
+      "tasks": [
+        {
+          "id": "6D89FBD70D1091FC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D7526FA790B159A",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DA69A4ACBCF320C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D67C3BB302CCEA0",
+      "x": 16,
+      "y": 23,
+      "dependencies": [
+        "6D134550A0956AD5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_speed"
+      },
+      "tasks": [
+        {
+          "id": "6D915B8FB64DB2DC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D031C185985DFD4",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D9861A56D203627",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D84ECA8FDAD6076",
+      "x": 24,
+      "y": 23,
+      "dependencies": [
+        "6D67C3BB302CCEA0"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_speed"
+      },
+      "tasks": [
+        {
+          "id": "6DF8010F26EAC1FC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_speed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D84FBC6EB619776",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D483551339777B3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D5B1CC92BF079AF",
+      "x": 0,
+      "y": 26,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_damage"
+      },
+      "tasks": [
+        {
+          "id": "6D28F51165B0DCD8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D39AD8A97A07DAB",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6DD383C0D7147F61",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D23DCAE67488D6B",
+      "x": 8,
+      "y": 26,
+      "dependencies": [
+        "6D5B1CC92BF079AF"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_damage"
+      },
+      "tasks": [
+        {
+          "id": "6DC42BA7694EF562",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DFE0ECDA78279A9",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DF5D17A0C11BFEC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D5D1E58DCA47522",
+      "x": 16,
+      "y": 26,
+      "dependencies": [
+        "6D23DCAE67488D6B"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_damage"
+      },
+      "tasks": [
+        {
+          "id": "6D1AAE06D2FE23BC",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D067F11B31D1706",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D89BD3052B7FC55",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D82FC1AEAC62B31",
+      "x": 24,
+      "y": 26,
+      "dependencies": [
+        "6D5D1E58DCA47522"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_damage"
+      },
+      "tasks": [
+        {
+          "id": "6D3C809F0F7A5C8D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D0B8A427F0F7DE8",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D8C25A117BF6198",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D986C338B15FCA8",
+      "x": 0,
+      "y": 29,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_aoe"
+      },
+      "tasks": [
+        {
+          "id": "6D7913F25EA0B1AF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DB290BA70127E5A",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6DBEAA3DA10465F7",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D2B9CD49E1304D3",
+      "x": 8,
+      "y": 29,
+      "dependencies": [
+        "6D986C338B15FCA8"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_aoe"
+      },
+      "tasks": [
+        {
+          "id": "6D81EB54EDD01BDA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D95CEAF8D35F571",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DEEB477529D28B9",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE2A7A1A6118482",
+      "x": 16,
+      "y": 29,
+      "dependencies": [
+        "6D2B9CD49E1304D3"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_aoe"
+      },
+      "tasks": [
+        {
+          "id": "6DD5D81B315ABD27",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D266D62AFB5F239",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DC1AF8F38BCF40E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DF04CAD4B810ADA",
+      "x": 24,
+      "y": 29,
+      "dependencies": [
+        "6DE2A7A1A6118482"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_aoe"
+      },
+      "tasks": [
+        {
+          "id": "6D664E434223210E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_aoe"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D1ED8A74303B688",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D246115124CD539",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D1AF0650AFC65CC",
+      "x": 8,
+      "y": 32,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_mining_stability"
+      },
+      "tasks": [
+        {
+          "id": "6DC749DA9CC693A4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_mining_stability"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DCF3BB150E5728C",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DBE4BDE583162A2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DF3A06D80DBCAEB",
+      "x": 8,
+      "y": 35,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_tree_harvest"
+      },
+      "tasks": [
+        {
+          "id": "6DA10F17F8313904",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D2E0513CF751B38",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D5D7EDA690B1DA8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D16A584684E280F",
+      "x": 16,
+      "y": 35,
+      "dependencies": [
+        "6DF3A06D80DBCAEB"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_tree_harvest"
+      },
+      "tasks": [
+        {
+          "id": "6D8E4D7D138751B4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D6DD7134E560976",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DE9B104715ED01D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D47A997A3C4863A",
+      "x": 24,
+      "y": 35,
+      "dependencies": [
+        "6D16A584684E280F"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_tree_harvest"
+      },
+      "tasks": [
+        {
+          "id": "6D12C75E5B8DF46B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_tree_harvest"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DAE802D74EB9D65",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6DE16CBD0BE244CE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D8DA7C50AAB5F56",
+      "x": 8,
+      "y": 38,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_junk_filter"
+      },
+      "tasks": [
+        {
+          "id": "6DB36EC7828EE6C8",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_junk_filter"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DF104A9776C314D",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DE7BCD1BBDE8747",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D8741735529B7EE",
+      "x": 8,
+      "y": 41,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_ender_collection"
+      },
+      "tasks": [
+        {
+          "id": "6D01E96FCACB8E33",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_ender_collection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D5D5E1BB637125E",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D703EA4B4672E75",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D4956707C6DDF78",
+      "x": 16,
+      "y": 41,
+      "dependencies": [
+        "6D8741735529B7EE"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_ender_collection"
+      },
+      "tasks": [
+        {
+          "id": "6DF0A6904BF6D433",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_ender_collection"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D0EF9F6A897B344",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DA0F3ADC82995A2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D3560B6820E3B8B",
+      "x": 8,
+      "y": 44,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_proj_velocity"
+      },
+      "tasks": [
+        {
+          "id": "6D47A6F6B9CB38BE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D3D54F2EA0911C1",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DED7471914C8737",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DD06692620498B2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D220821DFD4B1CA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DE938FBB4F3C2A1",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D0466C0B39FE6BF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DC4EC3EC1BD14C1",
+      "x": 16,
+      "y": 44,
+      "dependencies": [
+        "6D3560B6820E3B8B"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_velocity"
+      },
+      "tasks": [
+        {
+          "id": "6D8D63D31326EB25",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D58A61F46C52EFF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D9D0F1DAC63E96A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D667C0292B58761",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D04FF7B46653EB4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D86ED44D051A4DA",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DA6C7EA0A7F3C08",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D0D32BE22042F87",
+      "x": 24,
+      "y": 44,
+      "dependencies": [
+        "6DC4EC3EC1BD14C1"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_proj_velocity"
+      },
+      "tasks": [
+        {
+          "id": "6D69EC234600A78C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_velocity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DADF87AEDE25B51",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_accuracy"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D9D0277A17AC36E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_grav_comp"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D3A8044610687C0",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_penetration"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D68E5C413F9E7F4",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_proj_damage"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D8EE5D7A8E3EF0F",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D41741ECB9FAAE9",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D01EF9E4EA25F08",
+      "x": 8,
+      "y": 47,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_auto_fire"
+      },
+      "tasks": [
+        {
+          "id": "6DD812BB6E6DCA40",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_auto_fire"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DC8698663500953",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D982B3F50A226A0",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DCD43FBCED5294F",
+      "x": 16,
+      "y": 50,
+      "dependencies": [
+        "6D3AEB434989BB48"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_proj_anti_immune"
+      },
+      "tasks": [
+        {
+          "id": "6D1E164E23E1A6CF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_proj_anti_immune"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DB5CEA8287C0CA8",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D3CB93F52DE8D73",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D4933C10AB3E0A6",
+      "x": 8,
+      "y": 53,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_shield_control"
+      },
+      "tasks": [
+        {
+          "id": "6DD3092EFC13E3DB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D24E0627D4890DB",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D8CED95AA61FBA6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D7009A49AA77A4F",
+      "x": 16,
+      "y": 53,
+      "dependencies": [
+        "6D4933C10AB3E0A6"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_shield_control"
+      },
+      "tasks": [
+        {
+          "id": "6D441D501DF21390",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D7448C6C5ED796A",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D9C5BC6FD82525F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D84E1A10148F736",
+      "x": 24,
+      "y": 53,
+      "dependencies": [
+        "6D7009A49AA77A4F"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_shield_control"
+      },
+      "tasks": [
+        {
+          "id": "6D567D728EAD1671",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_control"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DA75213D3736DBC",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D3761E7994D1F08",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D41B424829ED3E1",
+      "x": 8,
+      "y": 56,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_shield_capacity"
+      },
+      "tasks": [
+        {
+          "id": "6D75426B7F841618",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D95AF49C1FCED9C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DDD9B895CA70769",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D35C8A7E250C29E",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D8664B6EE1A3274",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D5364D5261F28AC",
+      "x": 16,
+      "y": 56,
+      "dependencies": [
+        "6D41B424829ED3E1"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_shield_capacity"
+      },
+      "tasks": [
+        {
+          "id": "6D264CF1022663C9",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6D0F5899B8332261",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DCFD4CBAD0E3C4E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D882F4C9D9E602E",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DFB0387037B1991",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DAF934FAABFBDC5",
+      "x": 24,
+      "y": 56,
+      "dependencies": [
+        "6D5364D5261F28AC"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_shield_capacity"
+      },
+      "tasks": [
+        {
+          "id": "6D17D936C2C2DD2F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DB22999D830AA10",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_large_shield_capacity"
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "6DF353D0195952B3",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_shield_recovery"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DED414D868FB3A6",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6DD00704366CB2FF",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DB2C72AA314A040",
+      "x": 8,
+      "y": 59,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_flight"
+      },
+      "tasks": [
+        {
+          "id": "6D380FF1404AD211",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D00E8444607C9CE",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D794F99D8E06250",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D1C5F6DBE8B5C13",
+      "x": 16,
+      "y": 59,
+      "dependencies": [
+        "6DB2C72AA314A040"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_flight"
+      },
+      "tasks": [
+        {
+          "id": "6DB7E4F6E5892D19",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D86FCE95940FB65",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DAB87FBFD62A13F",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DA47B414B4A400D",
+      "x": 24,
+      "y": 59,
+      "dependencies": [
+        "6D1C5F6DBE8B5C13"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_flight"
+      },
+      "tasks": [
+        {
+          "id": "6DA943CF583CCE41",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_flight"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DBD3958FBF0BE28",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D32960B2C4DBCBD",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DC4E267986E6F67",
+      "x": 8,
+      "y": 62,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_undying"
+      },
+      "tasks": [
+        {
+          "id": "6DD79560294B9A6E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D9289A2BAA1582B",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DE3E6CFF0130967",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DC6115265BAEB2D",
+      "x": 16,
+      "y": 62,
+      "dependencies": [
+        "6DC4E267986E6F67"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_undying"
+      },
+      "tasks": [
+        {
+          "id": "6DB783A64DCCC341",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D00689A5E0003CB",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DDA905FD32EB777",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DB93E4DC7D6518B",
+      "x": 24,
+      "y": 62,
+      "dependencies": [
+        "6DC6115265BAEB2D"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_undying"
+      },
+      "tasks": [
+        {
+          "id": "6DE4085A70B49BBB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_undying"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DFD497BFFBFE3D4",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6DA1639B12C9505B",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DB713B0F88513D3",
+      "x": 0,
+      "y": 65,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_auto_feed"
+      },
+      "tasks": [
+        {
+          "id": "6D6D72396652F685",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D35D3ED9C9C6DE5",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6DA63EE5BA57256E",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DF9073FD8720FA8",
+      "x": 8,
+      "y": 65,
+      "dependencies": [
+        "6DB713B0F88513D3"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_auto_feed"
+      },
+      "tasks": [
+        {
+          "id": "6D911C03C0D0ADEA",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D406F85B42F4387",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D3C43B8DACFD44D",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DE8DD78948F424E",
+      "x": 16,
+      "y": 65,
+      "dependencies": [
+        "6DF9073FD8720FA8"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_auto_feed"
+      },
+      "tasks": [
+        {
+          "id": "6D9066D7EE36D479",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_auto_feed"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D4314C28D0C7441",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6DD16E481A091CD6",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DD7406C652EC532",
+      "x": 8,
+      "y": 68,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_night_vision"
+      },
+      "tasks": [
+        {
+          "id": "6D9BA859443A7007",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_night_vision"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D3292FD41516E76",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DEF8EC16E38CF75",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D20A38DE507AD3C",
+      "x": 8,
+      "y": 71,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_hill_step"
+      },
+      "tasks": [
+        {
+          "id": "6DDD5C47B6583508",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_hill_step"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DEEBA763B3AC05E",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DD990651D5296EB",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6D9F3E19E666F9B4",
+      "x": 0,
+      "y": 74,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconium_jump"
+      },
+      "tasks": [
+        {
+          "id": "6DFF6C8F3D865560",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconium_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D060A1ABF9F8738",
+          "type": "xp",
+          "xp": 150
+        },
+        {
+          "id": "6D5C9AC1B95E34F2",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    },
+    {
+      "id": "6DEA54A5ECDA886B",
+      "x": 8,
+      "y": 74,
+      "dependencies": [
+        "6D9F3E19E666F9B4"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_jump"
+      },
+      "tasks": [
+        {
+          "id": "6D9C1921E0E0A147",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DDE82B1A3B1354F",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6DF4FCDD19FE4F27",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6DCB43A86D003ED1",
+      "x": 16,
+      "y": 74,
+      "dependencies": [
+        "6DEA54A5ECDA886B"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_draconic_jump"
+      },
+      "tasks": [
+        {
+          "id": "6DAD66A890E36428",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_draconic_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DA2795C68F56CD7",
+          "type": "xp",
+          "xp": 450
+        },
+        {
+          "id": "6D718C57A20071CE",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_draconium_ingot"
+          },
+          "count": 4
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D97F89384BC8E85",
+      "x": 24,
+      "y": 74,
+      "dependencies": [
+        "6DCB43A86D003ED1"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_chaotic_jump"
+      },
+      "tasks": [
+        {
+          "id": "6D4F40C90B51C611",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_chaotic_jump"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6D58EEAA0C634DD5",
+          "type": "xp",
+          "xp": 600
+        },
+        {
+          "id": "6D484E3E1D848C71",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:awakened_core"
+          },
+          "count": 1
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": false
+    },
+    {
+      "id": "6D74776EEDD22271",
+      "x": 8,
+      "y": 77,
+      "dependencies": [
+        "6D9EED762A2F97E5"
+      ],
+      "can_repeat": false,
+      "icon": {
+        "id": "draconicevolution:item_wyvern_aqua_adapt"
+      },
+      "tasks": [
+        {
+          "id": "6D3BF573682A9D9C",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:item_wyvern_aqua_adapt"
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6DEAEB6E1BE806B0",
+          "type": "xp",
+          "xp": 300
+        },
+        {
+          "id": "6D1BF156D263135A",
+          "type": "item",
+          "item": {
+            "id": "draconicevolution:draconium_ingot"
+          },
+          "count": 8
+        }
+      ],
+      "shape": "square",
+      "hide_dependency_lines": true
+    }
+  ],
+  "images": [
+    {
+      "id": "6D8C9B37C4B1D26E",
+      "x": 16.5,
+      "y": -2,
+      "width": 36,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D85B236793555B9",
+      "x": 16.5,
+      "y": 3,
+      "width": 36,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DA2CCCE416C1049",
+      "x": 16.5,
+      "y": 8,
+      "width": 36,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DE1CDD8EA4AC467",
+      "x": 12,
+      "y": 14.3,
+      "width": 30,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D9EB72C9BCFB69F",
+      "x": 0,
+      "y": 15.5,
+      "width": 6.5,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D21BBC48F48618A",
+      "x": 8,
+      "y": 15.5,
+      "width": 6.5,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D494C70B2E19309",
+      "x": 16,
+      "y": 15.5,
+      "width": 6.5,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D203E115E3BCDE4",
+      "x": 24,
+      "y": 15.5,
+      "width": 6.5,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D8A413663EAB7C4",
+      "x": -6.5,
+      "y": 17,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D279CC01D9FDAC1",
+      "x": -6.5,
+      "y": 20,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DC082A6200DEA27",
+      "x": -6.5,
+      "y": 23,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DFE412B19EF2ACD",
+      "x": -6.5,
+      "y": 26,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D1A6178D277A8DA",
+      "x": -6.5,
+      "y": 29,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DCE9DF679040B1E",
+      "x": -6.5,
+      "y": 32,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DBB2E10A053EDF0",
+      "x": -6.5,
+      "y": 35,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DF6E8CBA1904B0F",
+      "x": -6.5,
+      "y": 38,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D76AEFBE56D856D",
+      "x": -6.5,
+      "y": 41,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D9CA45A9AEFC8B4",
+      "x": -6.5,
+      "y": 44,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DD4A83A02A542F8",
+      "x": -6.5,
+      "y": 47,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D34419D17EFD469",
+      "x": -6.5,
+      "y": 50,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DA58A4532BB5764",
+      "x": -6.5,
+      "y": 53,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D92779E80411013",
+      "x": -6.5,
+      "y": 56,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D44AC471F9F1C78",
+      "x": -6.5,
+      "y": 59,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D6A79A80063161B",
+      "x": -6.5,
+      "y": 62,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DA76ABBA541298D",
+      "x": -6.5,
+      "y": 65,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DA8F500CC2EAE74",
+      "x": -6.5,
+      "y": 68,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D505011560BF1FF",
+      "x": -6.5,
+      "y": 71,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6D367294FA8D3F42",
+      "x": -6.5,
+      "y": 74,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    },
+    {
+      "id": "6DECB6F224634BD3",
+      "x": -6.5,
+      "y": 77,
+      "width": 10,
+      "height": 1.2,
+      "rotation": 0,
+      "image": "minecraft:textures/block/black_concrete.png",
+      "alpha": 195,
+      "color": 16777215,
+      "order": -10,
+      "position_locked": true,
+      "text_on_image": true,
+      "text_shadow": true
+    }
+  ]
+}

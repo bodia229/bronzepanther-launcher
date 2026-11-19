@@ -1,0 +1,44 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": "draconicevolution:reactor_prt_stab_frame",
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:draconic_energy_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_rotor_full"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:reactor_prt_focus_ring"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:chaotic_core"
+    },
+    {
+      "consume": true,
+      "ingredient": "#c:ingots/draconium_awakened"
+    },
+    {
+      "consume": true,
+      "ingredient": "draconicevolution:large_chaos_frag"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:reactor_stabilizer"
+  },
+  "techLevel": "chaotic",
+  "totalEnergy": 16000000
+}

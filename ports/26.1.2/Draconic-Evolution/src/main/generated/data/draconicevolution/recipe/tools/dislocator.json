@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:blaze_powder",
+    "B": "#c:dusts/draconium",
+    "C": "minecraft:ender_eye"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:dislocator"
+  }
+}

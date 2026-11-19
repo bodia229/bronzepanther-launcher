@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ingots/draconium",
+    "A": "#c:dusts/glowstone",
+    "B": "draconicevolution:module_core",
+    "I": "minecraft:netherite_scrap"
+  },
+  "pattern": [
+    "#I#",
+    "ABA",
+    "#I#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_wyvern_shield_capacity"
+  }
+}

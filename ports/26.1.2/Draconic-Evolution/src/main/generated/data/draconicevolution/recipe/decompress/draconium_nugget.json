@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:ingots/draconium"
+  ],
+  "result": {
+    "count": 9,
+    "id": "draconicevolution:draconium_nugget"
+  }
+}

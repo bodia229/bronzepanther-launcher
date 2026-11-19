@@ -1,0 +1,188 @@
+package com.brandon3055.draconicevolution.datagen;
+
+import com.brandon3055.draconicevolution.DraconicEvolution;
+import com.brandon3055.draconicevolution.api.modules.Module;
+import com.brandon3055.draconicevolution.api.modules.ModuleRegistry;
+import com.brandon3055.draconicevolution.init.DEContent;
+import com.brandon3055.draconicevolution.init.DETags;
+import com.brandon3055.draconicevolution.integration.equipment.CuriosIntegration;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
+import net.minecraft.data.loot.LootTableProvider;
+import net.minecraft.data.tags.EnchantmentTagsProvider;
+import net.neoforged.neoforge.common.data.ItemTagsProvider;
+import net.minecraft.tags.EnchantmentTags;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.Tags;
+import net.minecraft.server.packs.PackType;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CompletableFuture;
+
+/**
+ * Created by brandon3055 on 26/2/20.
+ */
+@EventBusSubscriber(modid = DraconicEvolution.MODID)
+public class DataGenEventHandler {
+
+    @SubscribeEvent
+    public static void gatherClientData(GatherDataEvent.Client event) {
+        DataGenerator gen = event.getGenerator();
+        var resources = event.getResourceManager(PackType.CLIENT_RESOURCES);
+        if(Boolean.getBoolean("bp.guiTexturesOnly")) {
+            gen.addProvider(true,new DynamicTextures(gen,resources));
+            return;
+        }
+        if(Boolean.getBoolean("bp.modelsOnly")) {
+            gen.addProvider(true,new BlockStateGenerator(gen,resources));
+            gen.addProvider(true,new ItemModelGenerator(gen,resources));
+            gen.addProvider(true,new ItemModelGenerator2DModels(gen,resources));
+            return;
+        }
+        gen.addProvider(true, new LangGenerator(gen.getPackOutput()));
+        gen.addProvider(true, new BlockStateGenerator(gen, resources));
+        gen.addProvider(true, new ItemModelGenerator(gen, resources));
+        gen.addProvider(true, new ItemModelGenerator2DModels(gen, resources));
+        gen.addProvider(true, new MultiBlockGenerator(gen));
+        gen.addProvider(true, new DynamicTextures(gen, resources));
+        registerServerProviders(event);
+    }
+
+    @SubscribeEvent
+    public static void gatherServerData(GatherDataEvent.Server event) {
+        registerServerProviders(event);
+    }
+
+    private static void registerServerProviders(GatherDataEvent event) {
+        DataGenerator gen = event.getGenerator();
+        gen.addProvider(true, new RecipeGenerator(event.getLookupProvider(), gen.getPackOutput()));
+        gen.addProvider(true, new LootTableProvider(gen.getPackOutput(), Set.of(), List.of(new LootTableProvider.SubProviderEntry(BlockLootProvider::new, LootContextParamSets.BLOCK)), event.getLookupProvider()));
+        gen.addProvider(true, new BlockTagGenerator(gen.getPackOutput(), event.getLookupProvider(), DraconicEvolution.MODID));
+        gen.addProvider(true, new ItemTagGenerator(gen.getPackOutput(), event.getLookupProvider(), DraconicEvolution.MODID));
+        gen.addProvider(true, new DamageTypeGenerator(gen.getPackOutput(), event.getLookupProvider(), DraconicEvolution.MODID));
+        if (ModList.get().isLoaded("curios")) {
+            gen.addProvider(true, new CuriosProvider(gen.getPackOutput(), event.getLookupProvider()));
+        }
+        gen.addProvider(true, new EnchantmentTagGenerator(gen.getPackOutput(), event.getLookupProvider(), DraconicEvolution.MODID));
+    }
+
+    private static class ItemTagGenerator extends ItemTagsProvider {
+
+        public ItemTagGenerator(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pLookupProvider, String modId) {
+            super(pOutput, pLookupProvider, modId);
+        }
+
+        @Override
+        protected void addTags(HolderLookup.Provider pProvider) {
+            tag(DETags.Items.DUSTS_DRACONIUM).add(DEContent.DUST_DRACONIUM.get());
+            tag(DETags.Items.DUSTS_DRACONIUM_AWAKENED).add(DEContent.DUST_DRACONIUM_AWAKENED.get());
+            tag(Tags.Items.DUSTS).addTags(DETags.Items.DUSTS_DRACONIUM_AWAKENED, DETags.Items.DUSTS_DRACONIUM);
+
+            tag(DETags.Items.NUGGETS_DRACONIUM).add(DEContent.NUGGET_DRACONIUM.get());
+            tag(DETags.Items.NUGGETS_DRACONIUM_AWAKENED).add(DEContent.NUGGET_DRACONIUM_AWAKENED.get());
+            tag(Tags.Items.NUGGETS).addTags(DETags.Items.NUGGETS_DRACONIUM_AWAKENED, DETags.Items.NUGGETS_DRACONIUM);
+
+            tag(DETags.Items.INGOTS_DRACONIUM).add(DEContent.INGOT_DRACONIUM.get());
+            tag(DETags.Items.INGOTS_DRACONIUM_AWAKENED).add(DEContent.INGOT_DRACONIUM_AWAKENED.get());
+            tag(Tags.Items.INGOTS).addTags(DETags.Items.INGOTS_DRACONIUM_AWAKENED, DETags.Items.INGOTS_DRACONIUM);
+
+            tag(DETags.Items.STORAGE_BLOCKS_DRACONIUM).add(DEContent.ITEM_DRACONIUM_BLOCK.get());
+            tag(DETags.Items.STORAGE_BLOCKS_DRACONIUM_AWAKENED).add(DEContent.ITEM_AWAKENED_DRACONIUM_BLOCK.get());
+            tag(Tags.Items.STORAGE_BLOCKS).addTags(DETags.Items.STORAGE_BLOCKS_DRACONIUM, DETags.Items.STORAGE_BLOCKS_DRACONIUM_AWAKENED);
+
+            tag(DETags.Items.ORES_DRACONIUM).add(DEContent.ITEM_END_DRACONIUM_ORE.get(), DEContent.ITEM_NETHER_DRACONIUM_ORE.get(), DEContent.ITEM_OVERWORLD_DRACONIUM_ORE.get(), DEContent.ITEM_DEEPSLATE_DRACONIUM_ORE.get());
+            tag(Tags.Items.ORES).addTag(DETags.Items.ORES_DRACONIUM);
+
+            tag(ItemTags.SWORDS).add(DEContent.SWORD_WYVERN.value(), DEContent.SWORD_DRACONIC.value(), DEContent.SWORD_CHAOTIC.value(), DEContent.STAFF_DRACONIC.value(), DEContent.STAFF_CHAOTIC.value());
+            tag(ItemTags.PICKAXES).add(DEContent.PICKAXE_WYVERN.value(), DEContent.PICKAXE_DRACONIC.value(), DEContent.PICKAXE_CHAOTIC.value(), DEContent.STAFF_DRACONIC.value(), DEContent.STAFF_CHAOTIC.value());
+            tag(ItemTags.AXES).add(DEContent.AXE_WYVERN.value(), DEContent.AXE_DRACONIC.value(), DEContent.AXE_CHAOTIC.value(), DEContent.STAFF_DRACONIC.value(), DEContent.STAFF_CHAOTIC.value());
+            tag(ItemTags.SHOVELS).add(DEContent.SHOVEL_WYVERN.value(), DEContent.SHOVEL_DRACONIC.value(), DEContent.SHOVEL_CHAOTIC.value(), DEContent.STAFF_DRACONIC.value(), DEContent.STAFF_CHAOTIC.value());
+            tag(ItemTags.HOES).add(DEContent.HOE_WYVERN.value(), DEContent.HOE_DRACONIC.value(), DEContent.HOE_CHAOTIC.value());
+            tag(ItemTags.BOW_ENCHANTABLE).add(DEContent.BOW_WYVERN.value(), DEContent.BOW_DRACONIC.value(), DEContent.BOW_CHAOTIC.value());
+
+            for (Module<?> module : ModuleRegistry.getRegistry()) {
+                tag(DETags.Items.MODULES).add(module.getItem());
+            }
+
+            if (ModList.get().isLoaded("curios")) {
+                CuriosIntegration.generateTags(this::tag);
+            }
+        }
+
+    }
+
+    private static class EnchantmentTagGenerator extends EnchantmentTagsProvider {
+
+        public EnchantmentTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, String modId) {
+            super(output, lookupProvider, modId);
+        }
+
+        @Override
+        protected void addTags(HolderLookup.Provider pProvider) {
+            tag(EnchantmentTags.NON_TREASURE).add(DEContent.REAPER);
+        }
+
+    }
+
+//    private static class AdvancementBuilder extends AdvancementProvider {
+//        private DataGenerator generator;
+//        private static final Gson GSON = (new GsonBuilder()).setPrettyPrinting().create();
+//
+//        public AdvancementBuilder(DataGenerator generator) {
+//            super(generator);
+//            this.generator = generator;
+//        }
+//
+//        private void aggAdvancements(Consumer<Advancement> consumer) {
+//
+////            Advancement advancement = Advancement.Builder.builder()
+////                    .withDisplay(Blocks.END_STONE, new TranslationTextComponent("advancements.end.root.title"), new TranslationTextComponent("advancements.end.root.description"), new Identifier("textures/gui/advancements/backgrounds/end.png"), FrameType.TASK, false, false, false)
+////                    .withCriterion("entered_end", ChangeDimensionTrigger.Instance.toWorld(World.THE_END))
+////                    .register(consumer, "end/root");
+//        }
+//
+//        @Override
+//        public void run(HashCache cache) {
+//            Path path = this.generator.getOutputFolder();
+//            Set<Identifier> set = Sets.newHashSet();
+//            Consumer<Advancement> consumer = (advancement) -> {
+//                if (!set.add(advancement.getId())) {
+//                    throw new IllegalStateException("Duplicate advancement " + advancement.getId());
+//                } else {
+//                    Path path1 = makePath(advancement.getId());
+//
+//                    try {
+//                        DataProvider.save(GSON, cache, advancement.deconstruct().serializeToJson(), path1);
+//                    }
+//                    catch (IOException ioexception) {
+//                        DraconicEvolution.LOGGER.error("Couldn't save advancement {}", path1, ioexception);
+//                    }
+//
+//                }
+//            };
+//
+//            aggAdvancements(consumer);
+//
+//
+//        }
+//
+////        private static Path getPath(Path pathIn, Advancement advancementIn) {
+////            return pathIn.resolve("data/" + advancementIn.getId().getNamespace() + "/advancements/" + advancementIn.getId().getPath() + ".json");
+////        }
+//
+//        protected Path makePath(Identifier id) {
+//            return this.generator.getOutputFolder().resolve("data/" + id.getNamespace() + "/advancements/" + id.getPath() + ".json");
+//        }
+//    }
+
+}

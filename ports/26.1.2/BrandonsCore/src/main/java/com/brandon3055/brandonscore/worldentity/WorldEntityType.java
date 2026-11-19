@@ -1,0 +1,26 @@
+package com.brandon3055.brandonscore.worldentity;
+
+import net.minecraft.resources.Identifier;
+
+import javax.annotation.Nullable;
+import java.util.function.Supplier;
+
+/**
+ * Created by brandon3055 on 15/12/20
+ */
+public class WorldEntityType<T extends WorldEntity> {
+    private Supplier<? extends T> factory;
+
+    public WorldEntityType(Supplier<? extends T> factory) {
+        this.factory = factory;
+    }
+
+    public T create() {
+        return this.factory.get();
+    }
+
+    @Nullable
+    public static Identifier getId(WorldEntityType<?> tileEntityTypeIn) {
+        return WorldEntityHandler.REGISTRY.getKey(tileEntityTypeIn);
+    }
+}

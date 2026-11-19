@@ -1,0 +1,126 @@
+package com.brandon3055.brandonscore.lib.datamanager;
+
+import codechicken.lib.data.MCDataInput;
+import codechicken.lib.data.MCDataOutput;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.resources.Identifier;
+
+import javax.annotation.Nullable;
+import java.util.Objects;
+import java.util.function.Function;
+
+/**
+ * Created by brandon3055 on 12/06/2017.
+ */
+public class ManagedResource extends AbstractManagedData<Identifier> {
+
+    private Identifier value;
+    protected Function<Identifier, Identifier> validator = null;
+
+    public ManagedResource(String name, @Nullable Identifier defaultValue, DataFlags... flags) {
+        super(name, flags);
+        this.value = defaultValue;
+    }
+
+    /**
+     * Default "" (Empty String)
+     */
+    public ManagedResource(String name, DataFlags... flags) {
+        this(name, null, flags);
+    }
+
+    public Identifier set(@Nullable Identifier value) {
+        if (!Objects.equals(this.value, value)) {
+            boolean set = true;
+            Identifier prev = this.value;
+            this.value = value;
+
+            if (dataManager.isClientSide() && flags.allowClientControl) {
+                dataManager.sendToServer(this);
+                set = ccscsFlag;
+            }
+
+            if (set) {
+                markDirty();
+                notifyListeners(value);
+            }
+            else {
+                this.value = prev;
+            }
+        }
+
+        return this.value;
+    }
+
+    @Nullable
+    public Identifier get() {
+        return value;
+    }
+
+    /**
+     * Use to validate new values. Use this to enforce any restrictions such as min/max then return the corrected value.
+     *
+     * @param validator a validator function that takes an input, applies restrictions if needed then returns the updated value.
+     * @return
+     */
+    public ManagedResource setValidator(Function<Identifier, Identifier> validator) {
+        this.validator = validator;
+        return this;
+    }
+
+    @Override
+    public void validate() {
+        if (validator != null) {
+            value = validator.apply(value);
+        }
+    }
+
+    @Override
+    public void toBytes(MCDataOutput output) {
+        output.writeBoolean(value != null);
+        if (value != null) {
+            output.writeResourceLocation(value);
+        }
+    }
+
+    @Override
+    public void fromBytes(MCDataInput input) {
+        if (input.readBoolean()){
+            value = input.readResourceLocation();
+        } else {
+            value = null;
+        }
+        notifyListeners(value);
+    }
+
+    @Override
+    public void toNBT(HolderLookup.Provider provider, CompoundTag compound) {
+        if (value != null) {
+            compound.putString(name, value.toString());
+        }
+    }
+
+    @Override
+    public void fromNBT(HolderLookup.Provider provider, CompoundTag compound) {
+        if (compound.contains(name)) {
+            value = Identifier.parse(compound.getStringOr(name,""));
+        } else {
+            value = null;
+        }
+        notifyListeners(value);
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + ":[" + getName() + "="+ value + "]";
+    }
+
+    public boolean isNull() {
+        return value == null;
+    }
+
+    public boolean notNull() {
+        return value != null;
+    }
+}

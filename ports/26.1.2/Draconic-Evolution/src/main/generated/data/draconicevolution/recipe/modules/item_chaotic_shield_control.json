@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:nether_stars",
+    "A": "draconicevolution:chaotic_core",
+    "B": "draconicevolution:item_draconic_shield_control",
+    "I": "#c:ingots/netherite"
+  },
+  "pattern": [
+    "#I#",
+    "ABA",
+    "#I#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_shield_control"
+  }
+}

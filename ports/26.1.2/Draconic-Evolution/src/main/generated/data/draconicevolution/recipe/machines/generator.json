@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:bricks/nether",
+    "B": "#c:ingots/iron",
+    "C": "minecraft:furnace",
+    "D": "draconicevolution:draconium_core"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:generator"
+  }
+}

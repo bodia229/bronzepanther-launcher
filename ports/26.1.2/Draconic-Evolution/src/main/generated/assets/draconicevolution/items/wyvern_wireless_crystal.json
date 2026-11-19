@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "draconicevolution:custom_item",
+    "renderer": "com.brandon3055.draconicevolution.client.render.item.RenderItemEnergyCrystal$ITEM_WYVERN_WIRELESS_CRYSTAL"
+  }
+}

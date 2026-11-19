@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#c:ingots/iron",
+    "B": "#c:ingots/draconium",
+    "C": "minecraft:diamond_sword",
+    "D": "draconicevolution:wyvern_energy_core",
+    "E": "#minecraft:skulls"
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:grinder"
+  }
+}

@@ -1,0 +1,306 @@
+import groovy.json.JsonOutput
+
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'signing'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+    withSourcesJar()
+}
+
+group = "com.brandon3055.draconicevolution"
+base {
+    archivesName = 'Draconic-Evolution'
+}
+
+sourceSets.main.resources.srcDirs += "src/main/generated"
+
+mod_version = "${mod_version}." + (System.getenv("BUILD_NUMBER") ?: "9999")
+version = "${mc_version}-${mod_version}"
+println "Starting build of ${base.archivesName.get()}, Version: ${mod_version}"
+println "Using Neoforge: ${neo_version}, for Minecraft: ${mc_version}"
+
+neoForge {
+    version = neo_version
+    accessTransformers {
+        publish file('src/main/resources/META-INF/accesstransformer.cfg')
+        from file('../CodeChickenLib-modern/src/main/resources/META-INF/accesstransformer.cfg')
+        from file('../BrandonsCore/src/main/resources/META-INF/accesstransformer.cfg')
+    }
+    interfaceInjectionData { from file('../CodeChickenLib-modern/src/main/resources/META-INF/interfaces.json') }
+    runs {
+        client {
+            client()
+            if (providers.gradleProperty('bpIntegration').isPresent()) jvmArguments.add('-Dbp.integration=true')
+            gameDirectory = file(providers.gradleProperty('bpFullPack').isPresent() ? '../tests/fullpack-client-run' : '../tests/full-client-run')
+            jvmArguments.addAll '-Xms256m', '-Xmx1024m'
+            if (providers.gradleProperty('bpFullPack').isPresent()) jvmArguments.addAll '-Xmx2048m','-Dbp.fullpack=true'
+            programArguments.addAll '--width', '854', '--height', '480'
+        }
+        guiTextures {
+            clientData()
+            gameDirectory = file('../tests/full-gui-data-run')
+            jvmArguments.addAll '-Xms128m','-Xmx768m','-Dbp.guiTexturesOnly=true'
+            programArguments.addAll '--mod','draconicevolution','--all','--output',file('../tests/generated-gui-textures').absolutePath
+        }
+        models {
+            clientData()
+            gameDirectory = file('../tests/full-model-data-run')
+            jvmArguments.addAll '-Xms128m','-Xmx768m','-Dbp.modelsOnly=true'
+            programArguments.addAll '--mod','draconicevolution','--all','--output',file('../tests/generated-native-models').absolutePath
+        }
+        server {
+            server()
+            if (providers.gradleProperty('bpIntegration').isPresent()) jvmArguments.add('-Dbp.integration=true')
+            gameDirectory = file(providers.gradleProperty('bpFullPack').isPresent() ? '../tests/fullpack-server-run' : '../tests/full-server-run')
+            jvmArguments.addAll '-Xms256m', '-Xmx1024m'
+            if (providers.gradleProperty('bpFullPack').isPresent()) jvmArguments.addAll '-Xmx2048m','-Dbp.fullpack=true'
+            programArguments.addAll '--nogui'
+        }
+    }
+    mods { draconicevolution { sourceSet sourceSets.main } }
+}
+
+
+configurations {
+}
+
+repositories {
+//    mavenLocal()
+    maven { url = "https://maven.covers1624.net/" }
+    maven { url = "https://chickenbones.net/maven" }
+    maven { url = "https://maven.blamejared.com/" }
+    maven { url = "https://dvs1.progwml6.com/files/maven" }
+    maven { url = "https://maven.cil.li/" }
+    maven { url = "https://maven.theillusivec4.top/" }
+    maven { 
+        url = "https://maven.squiddev.cc/"
+        content { includeGroup("cc.tweaked") }
+    }
+    maven { url = "https://maven.blamejared.com/" }
+}
+
+dependencies {
+
+
+    implementation files('../BrandonsCore/build/libs/BrandonsCore-26.1.2-3.2.1.9999.jar')
+    implementation files('../CodeChickenLib-modern/build/libs/CodeChickenLib-26.1.2-4.7.0.1.jar')
+    implementation 'net.covers1624:Quack:0.4.10.128'
+    compileOnly "io.codechicken:EnderStorage:1.21.1-${ender_storage_version}"
+//    compileOnly fg.deobf("com.blamejared.crafttweaker:CraftTweaker-forge-${mc_version}:${crt_version}")
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+
+    compileOnly("mezz.jei:jei-${mc_version}-neoforge:${jei_version}") {
+        transitive false
+    }
+
+    compileOnly("top.theillusivec4.curios:curios-neoforge:${curios_version}") {
+        transitive false
+    }
+
+    compileOnly("cc.tweaked:cc-tweaked-1.21.1-forge:${cct_version}") {
+        transitive false
+    }
+
+    // For Testing
+//    runtimeOnly fg.deobf("mekanism:Mekanism:1.18.2-10.2.5.465")// core
+//    runtimeOnly fg.deobf("mekanism:Mekanism:1.18.2-10.2.5.465:additions")// Mekanism: Additions
+//    runtimeOnly fg.deobf("mekanism:Mekanism:1.18.2-10.2.5.465:generators")// Mekanism: Generators
+//    runtimeOnly fg.deobf("mekanism:Mekanism:1.18.2-10.2.5.465:tools")// Mekanism: Tools
+    // Apotheosis Testing
+//    runtimeOnly fg.deobf("dev.shadowsoffire:Apotheosis:1.20.1-7.4.3")
+//    runtimeOnly fg.deobf("dev.shadowsoffire:ApothicAttributes:1.20.1-1.3.7")
+//    runtimeOnly fg.deobf("dev.shadowsoffire:Placebo:1.20.1-8.6.2")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+processResources {
+    inputs.property 'mod_version', mod_version
+    inputs.property 'mc_version', mc_version
+    inputs.property 'ccl_version', ccl_version
+    inputs.property 'bcore_version', bcore_version
+
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand 'file': ['jarVersion': mod_version],
+                'mc_version': mc_version,
+                'neo_version': neo_version,
+                'pi_version': pi_version,
+                'bcore_version': bcore_version,
+                'cct_version': cct_version,
+                'lang_version': neo_version.split('\\.')[0],
+                'ccl_version': "[${ccl_version.replace(".+", "")},${ccl_version_max})"
+    }
+}
+
+def publishingMetadata = project.layout.buildDirectory.file("libs/${base.archivesName.get()}-$version-publishing.json")
+def publishingMetadataTask = tasks.register("publishingMetadata") {
+    outputs.file(publishingMetadata)
+    doFirst {
+        publishingMetadata.get().asFile.text = JsonOutput.prettyPrint(JsonOutput.toJson([
+                [
+                        'displayName' : "Draconic Evolution ${version}",
+                        'mcVersion'   : "${mc_version}",
+                        'version'     : "${mod_version}",
+                        'classifier'  : null,
+                        'modLoader'   : 'neoforge',
+                        'curseforgeId': '223565',
+                        'modrinthId'  : 'nBqivi8H',
+                        'dependencies': [
+                                [
+                                        'modId'       : 'codechickenlib',
+                                        'type'        : 'required',
+                                        'modrinthId'  : '2gq0ALnz',
+                                        'curseforgeId': 'codechicken-lib-1-8'
+                                ],
+                                [
+                                        'modId'       : 'brandonscore',
+                                        'type'        : 'required',
+                                        'modrinthId'  : 'iFDWVIFV',
+                                        'curseforgeId': 'brandons-core'
+                                ]
+//                                [
+//                                        'modId'       : '',
+//                                        'type'        : 'optional',
+//                                        'modrinthId'  : '',
+//                                        'curseforgeId': 'project-intelligence'
+//                                ]
+                        ]
+                ]
+        ]))
+    }
+}
+
+jar {
+    finalizedBy 'signJar'
+    archiveClassifier = ''
+    manifest {
+        attributes 'Specification-Title': base.archivesName.get()
+        attributes 'Specification-Vendor': 'brandon3055'
+        attributes 'Specification-Version': "1"
+        attributes 'Implementation-Title': base.archivesName.get()
+        attributes 'Implementation-Vendor': 'brandon3055'
+        attributes 'Implementation-Version': version
+        attributes 'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+    }
+    from file("LICENSE")
+}
+
+tasks.register("signJar") {
+    dependsOn("jar")
+
+    doFirst {
+        def args = [:]
+        args['jar'] = jar.archiveFile.get().asFile
+        if (System.getenv("KEY_STORE")) {
+            args['keyStore'] = System.getenv("KEY_STORE")
+            file(System.getenv("KEY_STORE_PROPS")).withReader {
+                def props = new Properties()
+                props.load(it)
+                args.putAll(props)
+            }
+        } else if (project.hasProperty('keyStore')) {
+            args['keyStore'] = project.getProperty('keyStore')
+            args['alias'] = project.getProperty('keyStoreAlias')
+            args['storePass'] = project.getProperty('keyStorePass')
+            args['keyPass'] = project.getProperty('keyStoreKeyPass')
+        } else {
+            println "No signing properties."
+            state.setOutcome(org.gradle.api.internal.tasks.TaskExecutionOutcome.UP_TO_DATE)
+            didWork = false
+            return
+        }
+        project.ant.invokeMethod('signjar', args)
+    }
+}
+
+publishing {
+    repositories {
+        if (System.getenv('MAVEN_PASS')) {
+            maven {
+                url "https://nexus.covers1624.net/repository/maven-releases/"
+                credentials {
+                    username 'brandon3055'
+                    password System.getenv('MAVEN_PASS')
+                }
+            }
+        }
+    }
+    publications {
+        DraconicEvolution(MavenPublication) {
+            groupId project.group
+            artifactId project.base.archivesName.get()
+            version project.version
+            artifact jar
+            artifact sourcesJar
+            artifact(publishingMetadata) {
+                builtBy publishingMetadataTask
+                classifier 'publishing'
+            }
+            pom {
+                name = base.archivesName.get()
+                description = base.archivesName.get()
+                url = "https://github.com/brandon3055/${base.archivesName.get()}"
+                scm {
+                    url = "https://github.com/brandon3055/${base.archivesName.get()}"
+                    connection = "scm:git:git://github.com/brandon3055/${base.archivesName.get()}.git"
+                    connection = "scm:git:git@github.com:brandon3055/${base.archivesName.get()}.git"
+                }
+
+                issueManagement {
+                    system = 'github'
+                    url = "https://github.com/brandon3055/${base.archivesName.get()}/issues"
+                }
+                licenses {
+                    license {
+                        name = "CoFH \"Don't Be a Jerk\" License"
+                        url = "https://github.com/brandon3055/Draconic-Evolution/blob/master/LICENSE"
+                        distribution = 'Repo'
+                    }
+                }
+                developers {
+                    developer {
+                        id = 'brandon3055'
+                        name = 'brandon3055'
+                    }
+                }
+            }
+        }
+    }
+}
+
+signing {
+    if (System.getenv('GPG_PRIVATE_KEY')) {
+        useInMemoryPgpKeys(
+                new File(System.getenv('GPG_PRIVATE_KEY')).text,
+                System.getenv('GPG_PRIVATE_KEY_PASS')
+        )
+    } else if (project.hasProperty('gpgPrivateKey')) {
+        useInMemoryPgpKeys(
+                new File(project.getProperty('gpgPrivateKey')).text,
+                project.getProperty('gpgPrivateKeyPass')
+        )
+    } else {
+        return
+    }
+    sign publishing.publications.DraconicEvolution
+}
+
+tasks.withType(JavaCompile).configureEach { options.compilerArgs.addAll(['-Xmaxerrs','5000','-Xmaxwarns','0']) }
+
+// NeoForm tooling can run on the same installed Java 25 as this target game.
+tasks.withType(net.neoforged.nfrtgradle.DownloadAssets).configureEach {
+    javaExecutable = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(25) }.map { it.executablePath.asFile.absolutePath }
+}
+
+if (providers.gradleProperty("bpSmoke").isPresent()) { dependencies { runtimeOnly files("../tests/full-smoke-v15.jar") } }

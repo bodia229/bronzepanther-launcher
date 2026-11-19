@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:bucket",
+    "B": "#c:dusts/redstone",
+    "C": "minecraft:stone_pressure_plate",
+    "D": "minecraft:stone_slab"
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:rain_sensor"
+  }
+}

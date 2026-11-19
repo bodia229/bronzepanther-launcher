@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ingots/netherite",
+    "C": "draconicevolution:draconium_core",
+    "I": "draconicevolution:large_chaos_frag",
+    "M": "draconicevolution:item_draconic_tree_harvest",
+    "W": "draconicevolution:awakened_core"
+  },
+  "pattern": [
+    "#C#",
+    "IMI",
+    "#W#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_chaotic_tree_harvest"
+  }
+}

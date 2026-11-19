@@ -1,0 +1,7 @@
+{
+  "key.bronzepanther.performance": "Performance mode (F8)",
+  "message.bronzepanther.performance": "BronzePanther: %s",
+  "bronzepanther.mode.auto": "Auto — adaptive render distance",
+  "bronzepanther.mode.potato": "Low-end PC — low graphics load",
+  "bronzepanther.mode.manual": "Manual graphics settings"
+}

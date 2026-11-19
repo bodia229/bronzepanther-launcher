@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "#c:ingots/draconium_awakened",
+    "C": "draconicevolution:awakened_core",
+    "E": "minecraft:end_crystal",
+    "M": "draconicevolution:item_wyvern_energy_link",
+    "W": "draconicevolution:wyvern_wireless_crystal"
+  },
+  "pattern": [
+    "#E#",
+    "WMW",
+    "#C#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:item_draconic_energy_link"
+  }
+}

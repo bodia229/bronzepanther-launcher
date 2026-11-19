@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "codechicken.lib.internal.mixin",
+    "plugin": "codechicken.lib.internal.mixin.CCLMixinPlugin",
+    "target": "@env(DEFAULT)",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "network.FriendlyByteBufMixin",
+        "network.RegistryFriendlyByteBufMixin"
+    ],
+    "client": [
+        "dev.GameNarratorMixin",
+        "MinecraftMixin",
+        "render.OrderedSubmitNodeCollectorMixin",
+        "render.GuiGraphicsMixin"
+    ]
+}

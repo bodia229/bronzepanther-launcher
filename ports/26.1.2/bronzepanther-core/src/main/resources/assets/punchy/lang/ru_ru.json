@@ -1,0 +1,14 @@
+{
+  "key.punchy.tuning.reset": "Сброс",
+  "punchy.mixpacks.search": "Поиск",
+  "punchy.tuning.ui.profiles": "Профили",
+  "punchy.tuning.ui.confirm_unsaved_profile.cancel": "Отменить",
+  "punchy.tuning.ui.confirm_delete_profile.confirm": "Удалить",
+  "punchy.tuning.mode.rotate": "вращения",
+  "punchy.tuning.toast.mode": "Режим: %s",
+  "punchy.tuning.hand.off": "ВЫКЛ.",
+  "punchy.toggle.on": "ВКЛ.",
+  "punchy.toggle.off": "ВЫКЛ.",
+  "punchy.config.blacklist.add": "Добавить",
+  "punchy.config.reset.option": "Сброс"
+}
