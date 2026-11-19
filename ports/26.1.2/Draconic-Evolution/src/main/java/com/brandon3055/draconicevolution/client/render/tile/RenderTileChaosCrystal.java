@@ -40,6 +40,7 @@ public class RenderTileChaosCrystal implements DEBlockRenderer<TileChaosCrystal>
     private static final RenderType CHAOS_CRYSTAL_SHIELD = com.brandon3055.draconicevolution.client.render.DEGeometryTypes.shader("rendertilechaoscrystal_chaos_crystal_shield", DEShaders.shieldShader, null, com.mojang.blaze3d.vertex.VertexFormat.Mode.TRIANGLES, "translucent", false, true, true, false, false, false, false);
 
     private final CCModel model;
+    private final com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry innerGeometry,surfaceGeometry,shieldGeometry;
 
     public RenderTileChaosCrystal(BlockEntityRendererProvider.Context context) {
         Map<String, CCModel> map = new OBJParser(Identifier.fromNamespaceAndPath(MODID, "models/block/chaos_crystal.obj"))
@@ -48,6 +49,17 @@ public class RenderTileChaosCrystal implements DEBlockRenderer<TileChaosCrystal>
         model = CCModel.combine(map.values())
                 .backfacedCopy()
                 .computeNormals();
+        innerGeometry=cacheGeometry(CHAOS_CRYSTAL_INNER,0xFFFFFFFF);
+        surfaceGeometry=cacheGeometry(CHAOS_CRYSTAL,0xFFFFFFF0);
+        shieldGeometry=cacheGeometry(CHAOS_CRYSTAL_SHIELD,0xFFFFFFF0);
+    }
+
+    private com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry cacheGeometry(RenderType type,int colour){
+        return com.brandon3055.brandonscore.client.render.ExtractedEquipmentGeometry.capture(buffers->{
+            var state=CCRenderState.instance();state.reset();state.baseColour=colour;
+            state.overlay=net.minecraft.client.renderer.texture.OverlayTexture.NO_OVERLAY;
+            state.bind(type,buffers);model.render(state);
+        });
     }
 
     @Override
@@ -58,34 +70,27 @@ public class RenderTileChaosCrystal implements DEBlockRenderer<TileChaosCrystal>
     @Override
     public void render(TileChaosCrystal te, float partialTicks, PoseStack mStack, MultiBufferSource getter, int packedLight, int packedOverlay) {
         if (te.parentPos.notNull()) return;
-        Matrix4 mat = new Matrix4(mStack);
-        CCRenderState ccrs = CCRenderState.instance();
-        ccrs.reset();
-        ccrs.brightness = packedLight;
-        ccrs.overlay = packedOverlay;
-
-        mat.translate(0.5, 0.5, 0.5);
-        mat.rotate((ClientEventHandler.elapsedTicks + partialTicks) / 180F, Vector3.Y_POS);
-        mat.scale(0.75F);
-
+        mStack.pushPose();
+        try {
+        mStack.translate(0.5,0.5,0.5);
+        mStack.mulPose(com.mojang.math.Axis.YP.rotation((ClientEventHandler.elapsedTicks+partialTicks)/180F));
+        mStack.scale(0.75F,0.75F,0.75F);
         Player player = Minecraft.getInstance().player;
         DEShaders.chaosBlockTime.glUniform1f((float) ClientUtils.getRenderTime());
         DEShaders.chaosBlockYaw.glUniform1f((float) (player.getYRot() * MathHelper.torad));
         DEShaders.chaosBlockPitch.glUniform1f((float) -(player.getXRot() * MathHelper.torad));
-        ccrs.bind(CHAOS_CRYSTAL_INNER, getter);
-        model.render(ccrs, mat);
-
-        ccrs.baseColour = 0xFFFFFFF0;
-        ccrs.bind(CHAOS_CRYSTAL, getter);
-        model.render(ccrs, mat);
+        var inner=innerGeometry.snapshotShaderState();
+        DEBlockRenderer.addNative(mStack,(poses,collector)->inner.submit(poses,collector,packedLight));
+        DEBlockRenderer.addNative(mStack,(poses,collector)->surfaceGeometry.submit(poses,collector,packedLight));
 
         if (!te.guardianDefeated.get()) {
             DEShaders.shieldBarMode.glUniform1i(0);
             DEShaders.shieldActivation.glUniform1f(1F);
             DEShaders.shieldColour.glUniform4f(1F, 0F, 0F, 1F);
-            ccrs.bind(CHAOS_CRYSTAL_SHIELD, getter);
-            model.render(ccrs, mat);
+            var shield=shieldGeometry.snapshotShaderState();
+            DEBlockRenderer.addNative(mStack,(poses,collector)->shield.submit(poses,collector,packedLight));
         }
+        } finally {mStack.popPose();}
     }
 
     @Override

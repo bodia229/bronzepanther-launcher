@@ -266,7 +266,7 @@ public class CCRenderState {
             else if(fmte==VertexFormatElement.UV2)r.setLight(brightness);
             else if(fmte==VertexFormatElement.COLOR)r.setColor(colour>>>24,colour>>16&0xFF,colour>>8&0xFF,alphaOverride>=0?alphaOverride:colour&0xFF);
             else if(fmte==VertexFormatElement.NORMAL)r.setNormal((float)normal.x,(float)normal.y,(float)normal.z);
-            else throw new UnsupportedOperationException("Unsupported vertex format element: "+fmte);
+            else if(!IrisVertexAttributes.isManaged(fmte))throw new UnsupportedOperationException("Unsupported vertex format element: "+fmte);
         }
     }
 

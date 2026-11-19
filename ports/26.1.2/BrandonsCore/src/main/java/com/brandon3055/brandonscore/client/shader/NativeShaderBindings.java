@@ -17,6 +17,7 @@ import com.brandon3055.brandonscore.mixin.CachedRenderTypeAccess;
 public final class NativeShaderBindings {
     private static final Map<RenderPipeline,BCShader<?>> SHADERS=new IdentityHashMap<>();
     private static final Map<RenderType,BCShader.Snapshot> FROZEN=new WeakHashMap<>();
+    private static final com.brandon3055.brandonscore.client.render.FrameResourcePool<RenderType,RenderType> FROZEN_TYPES=new com.brandon3055.brandonscore.client.render.FrameResourcePool<>(2048);
     private static DynamicUniformStorage<BCShader.Snapshot> storage;
     private static boolean initialized;
     private NativeShaderBindings(){}
@@ -25,7 +26,7 @@ public final class NativeShaderBindings {
     public static BCShader.Snapshot capture(RenderType type){var frozen=FROZEN.get(type);return frozen==null?capture(type.pipeline()):frozen;}
     public static RenderType frozenType(RenderType original,BCShader.Snapshot snapshot){
         if(snapshot==null)return original;
-        var type=RenderType.create("brandonscore:frozen_equipment",((CachedRenderTypeAccess)(Object)original).brandonscore$setup());
+        var type=FROZEN_TYPES.acquire(original,()->RenderType.create("brandonscore:frozen_equipment",((CachedRenderTypeAccess)(Object)original).brandonscore$setup()));
         FROZEN.put(type,snapshot);return type;
     }
     public static GpuBufferSlice prepare(RenderType type){
@@ -37,10 +38,10 @@ public final class NativeShaderBindings {
     }
     public static void init(){
         if(initialized)return;initialized=true;
-        NeoForge.EVENT_BUS.addListener((RenderFrameEvent.Post event)->{if(storage!=null)storage.endFrame();});
+        NeoForge.EVENT_BUS.addListener((RenderFrameEvent.Post event)->{if(storage!=null)storage.endFrame();FROZEN_TYPES.endFrame();});
 
     }
-    public static void close(){if(storage!=null){storage.close();storage=null;}}
+    public static void close(){if(storage!=null){storage.close();storage=null;}FROZEN_TYPES.clear();FROZEN.clear();}
     public static GpuBufferSlice prepare(RenderPipeline pipeline){
         BCShader<?> shader=SHADERS.get(pipeline);if(shader==null)return null;
         // Mapping/uploading must finish before RenderType opens its render pass.

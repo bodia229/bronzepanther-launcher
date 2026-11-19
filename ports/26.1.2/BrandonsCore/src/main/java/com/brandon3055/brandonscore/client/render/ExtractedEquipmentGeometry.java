@@ -18,18 +18,26 @@ public final class ExtractedEquipmentGeometry {
         finally{if(previous==null)ACTIVE.remove();else ACTIVE.set(previous);}
     }
     public int drawCount(){return geometry.size();}
+    /** Reuse immutable vertices while capturing this frame's animated shader uniforms. */
+    public ExtractedEquipmentGeometry snapshotShaderState(){
+        return new ExtractedEquipmentGeometry(geometry.stream().map(draw->new Geometry(draw.type(),draw.vertices(),NativeShaderBindings.capture(draw.type()))).toList());
+    }
     public static void flush(MultiBufferSource buffers){if(buffers instanceof Builder builder)builder.flush();}
     static boolean captureCached(CachedModelMesh mesh){
         var builder=ACTIVE.get();if(builder==null)return false;builder.flush();
         builder.result.add(new Geometry(mesh.renderType(),mesh.captureVertices(),NativeShaderBindings.capture(mesh.renderType().pipeline())));return true;
     }
     public void submit(PoseStack poses,SubmitNodeCollector collector){
+        submit(poses,collector,-1);
+    }
+    /** Instance lighting is applied during emission, without rebuilding immutable model vertices. */
+    public void submit(PoseStack poses,SubmitNodeCollector collector,int packedLight){
         var outer=new org.joml.Matrix4f(poses.last().pose());
         for(var draw:geometry){
             var shader=draw.shader()==null?null:draw.shader().transformed(outer);
             var type=NativeShaderBindings.frozenType(draw.type(),shader);
             boolean transform=shader==null||!shader.hasModelMatrix();
-            collector.submitCustomGeometry(poses,type,(pose,consumer)->draw.vertices().forEach(vertex->vertex.emit(pose,consumer,transform)));
+            collector.submitCustomGeometry(poses,type,(pose,consumer)->draw.vertices().forEach(vertex->vertex.emit(pose,consumer,transform,packedLight)));
         }
     }
     /** Replays an extracted snapshot in the existing native late transparent pass. */
@@ -46,8 +54,13 @@ public final class ExtractedEquipmentGeometry {
     private record Geometry(RenderType type,List<Vertex> vertices,BCShader.Snapshot shader){}
     static record Vertex(float x,float y,float z,int color,float u,float v,int u1,int v1,int u2,int v2,float nx,float ny,float nz,float width){
         void emit(PoseStack.Pose pose,VertexConsumer consumer,boolean transform){
+            emit(pose,consumer,transform,-1);
+        }
+        void emit(PoseStack.Pose pose,VertexConsumer consumer,boolean transform,int packedLight){
             if(transform)consumer.addVertex(pose,x,y,z);else consumer.addVertex(x,y,z);
-            consumer.setColor(color).setUv(u,v).setUv1(u1,v1).setUv2(u2,v2).setLineWidth(width);
+            consumer.setColor(color).setUv(u,v).setUv1(u1,v1);
+            if(packedLight<0)consumer.setUv2(u2,v2);else consumer.setLight(packedLight);
+            consumer.setLineWidth(width);
             if(transform)consumer.setNormal(pose,nx,ny,nz);else consumer.setNormal(nx,ny,nz);
         }
     }
