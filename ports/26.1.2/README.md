@@ -19,4 +19,6 @@ The core client plugin supplies Industrial processing recipes, fills native reci
 
 Render changes share immutable reactor sphere vertices while snapshotting transforms, light and overlay per submission. Sprite metadata repairs preserve installed image pixels. Client settings, worlds, quest identifiers and player progress are not migrated or reset by these changes.
 
+Guide polish uses Minecraft's default UI font for GuideME body styles, preserving the other typography, colors and layout. Only GuideME's style initialization is adapted; other game screens and user font resource packs are not changed. Two ExtendedAE demonstration scenes encode empty target stacks with the modern optional-item-stack representation. The derived SNBT source files, original hashes, change description and LGPL/GPL license texts are included under localization/.
+
 The two third-party client compatibility JARs change obsolete @OnlyIn annotation metadata only. Their modification tools are included. Original licenses and credits must be retained. No claim is made to ownership of upstream code, art or audio.

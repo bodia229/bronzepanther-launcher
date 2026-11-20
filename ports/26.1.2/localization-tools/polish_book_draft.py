@@ -11,6 +11,9 @@ aliases={
  'example-setups/pipe-subnet.md':{'Предоставление в несколько мест':'providing-to-multiple-places'},
  'items-blocks-machines/terminals.md':{'Терминал шаблонов':'pattern-encoding-terminal'},
  'items-blocks-machines/interface.md':{'Специальные взаимодействия':'special-interactions'},
+ 'items-blocks-machines/annihilation_plane.md':{'Рецепт':'recipe'},
+ 'items-blocks-machines/entropy_manipulator.md':{'Рецепт':'recipe'},
+ 'items-blocks-machines/guide.md':{'Рецепт':'recipe'},
 }
 for file in (ROOT/'draft/assets').rglob('*.md'):
  text=file.read_text(encoding='utf-8')
@@ -18,6 +21,7 @@ for file in (ROOT/'draft/assets').rglob('*.md'):
  for en,ru in replacements.items():
   text=re.sub(r'\b'+en+r'\b',lambda m:ru.capitalize() if m[0][0].isupper() else ru,text,flags=re.I)
  text=text.replace('## Модернизации','## Улучшения')
+ text=re.sub(r'^(##) Recipe$',r'\1 Рецепт',text,flags=re.M)
  if file==draft/'items-blocks-machines/export_bus.md':
   text=text.replace('Шина импорта поддерживает','Шина экспорта поддерживает').replace('<RecipeFor id="import_bus" />','<RecipeFor id="export_bus" />')
   if '## Скорость работы' not in text:
@@ -42,6 +46,7 @@ for file in (ROOT/'draft/assets').rglob('*.md'):
 '''
    text=text.replace('# Терминал\n',addition+'# Терминал\n',1)
   text=text.replace('Терминал изготовления','Терминал крафта')
+  text=text.replace('"gtceu:.*ore" находит все руды GregTech','"minecraft:.*ore" находит руды Minecraft по идентификатору')
  if file==draft/'items-blocks-machines/vibration_chamber.md':
   text=text.replace('## Config','## Конфигурация')
   if '## Рецепт' not in text:text=text.replace('<RecipeFor id="vibration_chamber" />','## Рецепт\n\n<RecipeFor id="vibration_chamber" />')
@@ -59,4 +64,4 @@ for entry in provenance:
  entry['adapted_sha256']=hashlib.sha256((ROOT/'draft'/entry['path']).read_bytes()).hexdigest()
 (ROOT/'book-draft-provenance.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'guide-anchor-checks.json').write_text(json.dumps(aliases,ensure_ascii=False,indent=2),encoding='utf-8')
-print('Repaired 8 legacy heading anchors, 3 missing sections and export-bus recipe link.')
+print('Polished recipe headings and installed-pack search example; preserved',sum(map(len,aliases.values())),'legacy heading anchors.')

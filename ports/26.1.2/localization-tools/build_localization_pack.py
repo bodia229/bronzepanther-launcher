@@ -1,8 +1,10 @@
 from pathlib import Path
-import hashlib,json,urllib.request,zipfile
+import hashlib,json,re,sys,urllib.request,zipfile
 
 ROOT=Path(__file__).resolve().parents[3]
 TASK=ROOT/'work/localization-2026-11-19'
+version=sys.argv[1] if len(sys.argv)>1 else '1.3.2'
+assert re.fullmatch(r'\d+\.\d+\.\d+',version),'Invalid resource-pack version'
 draft=TASK/'draft'
 old=ROOT/'work/client-preset/resourcepacks/BronzePanther-Russian-1.2.0.zip'
 license_path=TASK/'downloaded/AppliedGuideTranslations-LICENSE.txt'
@@ -31,6 +33,7 @@ credits='''# Русские переводы BronzePanther
   https://github.com/Zilibobiksus/AppliedGuideTranslations
   (AGPL-3.0-or-later; текст лицензии приложен; адаптации под установленные версии).
 - Advanced Powah 1.1.14: перевод оригинальных шести страниц для этой сборки.
+- ExtendedAE (GlodBlock и соавторы, LGPL-3.0): исправлены только данные пустых предметов в двух демонстрационных сценах руководства; исходные сцены доступны в https://github.com/GlodBlock/ExtendedAE. Лицензия и сведения об изменениях включены в LICENSES/ и SOURCES/.
 
 ## Авторские языковые файлы
 Draconic-Inc/Draconic-Evolution; Traben-0/Entity_Texture_Features;
@@ -41,7 +44,7 @@ Traben-0/Entity_Model_Features; pedroksl/AdvancedAE; InventoryProfilesNext/IPN.
 Оригинальные авторские тексты и права принадлежат их авторам.
 '''
 (draft/'TRANSLATIONS.md').write_text(credits,encoding='utf-8')
-dest=TASK/'BronzePanther-Russian-1.3.2.zip'
+dest=TASK/('BronzePanther-Russian-'+version+'.zip')
 files=sorted(p for p in draft.rglob('*') if p.is_file())
 with zipfile.ZipFile(dest,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
     for p in files:

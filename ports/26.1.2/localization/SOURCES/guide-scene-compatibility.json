@@ -1,0 +1,20 @@
+{
+  "author": "GlodBlock and ExtendedAE contributors",
+  "source": "https://github.com/GlodBlock/ExtendedAE",
+  "installed_jar": "ExtendedAE-26.1-1.0.3-neoforge.jar",
+  "license": "LGPL-3.0",
+  "changes": [
+    {
+      "path": "assets/extendedae/ae2guide/structure/caner_auto.snbt",
+      "original_sha256": "f21071db43e3157bbe44010fa92aa06990d02fca38ccb688d0d95b678894ac84",
+      "adapted_sha256": "7cf688fb5c306c89eeb84be7b7b78018cba9224aa28c695e593006bfe1f8d324",
+      "change": "Empty ItemStack OPTIONAL_CODEC representation only"
+    },
+    {
+      "path": "assets/extendedae/ae2guide/structure/caner_example.snbt",
+      "original_sha256": "20d6e84c49c07dd4e3725318a3c17126d514172180bde48ecf08e08d07eb9906",
+      "adapted_sha256": "411ad32cb763a3cf9445bde5d1bd335a90a53743211bdf262bf68a40a9ec21af",
+      "change": "Empty ItemStack OPTIONAL_CODEC representation only"
+    }
+  ]
+}

@@ -357,7 +357,7 @@
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/annihilation_plane.md",
     "source": "BMP Translations 1.21.1 v1.1.10",
     "source_sha256": "f8df1cd9f5a6579c1e16f06ee7c43e8f194110bee9083b5f91b52f49287932b3",
-    "adapted_sha256": "564de2d1215d5164275705ebfd6c2e43a0e62522c5df1ec5ea292b994ca6cbcb"
+    "adapted_sha256": "36fcbeb06d124e96781492a54625682ed01d4fc2dd13f353733def4bfb769b29"
   },
   {
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/budding_certus.md",
@@ -507,7 +507,7 @@
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/entropy_manipulator.md",
     "source": "BMP Translations 1.21.1 v1.1.10",
     "source_sha256": "30a58a587b7e8ac66cc69d69fb2262cb23f9b5e3a68351f3d9a2bbd57ec1e4ea",
-    "adapted_sha256": "bece09e834efc3b77a988732a34e11343bfba28d79887bbbe30ee0a0f9aefb8b"
+    "adapted_sha256": "a88227bf4236b56f601c19a2d164ce4e575180599ef130b986749c532a9963f9"
   },
   {
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/export_bus.md",
@@ -585,7 +585,7 @@
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/guide.md",
     "source": "BMP Translations 1.21.1 v1.1.10",
     "source_sha256": "5cb18843da342d2f72d6fb39f071b71f55d50430a8374699b032c55e6a78479b",
-    "adapted_sha256": "d39eca1f75bc5c2232eb02ff9e9f332006d073053a78d474859668f7afdd182b"
+    "adapted_sha256": "52bdc3ac0144356d34e188a7b31b11b45aaec4ab0653474bcbb2118574199dfb"
   },
   {
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/illuminated_panels.md",
@@ -813,7 +813,7 @@
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/terminals.md",
     "source": "BMP Translations 1.21.1 v1.1.10",
     "source_sha256": "d5d2e571c11a374688fd0a84b72a38c2bc592c099014d605d69b15c51237050e",
-    "adapted_sha256": "d47c164e08d75f01c065406c9bf8c42f503259f4e6dcd9ec3d7377aa030495fa"
+    "adapted_sha256": "0b5a5b58be5cea454493b1bfb01da774762f8ee7ddae42321f7eaa6b1d385783"
   },
   {
     "path": "assets/ae2/ae2guide/_ru_ru/items-blocks-machines/tiny_tnt.md",

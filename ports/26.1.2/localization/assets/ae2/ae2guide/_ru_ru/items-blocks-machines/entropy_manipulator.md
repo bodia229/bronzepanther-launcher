@@ -21,6 +21,6 @@ item_ids:
 
 Заряжается в  <ItemLink id="charger" />.
 
-## Recipe
+## <a name="recipe" />Рецепт
 
 <RecipeFor id="entropy_manipulator" />
