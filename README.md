@@ -67,9 +67,9 @@ Sophisticated Backpacks, карты Xaero (мини-карта + карта ми
 
 Для Steam Deck / SteamOS есть отдельная сборка: запуск и раскладка уже настроены — см. [релизы steamdeck](https://github.com/bodia229/bronzepanther-launcher/releases).
 
-## Скриншоты
+## Баннер
 
-![Баннер](assets/banner-728x90.png)
+![Баннер 728×90](assets/banner-728x90.png)
 
 ## English
 
