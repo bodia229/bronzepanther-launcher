@@ -15,7 +15,7 @@
 
 ## Быстрый старт
 
-1. **Скачай и запусти установщик** — [BronzePanther-Setup-1.3.4.exe](https://github.com/bodia229/bronzepanther-launcher/releases/download/launcher-v1.3.4/BronzePanther-Setup-1.3.4.exe).
+1. **Скачай и запусти установщик** — [последний выпуск лаунчера](https://github.com/bodia229/bronzepanther-launcher/releases/latest).
 2. **Создай аккаунт** во вкладке «Аккаунт» — ник закрепляется за аккаунтом, скин можно загрузить сразу (PNG).
 3. **Нажми «Играть»** — лаунчер сам подготовит Minecraft, Java 25, NeoForge и сборку, а адрес сервера подставится автоматически.
 
