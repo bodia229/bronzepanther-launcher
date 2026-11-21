@@ -2,7 +2,7 @@
 
 Русскоязычная техномагическая RPG-сборка и сервер сообщества на NeoForge. Лаунчер ставит всё сам — Minecraft, Java 25, NeoForge и сборку из 62 модов — и сам подключает к серверу.
 
-**Сборка:** Техномагия RPG 1.3.3 · **62 мода** · **322 квеста** · **20 глав прогрессии** · Minecraft 26.1.2 · NeoForge 26.1.2.122
+**Сборка:** Техномагия RPG 1.3.4 · **57 модов** · **233 квеста** · **19 глав прогрессии** · Minecraft 26.1.2 · NeoForge 26.1.2.122
 
 **[⬇ Скачать лаунчер BronzePanther (Windows 10/11 x64)](https://github.com/bodia229/bronzepanther-launcher/releases/latest)** · [Все выпуски](https://github.com/bodia229/bronzepanther-launcher/releases) · [Страница проекта](https://bodia229.github.io/bronzepanther-launcher/)
 
@@ -29,10 +29,10 @@
 - **Applied Energistics 2** + ExtendedAE, AdvancedAE и беспроводные терминалы AE2WT;
 - **Powah** + Advanced Powah — энергия от простых генераторов до ядерных реакторов;
 - **Industrial Neo** — собственная индустриальная линейка сборки;
-- **Draconic Evolution** — эндгейм: реактор, драконья броня и инструменты.
+- **Mekanism** — эндгейм: реактор, драконья броня и инструменты.
 
 ### ⚔ RPG и прогрессия
-- **322 квеста в 20 главах** (FTB Quests) — путь от первых блоков до эндгейма, с русскими руководствами в игре;
+- **233 квеста в 19 главах** (FTB Quests) — путь от первых блоков до эндгейма, с русскими руководствами в игре;
 - прокачка персонажа: атрибуты и деревья навыков (Puffish Skills);
 - **Twilight Forest** — отдельное измерение с боссами и данжами.
 
@@ -46,7 +46,7 @@ Sophisticated Backpacks, карты Xaero (мини-карта + карта ми
 
 | Сборка | Статус |
 |---|---|
-| Техномагия RPG 1.3.3 | ✅ Доступна — 62 мода, 322 квеста, 20 глав |
+| Техномагия RPG 1.3.4 | ✅ Доступна — 57 модов, 233 квеста, 19 глав |
 | Индустрия | 🔜 Скоро |
 | Приключения | 🔜 Скоро |
 
@@ -73,7 +73,7 @@ Sophisticated Backpacks, карты Xaero (мини-карта + карта ми
 
 ## English
 
-**BronzePanther • TechnoMagic RPG** — a Russian-language tech-magic RPG modpack and community server on NeoForge. 62 mods, 322 quests across 20 chapters: Thaumaturge magic (with its own Outer Lands dimension), AE2, Powah, Industrial Neo, Draconic Evolution, Twilight Forest and RPG character progression. The launcher installs Minecraft, Java 25 and the pack automatically, and connects to the server on its own. Free to play, no Minecraft license required.
+**BronzePanther • TechnoMagic RPG** — a Russian-language tech-magic RPG modpack and community server on NeoForge. 57 mods, 233 quests across 19 chapters: Thaumaturge magic (with its own Outer Lands dimension), AE2, Powah, Industrial Neo, Mekanism, Twilight Forest and RPG character progression. The launcher installs Minecraft, Java 25 and the pack automatically, and connects to the server on its own. Free to play, no Minecraft license required.
 
 ## Отказ от ответственности
 
